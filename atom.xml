@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>鲁西</title>
-  
+  <title>水冼雪</title>
+  <subtitle>抬头看天，低头赶路</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://luxialan.com/"/>
-  <updated>2016-12-23T01:56:13.367Z</updated>
+  <updated>2016-12-23T06:07:57.473Z</updated>
   <id>http://luxialan.com/</id>
   
   <author>
@@ -16,16 +16,56 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>博客第一天</title>
-    <link href="http://luxialan.com/2016/12/23/%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E5%A4%A9/"/>
-    <id>http://luxialan.com/2016/12/23/博客第一天/</id>
-    <published>2016-12-23T01:56:13.000Z</published>
-    <updated>2016-12-23T01:56:13.367Z</updated>
+    <title>博客</title>
+    <link href="http://luxialan.com/2016/12/23/%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://luxialan.com/2016/12/23/博客/</id>
+    <published>2016-12-23T01:58:13.000Z</published>
+    <updated>2016-12-23T06:07:57.473Z</updated>
     
     <summary type="html">
     
     </summary>
     
+      <category term="Study" scheme="http://luxialan.com/categories/Study/"/>
+    
+    
+      <category term="Computer Science" scheme="http://luxialan.com/tags/Computer-Science/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客</title>
+    <link href="http://luxialan.com/2016/12/23/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    <id>http://luxialan.com/2016/12/23/计算机/</id>
+    <published>2016-12-23T01:58:13.000Z</published>
+    <updated>2016-12-23T06:07:57.473Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="Study" scheme="http://luxialan.com/categories/Study/"/>
+    
+    
+      <category term="Computer Science" scheme="http://luxialan.com/tags/Computer-Science/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客第一天</title>
+    <link href="http://luxialan.com/2016/12/23/%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E5%A4%A9/"/>
+    <id>http://luxialan.com/2016/12/23/博客第一天/</id>
+    <published>2016-12-23T01:56:13.000Z</published>
+    <updated>2016-12-23T06:06:16.765Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="Life" scheme="http://luxialan.com/categories/Life/"/>
+    
+    
+      <category term="Gossip" scheme="http://luxialan.com/tags/Gossip/"/>
     
   </entry>
   

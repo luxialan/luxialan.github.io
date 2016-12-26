@@ -2,9 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://luxialan.com/categories/index.html</loc>
+    
+    <lastmod>2016-12-23T06:28:04.346Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://luxialan.com/tags/index.html</loc>
+    
+    <lastmod>2016-12-23T06:27:52.840Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://luxialan.com/tags/index-1.html</loc>
+    
+    <lastmod>2016-12-23T06:22:09.729Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://luxialan.com/2016/12/23/%E5%8D%9A%E5%AE%A2/</loc>
+    
+    <lastmod>2016-12-23T06:07:57.473Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://luxialan.com/2016/12/23/%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
+    
+    <lastmod>2016-12-23T06:07:57.473Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://luxialan.com/2016/12/23/%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E5%A4%A9/</loc>
     
-    <lastmod>2016-12-23T01:56:13.367Z</lastmod>
+    <lastmod>2016-12-23T06:06:16.765Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://luxialan.com/about/index.html</loc>
+    
+    <lastmod>2016-12-23T05:21:23.350Z</lastmod>
     
   </url>
   
