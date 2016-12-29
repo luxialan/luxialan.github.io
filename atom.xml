@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://luxialan.com/"/>
-  <updated>2016-12-28T04:24:42.067Z</updated>
+  <updated>2016-12-29T07:32:35.849Z</updated>
   <id>http://luxialan.com/</id>
   
   <author>
@@ -14,6 +14,42 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>服务器集群技术指南</title>
+    <link href="http://luxialan.com/2016/12/29/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%9B%86%E7%BE%A4%E6%8C%87%E5%8D%97/"/>
+    <id>http://luxialan.com/2016/12/29/服务器集群指南/</id>
+    <published>2016-12-29T02:07:09.000Z</published>
+    <updated>2016-12-29T07:32:35.849Z</updated>
+    
+    <content type="html"><![CDATA[<p>研究生期间协助导师搭建和管理实验室的服务器，其中涉及到基础的服务器集群搭建、管理和维护。由于时间有限，只总结出一个大的框架，仅供参考。</p>
+<h1 id="服务器集群搭建"><a href="#服务器集群搭建" class="headerlink" title="服务器集群搭建"></a>服务器集群搭建</h1><h2 id="服务集群拓扑图"><a href="#服务集群拓扑图" class="headerlink" title="服务集群拓扑图"></a>服务集群拓扑图</h2><center> <img src="/images/server/topoloy_server.jpg" alt="Alt text"></center>
+
+<h1 id="服务器集群管理"><a href="#服务器集群管理" class="headerlink" title="服务器集群管理"></a>服务器集群管理</h1><p>##Linux服务器管理三步曲</p>
+<ul>
+<li>1.初学乍道：Linux基本知识</li>
+<li>2.初窥门径：Shell脚本编程</li>
+<li>3.登堂入室：Pssh并行管理<h3 id="1-初学乍道：Linux基本知识"><a href="#1-初学乍道：Linux基本知识" class="headerlink" title="1.初学乍道：Linux基本知识"></a>1.初学乍道：Linux基本知识</h3></li>
+</ul>
+<p><a href="http://vbird.dic.ksu.edu.tw/" target="_blank" rel="external">《鸟哥的私房菜》</a></p>
+<h3 id="2-初窥门径：Shell脚本编程"><a href="#2-初窥门径：Shell脚本编程" class="headerlink" title="2.初窥门径：Shell脚本编程"></a>2.初窥门径：Shell脚本编程</h3><h3 id="3-登堂入室：Pssh并行管理"><a href="#3-登堂入室：Pssh并行管理" class="headerlink" title="3.登堂入室：Pssh并行管理"></a>3.登堂入室：Pssh并行管理</h3><p><a href="https://code.google.com/archive/p/parallel-ssh/" target="_blank" rel="external">PSSH</a></p>
+<h1 id="服务器集群维护"><a href="#服务器集群维护" class="headerlink" title="服务器集群维护"></a>服务器集群维护</h1>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;研究生期间协助导师搭建和管理实验室的服务器，其中涉及到基础的服务器集群搭建、管理和维护。由于时间有限，只总结出一个大的框架，仅供参考。&lt;/p&gt;
+&lt;h1 id=&quot;服务器集群搭建&quot;&gt;&lt;a href=&quot;#服务器集群搭建&quot; class=&quot;headerlink&quot; title=&quot;服务器
+    
+    </summary>
+    
+      <category term="焚膏继晷" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/"/>
+    
+      <category term="技术管理" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/%E6%8A%80%E6%9C%AF%E7%AE%A1%E7%90%86/"/>
+    
+    
+      <category term="Technique" scheme="http://luxialan.com/tags/Technique/"/>
+    
+  </entry>
   
   <entry>
     <title>关于读研、工作与读博</title>
