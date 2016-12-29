@@ -396,34 +396,14 @@
 
       
         
-          
-            <p>研究生期间协助导师搭建和管理实验室的服务器，其中涉及到基础的服务器集群搭建、管理和维护。由于时间有限，只总结出一个大的框架，仅供参考。</p>
-<h2 id="服务器集群搭建"><a href="#服务器集群搭建" class="headerlink" title="服务器集群搭建"></a>服务器集群搭建</h2><h3 id="服务集群拓扑图"><a href="#服务集群拓扑图" class="headerlink" title="服务集群拓扑图"></a>服务集群拓扑图</h3><center> <img src="/images/server/server_topology.png" alt="Alt text"></center>
-
-<h2 id="服务器集群管理"><a href="#服务器集群管理" class="headerlink" title="服务器集群管理"></a>服务器集群管理</h2><h3 id="Linux服务器管理三步曲"><a href="#Linux服务器管理三步曲" class="headerlink" title="Linux服务器管理三步曲"></a>Linux服务器管理三步曲</h3><ul>
-<li>1.初学乍道：Linux基本知识</li>
-<li>2.初窥门径：Shell脚本编程</li>
-<li>3.登堂入室：Pssh并行管理</li>
-</ul>
-<h4 id="1-初学乍道：Linux基本知识"><a href="#1-初学乍道：Linux基本知识" class="headerlink" title="1.初学乍道：Linux基本知识"></a>1.初学乍道：Linux基本知识</h4><p>linux的常用的命令如下：<br>查看服务器基本信息<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">luxi@grus:~$ top</div></pre></td></tr></table></figure></p>
-<p><center> <img src="/images/server/top.png" alt="Alt text"></center><br>top的升级版<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">luxi@grus:~$ htop</div></pre></td></tr></table></figure></p>
-<p><center> <img src="/images/server/htop.png" alt="Alt text"></center><br>查看当前目录下文件信息<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">luxi@grus:~$ ls</div></pre></td></tr></table></figure></p>
-<p>更改目录<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">luxi@grus:~$ <span class="built_in">cd</span></div></pre></td></tr></table></figure></p>
-<p>新建文件<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">luxi@grus:~$ mkdir</div></pre></td></tr></table></figure></p>
-<p>删除文件<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">luxi@grus:~$ rm</div></pre></td></tr></table></figure></p>
-<p>复制文件<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">luxi@grus:~$ cp</div></pre></td></tr></table></figure></p>
-<p>移动文件<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">luxi@grus:~$ mv</div></pre></td></tr></table></figure></p>
-<p>查找文件<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">luxi@grus:~$ find</div></pre></td></tr></table></figure></p>
-<p>切换用户<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">luxi@grus:~$ su root</div><div class="line">Password:</div><div class="line">root@grus:/home/luxi<span class="comment">#</span></div></pre></td></tr></table></figure></p>
-<p>更改文件使用权限<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">luxi@grus:~$ chmod</div></pre></td></tr></table></figure></p>
-<p>挂载<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">luxi@grus:~$ mount</div></pre></td></tr></table></figure></p>
-<p>远程登录其他服务器<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">luxi@grus:~$ ssh</div></pre></td></tr></table></figure></p>
-<p>更多基本基本命令参考<a href="http://cn.linux.vbird.org/" target="_blank" rel="external">《鸟哥的私房菜》</a></p>
-<h4 id="2-初窥门径：Shell脚本编程"><a href="#2-初窥门径：Shell脚本编程" class="headerlink" title="2.初窥门径：Shell脚本编程"></a>2.初窥门径：Shell脚本编程</h4><p>Shell脚本编程可以看做为基本命令组合而成的复杂命令，其存在的价值在于封装好复杂命令，使用户能够通过运行脚本来执行复杂命令，避免了重复编程。是自动化管理服务器的重要一步。</p>
-<h4 id="3-登堂入室：Pssh并行管理"><a href="#3-登堂入室：Pssh并行管理" class="headerlink" title="3.登堂入室：Pssh并行管理"></a>3.登堂入室：Pssh并行管理</h4><p><a href="https://code.google.com/archive/p/parallel-ssh/" target="_blank" rel="external">PSSH(parallel-ssh)</a>是一个python编写的在多台服务器上执行命令的轻量级管理工具。其实运用Shell脚本语言，我们完全可以自己从头实现一个类似的工具（通过ssh+特定命令），然而可以避免重复造轮子的话还是尽量避免。<br>例子：pssh实现查看多台服务器运行情况</p>
-<p><center> <img src="/images/server/pssh.png" alt="Alt text"></center></p>
-<h2 id="服务器集群维护"><a href="#服务器集群维护" class="headerlink" title="服务器集群维护"></a>服务器集群维护</h2>
-          
+          <p>研究生期间协助导师搭建和管理实验室的服务器，其中涉及到基础的服务器集群搭建、管理和维护。由于时间有限，只总结出一个大的框架，仅供参考。<br>
+          <!--noindex-->
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/12/29/服务器集群指南/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -486,7 +466,7 @@
               
                 
                 <a class="post-title-link" href="/2016/12/28/关于读研、工作与读博/" itemprop="url">
-                  关于读研、工作与读博
+                  未命名
                 </a>
               
             
@@ -502,7 +482,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-12-28T09:56:13+08:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-12-28T14:00:54+08:00">
                 2016-12-28
               </time>
             
@@ -512,39 +492,6 @@
             
           </span>
 
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/闲情雅致/" itemprop="url" rel="index">
-                    <span itemprop="name">闲情雅致</span>
-                  </a>
-                </span>
-
-                
-                
-                  ， 
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/闲情雅致/所思所想/" itemprop="url" rel="index">
-                    <span itemprop="name">所思所想</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
           
 
           
@@ -565,7 +512,7 @@
 
           
           
-             <span id="/2016/12/28/关于读研、工作与读博/" class="leancloud_visitors" data-flag-title="关于读研、工作与读博">
+             <span id="/2016/12/28/关于读研、工作与读博/" class="leancloud_visitors" data-flag-title="">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -593,10 +540,18 @@
 
       
         
-          
-            <p>有一句话我很认同，你现在经历的和将要经历的，世界上也有人正在经历，所以你并不孤单。希望我的经历能够给有需要的人一点帮助。<br>研二的时候犹豫要工作还是继续读博，是要在国内读还是在国外读。虽然最后国内读博是个阴差阳错的结果，但是有几点是我最后坚持的原因。<br>1.希望成为一个独特的人<br>这个世界是随机的，并没有一条设定好的道路，我希望成为一个独特的人，而不是一个随大流的人。<br>2.希望成为一个纯粹的人<br>在做选择的时候很容易受外界的影响被绑架，</p>
-
-          
+          <hr>
+<p>title: 关于读研、工作与读博<br>date: 2016-12-28 09:56:13<br>categories: </p>
+<ul>
+<li>闲情雅致</li>
+<li>所思所想<br>tags: Thinking<br>—有一句话我很认同，你现在经历的和将要经历的，世界上也有人正在经历，所以你并不孤单。希望我的经历能够给有需要的人一点帮助。
+          <!--noindex-->
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/12/28/关于读研、工作与读博/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -766,10 +721,14 @@
 
       
         
-          
-            <p>我很感谢阅读过的那些诚挚的文字，作者将自身的经历或者学识流露在笔下，字字精血。<br>我相信文字的力量是伟大的，他能够给予读者以知识的传授和精神的力量。<br>我写作的目的：记录与交流。<br>一是记录我的所思所想，一方面是对自身经历的总结与反思，另一方面希望自己的微薄体会能够给读者以帮助，避开自己走过的坑，同时如果在坑里，能慰藉一下读者，原来我并不孤单，世界上有相似的经历的人也曾经历过同样的事情，有着同样的想法。<br>二是记录我的所得所获，一方面学习一门知识的最好方法是教授他人，另一方面希望自己曾经摸索学习的积累能够变成基石，让有需要的读者以此为阶，在学习的道路上少走一些弯路。</p>
-
-          
+          <p>我写作的目的：记录与交流。<br>
+          <!--noindex-->
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/12/28/为什么要写作/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>

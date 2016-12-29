@@ -86,44 +86,20 @@
 
 
 
-<meta name="description" content="研究生期间协助导师搭建和管理实验室的服务器，其中涉及到基础的服务器集群搭建、管理和维护。由于时间有限，只总结出一个大的框架，仅供参考。
-服务器集群搭建服务集群拓扑图 
-
-服务器集群管理Linux服务器管理三步曲
-1.初学乍道：Linux基本知识
-2.初窥门径：Shell脚本编程
-3.登堂入室：Pssh并行管理
-
-1.初学乍道：Linux基本知识linux的常用的命令如下：查看服务器基本信息1lux">
+<meta name="description" content="研究生期间协助导师搭建和管理实验室的服务器，其中涉及到基础的服务器集群搭建、管理和维护。由于时间有限，只总结出一个大的框架，仅供参考。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="服务器集群技术指南">
 <meta property="og:url" content="http://luxialan.com/2016/12/29/服务器集群指南/index.html">
 <meta property="og:site_name" content="水冼雪">
-<meta property="og:description" content="研究生期间协助导师搭建和管理实验室的服务器，其中涉及到基础的服务器集群搭建、管理和维护。由于时间有限，只总结出一个大的框架，仅供参考。
-服务器集群搭建服务集群拓扑图 
-
-服务器集群管理Linux服务器管理三步曲
-1.初学乍道：Linux基本知识
-2.初窥门径：Shell脚本编程
-3.登堂入室：Pssh并行管理
-
-1.初学乍道：Linux基本知识linux的常用的命令如下：查看服务器基本信息1lux">
+<meta property="og:description" content="研究生期间协助导师搭建和管理实验室的服务器，其中涉及到基础的服务器集群搭建、管理和维护。由于时间有限，只总结出一个大的框架，仅供参考。">
 <meta property="og:image" content="http://luxialan.com/images/server/server_topology.png">
 <meta property="og:image" content="http://luxialan.com/images/server/top.png">
 <meta property="og:image" content="http://luxialan.com/images/server/htop.png">
 <meta property="og:image" content="http://luxialan.com/images/server/pssh.png">
-<meta property="og:updated_time" content="2016-12-29T14:18:49.898Z">
+<meta property="og:updated_time" content="2016-12-29T14:37:22.388Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="服务器集群技术指南">
-<meta name="twitter:description" content="研究生期间协助导师搭建和管理实验室的服务器，其中涉及到基础的服务器集群搭建、管理和维护。由于时间有限，只总结出一个大的框架，仅供参考。
-服务器集群搭建服务集群拓扑图 
-
-服务器集群管理Linux服务器管理三步曲
-1.初学乍道：Linux基本知识
-2.初窥门径：Shell脚本编程
-3.登堂入室：Pssh并行管理
-
-1.初学乍道：Linux基本知识linux的常用的命令如下：查看服务器基本信息1lux">
+<meta name="twitter:description" content="研究生期间协助导师搭建和管理实验室的服务器，其中涉及到基础的服务器集群搭建、管理和维护。由于时间有限，只总结出一个大的框架，仅供参考。">
 <meta name="twitter:image" content="http://luxialan.com/images/server/server_topology.png">
 
 
@@ -420,7 +396,7 @@
       
 
       
-        <p>研究生期间协助导师搭建和管理实验室的服务器，其中涉及到基础的服务器集群搭建、管理和维护。由于时间有限，只总结出一个大的框架，仅供参考。</p>
+        <p>研究生期间协助导师搭建和管理实验室的服务器，其中涉及到基础的服务器集群搭建、管理和维护。由于时间有限，只总结出一个大的框架，仅供参考。<br><a id="more"></a></p>
 <h2 id="服务器集群搭建"><a href="#服务器集群搭建" class="headerlink" title="服务器集群搭建"></a>服务器集群搭建</h2><h3 id="服务集群拓扑图"><a href="#服务集群拓扑图" class="headerlink" title="服务集群拓扑图"></a>服务集群拓扑图</h3><center> <img src="/images/server/server_topology.png" alt="Alt text"></center>
 
 <h2 id="服务器集群管理"><a href="#服务器集群管理" class="headerlink" title="服务器集群管理"></a>服务器集群管理</h2><h3 id="Linux服务器管理三步曲"><a href="#Linux服务器管理三步曲" class="headerlink" title="Linux服务器管理三步曲"></a>Linux服务器管理三步曲</h3><ul>
@@ -445,7 +421,7 @@
 <h4 id="2-初窥门径：Shell脚本编程"><a href="#2-初窥门径：Shell脚本编程" class="headerlink" title="2.初窥门径：Shell脚本编程"></a>2.初窥门径：Shell脚本编程</h4><p>Shell脚本编程可以看做为基本命令组合而成的复杂命令，其存在的价值在于封装好复杂命令，使用户能够通过运行脚本来执行复杂命令，避免了重复编程。是自动化管理服务器的重要一步。</p>
 <h4 id="3-登堂入室：Pssh并行管理"><a href="#3-登堂入室：Pssh并行管理" class="headerlink" title="3.登堂入室：Pssh并行管理"></a>3.登堂入室：Pssh并行管理</h4><p><a href="https://code.google.com/archive/p/parallel-ssh/" target="_blank" rel="external">PSSH(parallel-ssh)</a>是一个python编写的在多台服务器上执行命令的轻量级管理工具。其实运用Shell脚本语言，我们完全可以自己从头实现一个类似的工具（通过ssh+特定命令），然而可以避免重复造轮子的话还是尽量避免。<br>例子：pssh实现查看多台服务器运行情况</p>
 <p><center> <img src="/images/server/pssh.png" alt="Alt text"></center></p>
-<h2 id="服务器集群维护"><a href="#服务器集群维护" class="headerlink" title="服务器集群维护"></a>服务器集群维护</h2>
+<h2 id="服务器集群维护"><a href="#服务器集群维护" class="headerlink" title="服务器集群维护"></a>服务器集群维护</h2><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2>
       
     </div>
 
@@ -477,8 +453,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/12/28/关于读研、工作与读博/" rel="next" title="关于读研、工作与读博">
-                <i class="fa fa-chevron-left"></i> 关于读研、工作与读博
+              <a href="/2016/12/28/关于读研、工作与读博/" rel="next" title="">
+                <i class="fa fa-chevron-left"></i> 
               </a>
             
           </div>
@@ -625,7 +601,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#服务器集群搭建"><span class="nav-number">1.</span> <span class="nav-text">服务器集群搭建</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#服务集群拓扑图"><span class="nav-number">1.1.</span> <span class="nav-text">服务集群拓扑图</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#服务器集群管理"><span class="nav-number">2.</span> <span class="nav-text">服务器集群管理</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Linux服务器管理三步曲"><span class="nav-number">2.1.</span> <span class="nav-text">Linux服务器管理三步曲</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-初学乍道：Linux基本知识"><span class="nav-number">2.1.1.</span> <span class="nav-text">1.初学乍道：Linux基本知识</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-初窥门径：Shell脚本编程"><span class="nav-number">2.1.2.</span> <span class="nav-text">2.初窥门径：Shell脚本编程</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-登堂入室：Pssh并行管理"><span class="nav-number">2.1.3.</span> <span class="nav-text">3.登堂入室：Pssh并行管理</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#服务器集群维护"><span class="nav-number">3.</span> <span class="nav-text">服务器集群维护</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#服务器集群搭建"><span class="nav-number">1.</span> <span class="nav-text">服务器集群搭建</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#服务集群拓扑图"><span class="nav-number">1.1.</span> <span class="nav-text">服务集群拓扑图</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#服务器集群管理"><span class="nav-number">2.</span> <span class="nav-text">服务器集群管理</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Linux服务器管理三步曲"><span class="nav-number">2.1.</span> <span class="nav-text">Linux服务器管理三步曲</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-初学乍道：Linux基本知识"><span class="nav-number">2.1.1.</span> <span class="nav-text">1.初学乍道：Linux基本知识</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-初窥门径：Shell脚本编程"><span class="nav-number">2.1.2.</span> <span class="nav-text">2.初窥门径：Shell脚本编程</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-登堂入室：Pssh并行管理"><span class="nav-number">2.1.3.</span> <span class="nav-text">3.登堂入室：Pssh并行管理</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#服务器集群维护"><span class="nav-number">3.</span> <span class="nav-text">服务器集群维护</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#总结"><span class="nav-number">4.</span> <span class="nav-text">总结</span></a></li></ol></div>
             
 
           </div>
