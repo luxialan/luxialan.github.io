@@ -53,7 +53,7 @@
     <link href="http://luxialan.com/2017/02/12/%E3%80%90%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E5%8F%81-%E6%A6%82%E7%8E%87%E4%B8%8E%E4%BF%A1%E6%81%AF%E8%AE%BA/"/>
     <id>http://luxialan.com/2017/02/12/【深度学习】-读书笔记-叁-概率与信息论/</id>
     <published>2017-02-12T10:35:13.000Z</published>
-    <updated>2017-02-13T13:03:25.889Z</updated>
+    <updated>2017-02-13T13:30:48.978Z</updated>
     
     <content type="html"><![CDATA[<p>概率论使我们能够作出不确定的陈述以及在不确定性存在的情况下推理，而信息论使我们能够量化概率分布中的不确定性总量。<br><a id="more"></a></p>
 <h2 id="1-为什么要用概率？"><a href="#1-为什么要用概率？" class="headerlink" title="1.为什么要用概率？"></a>1.为什么要用概率？</h2><p>世界是不确定的，要对世界中的活动进行建模需要用概率论来量化不确定性。<br>不确定性有三种可能的来源：</p>
@@ -65,7 +65,7 @@
 <p>在很多情况下，使用一些简单而不确定的原则要比复杂而确定的原则更为实用，即使真实的规则是确定的并且我们的模型系统对适应复杂规则具有很好的逼真度。<br>有两种概率，一种概率，直接与事件发生的频率相联系，称为频率概率；另一种概率，涉及到确定性水平，被称为贝叶斯概率。</p>
 <h2 id="2-随机变量"><a href="#2-随机变量" class="headerlink" title="2.随机变量"></a>2.随机变量</h2><p>随机变量(random variable)是可以随机地取不同值的变量。<br>一种随机变量只是对可能的状态的描述；它必须伴随着一个概率分布来指定每个状态的可能性。</p>
 <h2 id="3-概率分布"><a href="#3-概率分布" class="headerlink" title="3.概率分布"></a>3.概率分布</h2><p>概率分布(probability distribution)用来描述随机变量或一簇随机变量在每一个可能取到的状态的可能性大小。</p>
-<h3 id="3-1离散型变量和概率分布律函数"><a href="#3-1离散型变量和概率分布律函数" class="headerlink" title="3.1离散型变量和概率分布律函数"></a>3.1离散型变量和概率分布律函数</h3><p>离散型变量的概率分布可以用概率分布律函数(probability mass function,PMF)来描述。我们通常用$P$来表示概率分布律函数。用$x~P(x)$表示随机变量x服从P分布。<br>概率分布律函数可以同时作用于多个随机变量。这种多个变量的概率分布被称为联合概率分布(joint probability distribution)。</p>
+<h3 id="3-1离散型变量和概率分布律函数"><a href="#3-1离散型变量和概率分布律函数" class="headerlink" title="3.1离散型变量和概率分布律函数"></a>3.1离散型变量和概率分布律函数</h3><p>离散型变量的概率分布可以用概率分布律函数(probability mass function,PMF)来描述。我们通常用$P$来表示概率分布律函数。用$x$~$P(x)$表示随机变量x服从P分布。<br>概率分布律函数可以同时作用于多个随机变量。这种多个变量的概率分布被称为联合概率分布(joint probability distribution)。</p>
 <h3 id="3-2连续型变量和概率密度函数"><a href="#3-2连续型变量和概率密度函数" class="headerlink" title="3.2连续型变量和概率密度函数"></a>3.2连续型变量和概率密度函数</h3><h2 id="4-边缘概率"><a href="#4-边缘概率" class="headerlink" title="4.边缘概率"></a>4.边缘概率</h2><p>我们知道了一组变量的联合概率分布，想要了解其中一个子集的概率分布。这种定义在子集上的概率分布被称为边缘概率分布(marginal probability)。对于连续型变量，我们需要用积分替代求和：$$p(x)=\int p(x,y)dy$$</p>
 <h2 id="5-条件概率"><a href="#5-条件概率" class="headerlink" title="5.条件概率"></a>5.条件概率</h2><p>$P($y$=y)|$x$=x)=/fra{P}{}$</p>
 <h2 id="6-条件概率的链式法则"><a href="#6-条件概率的链式法则" class="headerlink" title="6.条件概率的链式法则"></a>6.条件概率的链式法则</h2><h2 id="7-独立性和条件独立性"><a href="#7-独立性和条件独立性" class="headerlink" title="7.独立性和条件独立性"></a>7.独立性和条件独立性</h2><h2 id="8-期望，方差和协方差"><a href="#8-期望，方差和协方差" class="headerlink" title="8.期望，方差和协方差"></a>8.期望，方差和协方差</h2><h2 id="9-常用概率分布"><a href="#9-常用概率分布" class="headerlink" title="9.常用概率分布"></a>9.常用概率分布</h2><h3 id="9-1-Bernoulli分布"><a href="#9-1-Bernoulli分布" class="headerlink" title="9.1 Bernoulli分布"></a>9.1 Bernoulli分布</h3><h3 id="9-2-多项式分布"><a href="#9-2-多项式分布" class="headerlink" title="9.2 多项式分布"></a>9.2 多项式分布</h3><h3 id="9-3-高斯分布-正态分布"><a href="#9-3-高斯分布-正态分布" class="headerlink" title="9.3 高斯分布/正态分布"></a>9.3 高斯分布/正态分布</h3><h3 id="9-4-指数分布和Laplace分布"><a href="#9-4-指数分布和Laplace分布" class="headerlink" title="9.4 指数分布和Laplace分布"></a>9.4 指数分布和Laplace分布</h3><h3 id="9-5-Dirac分布和经验分布"><a href="#9-5-Dirac分布和经验分布" class="headerlink" title="9.5 Dirac分布和经验分布"></a>9.5 Dirac分布和经验分布</h3><h3 id="9-6-分布的混合"><a href="#9-6-分布的混合" class="headerlink" title="9.6 分布的混合"></a>9.6 分布的混合</h3><h3 id="10-常用函数的一些性质"><a href="#10-常用函数的一些性质" class="headerlink" title="10.常用函数的一些性质"></a>10.常用函数的一些性质</h3><h2 id="13-信息论"><a href="#13-信息论" class="headerlink" title="13.信息论"></a>13.信息论</h2><p>信息论是应用数学的一个分支，主要研究的是对一个信号能够提供的多少进行量化。<br>信息论的基本想法是一个不太可能的事件居然发生了，要比一个非常可能的事件发生，能提供更多的信息。</p>
@@ -92,11 +92,67 @@
   </entry>
   
   <entry>
+    <title>【深度学习】 读书笔记 贰 线性代数</title>
+    <link href="http://luxialan.com/2017/02/09/%E3%80%90%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E8%B4%B0-%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/"/>
+    <id>http://luxialan.com/2017/02/09/【深度学习】-读书笔记-贰-线性代数/</id>
+    <published>2017-02-09T11:56:12.000Z</published>
+    <updated>2017-02-13T13:26:33.116Z</updated>
+    
+    <content type="html"><![CDATA[<p>代数、分析、几何、概率论，数学的基础知识。<br><a id="more"></a></p>
+<h2 id="章节总览"><a href="#章节总览" class="headerlink" title="章节总览"></a>章节总览</h2><ul>
+<li>1.标量、向量、矩阵和张量</li>
+<li>2.矩阵和向量相乘</li>
+<li>3.单位矩阵和逆矩阵</li>
+<li>4.线性相关和生成子空间</li>
+<li>5.范数</li>
+<li>6.特殊类型的矩阵和向量</li>
+<li>7.特征分解</li>
+<li>8.奇异值分解</li>
+<li>9.Moore-Penrose伪逆</li>
+<li>10.迹运算</li>
+<li>11.行列式</li>
+<li>12.主成分分析</li>
+</ul>
+<h2 id="1-标量、向量、矩阵和张量"><a href="#1-标量、向量、矩阵和张量" class="headerlink" title="1.标量、向量、矩阵和张量"></a>1.标量、向量、矩阵和张量</h2><p>标量：一个标量就是一个单独的数。<br>向量：一个向量是一列数。<br>矩阵：矩阵是二维数组。<br>张量：在某些情况下，我们会讨论不只两维坐标的数组。一般地，一组数组中的元素分布在若干维坐标的规则网格中，我们将其称之为张量。</p>
+<h2 id="2-矩阵和向量相乘"><a href="#2-矩阵和向量相乘" class="headerlink" title="2.矩阵和向量相乘"></a>2.矩阵和向量相乘</h2><p>矩阵乘法</p>
+<ul>
+<li>$A(B+C)=AB+AC$</li>
+<li>$A(BC)=(AB)C$</li>
+<li>$(AB)^{T}=B^{T}A^{T}$<br>通过矩阵和向量来表示线性方程组</li>
+<li>$Ax=b$</li>
+</ul>
+<h2 id="3-单位矩阵和逆矩阵"><a href="#3-单位矩阵和逆矩阵" class="headerlink" title="3.单位矩阵和逆矩阵"></a>3.单位矩阵和逆矩阵</h2><p>单位矩阵：任意向量和单位矩阵相乘，都不会改变。形式上，$I_n\in \mathtt{R} $,<br>$$\forall x\in \mathtt{R}, I_n x = x$$<br>单位矩阵结构简单：所有沿着主对角线的元素都是1，而其他位置的元素都是0，如<br>$$<br>\begin{bmatrix}<br>1 &amp; 0 &amp; 0\<br>0 &amp; 1 &amp; 0\<br>0 &amp; 0 &amp; 1\<br>\end{bmatrix}<br>$$</p>
+<h2 id="5-范数"><a href="#5-范数" class="headerlink" title="5.范数"></a>5.范数</h2><p>范数用来衡量向量的大小，是将向量映射到非负值的函数。<br>$L^p$范数定义如下：$$ ||x||_p=(\sum_i|x_i|^{p})^{\frac{1}{p}}$$<br>其中$p\in \mathtt{R},$p \geq 1$<br>范数可以是满足下列性质的任意函数：</p>
+<ul>
+<li>$f(x)=0$ =&gt; $x=0$</li>
+<li>$f(x+y) \leq f(x) + f(y)$</li>
+<li>$\forall \alpha \in \mathtt{R}, f(\alpha)=|\alpha|f(x)$ 当$p=2$时</li>
+</ul>
+<h3 id="7-特征分解"><a href="#7-特征分解" class="headerlink" title="7.特征分解"></a>7.特征分解</h3><p>我们可以通过分解质因数来发现一些关于整数的真实性质，我们也可以通过分解矩阵来获取矩阵表示成数组元素时不明显的函数性质。<br>特征分解是使用最广的矩阵分解之一，即我们将矩阵分解成一组特征向量和特征值。<br>方阵$A$的特征向量是指与$A$相乘后相当于对该向量进行放缩的非零向量：<br>$$Av=\lambda v$$<br>标量$\lambda$称为这个特征向量对应的特征值。</p>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://github.com/exacity/deeplearningbook-chinese" target="_blank" rel="external">Deep Learning Book</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;代数、分析、几何、概率论，数学的基础知识。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="焚膏继晷" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/"/>
+    
+      <category term="知识储备" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/%E7%9F%A5%E8%AF%86%E5%82%A8%E5%A4%87/"/>
+    
+    
+      <category term="Book" scheme="http://luxialan.com/tags/Book/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【深度学习】 读书笔记 壹 深度学习概述</title>
     <link href="http://luxialan.com/2017/02/09/%E3%80%90%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E5%A3%B9-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%A6%82%E8%BF%B0/"/>
     <id>http://luxialan.com/2017/02/09/【深度学习】-读书笔记-壹-深度学习概述/</id>
-    <published>2017-02-09T11:56:12.000Z</published>
-    <updated>2017-02-13T12:39:33.830Z</updated>
+    <published>2017-02-09T05:56:12.000Z</published>
+    <updated>2017-02-13T13:27:58.072Z</updated>
     
     <content type="html"><![CDATA[<p>深度学习的前世今生。<br><a id="more"></a></p>
 <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><h3 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h3><p>AI深度学习：层次化的概念让计算机构建较简单的概念来学习复杂概念。如果绘制出这些概念如何建立在彼此之上的图，我们将得到一张“深”（层次很多）的图。出于这个原因，我们称这种方法为AI深度学习。</p>
@@ -119,71 +175,6 @@
     <summary type="html">
     
       &lt;p&gt;深度学习的前世今生。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="焚膏继晷" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/"/>
-    
-      <category term="知识储备" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/%E7%9F%A5%E8%AF%86%E5%82%A8%E5%A4%87/"/>
-    
-    
-      <category term="Book" scheme="http://luxialan.com/tags/Book/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【深度学习】 读书笔记 贰 线性代数</title>
-    <link href="http://luxialan.com/2017/02/09/%E3%80%90%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E8%B4%B0-%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/"/>
-    <id>http://luxialan.com/2017/02/09/【深度学习】-读书笔记-贰-线性代数/</id>
-    <published>2017-02-09T11:56:12.000Z</published>
-    <updated>2017-02-13T12:39:36.796Z</updated>
-    
-    <content type="html"><![CDATA[<p>代数、分析、几何、概率论，数学的基础知识。<br><a id="more"></a></p>
-<h2 id="章节总览"><a href="#章节总览" class="headerlink" title="章节总览"></a>章节总览</h2><ul>
-<li>1.标量、向量、矩阵和张量</li>
-<li>2.矩阵和向量相乘</li>
-<li>3.单位矩阵和逆矩阵</li>
-<li>4.线性相关和生成子空间</li>
-<li>5.范数</li>
-<li>6.特殊类型的矩阵和向量</li>
-<li>7.特征分解</li>
-<li>8.奇异值分解</li>
-<li>9.Moore-Penrose伪逆</li>
-<li><ol>
-<li>迹运算</li>
-</ol>
-</li>
-<li><ol>
-<li>行列式</li>
-</ol>
-</li>
-<li><ol>
-<li>主成分分析</li>
-</ol>
-</li>
-</ul>
-<h3 id="1-标量、向量、矩阵和张量"><a href="#1-标量、向量、矩阵和张量" class="headerlink" title="1.标量、向量、矩阵和张量"></a>1.标量、向量、矩阵和张量</h3><p>标量：一个标量就是一个单独的数。<br>向量：一个向量是一列数。<br>矩阵：矩阵是二维数组。<br>张量：在某些情况下，我们会讨论不只两维坐标的数组。一般地，一组数组中的元素分布在若干维坐标的规则网格中，我们将其称之为张量。</p>
-<h3 id="2-矩阵和向量相乘"><a href="#2-矩阵和向量相乘" class="headerlink" title="2.矩阵和向量相乘"></a>2.矩阵和向量相乘</h3><p>矩阵乘法</p>
-<ul>
-<li>$A(B+C)=AB+AC$</li>
-<li>$A(BC)=(AB)C$</li>
-<li>$(AB)^{T}=B^{T}A^{T}<br>通过矩阵和向量来表示线性方程组</li>
-<li>$Ax=b$</li>
-</ul>
-<h3 id="3-单位矩阵和逆矩阵"><a href="#3-单位矩阵和逆矩阵" class="headerlink" title="3.单位矩阵和逆矩阵"></a>3.单位矩阵和逆矩阵</h3><p>单位矩阵：任意向量和单位矩阵相乘，都不会改变。形式上，$I_n\in \mathtt{R} $,<br>$$\forall x\in \mathtt{R}, I_n x = x$$<br>单位矩阵结构简单：所有沿着主对角线的元素都是1，而其他位置的元素都是0，如<br>$$<br>\begin{bmatrix}<br>1 &amp; 0 &amp; 0<br>0 &amp; 1 &amp; 0<br>0 &amp; 0 &amp; 1<br>\end{bmatrix}<br>$$</p>
-<h3 id="5-范数"><a href="#5-范数" class="headerlink" title="5.范数"></a>5.范数</h3><p>范数用来衡量向量的大小，是将向量映射到非负值的函数。<br>$L^p$范数定义如下：$$ |||x||_p=(\sum_i|x_i|^{p})^{\frac{1}{p}}$$<br>其中$p\in \mathtt{R},$p \geq 1$<br>范数可以是满足下列性质的任意函数：</p>
-<ul>
-<li>$f(x)=0$ =&gt; $x=0$</li>
-<li>$f(x+y) \leq f(x) + f(y)$</li>
-<li>$\forall \alpha \in \mathtt{R}, f(\alpha)=|\alpha|f(x)<br>当$p=2$时</li>
-</ul>
-<h3 id="7-特征分解"><a href="#7-特征分解" class="headerlink" title="7.特征分解"></a>7.特征分解</h3><p>我们可以通过分解质因数来发现一些关于整数的真实性质，我们也可以通过分解矩阵来获取矩阵表示成数组元素时不明显的函数性质。<br>特征分解是使用最广的矩阵分解之一，即我们将矩阵分解成一组特征向量和特征值。<br>方阵$A$的特征向量是指与$A$相乘后相当于对该向量进行放缩的非零向量：<br>$$Av=\lambda v$$<br>标量$$\lambda$称为这个特征向量对应的特征值。</p>
-<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://github.com/exacity/deeplearningbook-chinese" target="_blank" rel="external">Deep Learning Book</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;代数、分析、几何、概率论，数学的基础知识。&lt;br&gt;
     
     </summary>
     
