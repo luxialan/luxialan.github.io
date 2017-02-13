@@ -92,46 +92,6 @@
   </entry>
   
   <entry>
-    <title>【深度学习】 读书笔记 壹 深度学习概述</title>
-    <link href="http://luxialan.com/2017/02/09/%E3%80%90%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E5%A3%B9-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%A6%82%E8%BF%B0/"/>
-    <id>http://luxialan.com/2017/02/09/【深度学习】-读书笔记-壹-深度学习概述/</id>
-    <published>2017-02-09T11:56:12.000Z</published>
-    <updated>2017-02-13T12:39:33.830Z</updated>
-    
-    <content type="html"><![CDATA[<p>深度学习的前世今生。<br><a id="more"></a></p>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><h3 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h3><p>AI深度学习：层次化的概念让计算机构建较简单的概念来学习复杂概念。如果绘制出这些概念如何建立在彼此之上的图，我们将得到一张“深”（层次很多）的图。出于这个原因，我们称这种方法为AI深度学习。</p>
-<p>知识图谱(knowledge base)方法: 计算机可以通过这些形式化语言自动地使用逻辑推理规则来理解声明。</p>
-<p>机器学习(machine learning): Al系统需要具备自己获取知识的能力，即从原始数据中提取模式的能力，这种能力称为机器学习。例如：逻辑回归(logistic regression)和朴素贝叶斯(naive Bayes)。</p>
-<p>表示学习(representation learning): 使用机器学习来发现数据的表示(representation)本身。例子： 自动编码器(autoencoder)：输入–&gt;编码器(encoder)–&gt;表示–&gt;解码器(decoder)。</p>
-<p>深度学习(deep learning): 让计算机通过简单概念构建复杂的概念。例子： 前馈深度网络或多层感知机(multilayer perceptron, MLP)。深度学习是AI的途径之一，可以用来学习数据的正确表达和一个多步骤的计算机程序。</p>
-<p><center> <img src="/images/deep_learning_book/concept.png" alt="Alt text"></center></p>
-<h2 id="深度学习的历史趋势"><a href="#深度学习的历史趋势" class="headerlink" title="深度学习的历史趋势"></a>深度学习的历史趋势</h2><ul>
-<li>1.数据量越来越大。</li>
-<li>2.针对深度学习的计算机软硬件设施有所改善，深度学习模型的规模也随之增长。</li>
-<li>3.深度学习已经解决日益复杂的应用，并且精度不断提高。<h3 id="深度学习的三次浪潮"><a href="#深度学习的三次浪潮" class="headerlink" title="深度学习的三次浪潮"></a>深度学习的三次浪潮</h3></li>
-<li>1.第一次浪潮开始于20世纪40年代到20世纪60年代的控制论，随着生物学习理论的发展和第一个模型的实现（感知机）,能实现单个神经元的训练。</li>
-<li>2.第二次浪潮开始于1980-1995年间的链接机制方法，可以使用反向链接训练具有一两个隐藏层的神经网络。</li>
-<li>3.第三次浪潮，深度学习，大约始于2006年。</li>
-</ul>
-<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://github.com/exacity/deeplearningbook-chinese" target="_blank" rel="external">Deep Learning Book</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;深度学习的前世今生。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="焚膏继晷" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/"/>
-    
-      <category term="知识储备" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/%E7%9F%A5%E8%AF%86%E5%82%A8%E5%A4%87/"/>
-    
-    
-      <category term="Book" scheme="http://luxialan.com/tags/Book/"/>
-    
-  </entry>
-  
-  <entry>
     <title>【深度学习】 读书笔记 贰 线性代数</title>
     <link href="http://luxialan.com/2017/02/09/%E3%80%90%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E8%B4%B0-%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/"/>
     <id>http://luxialan.com/2017/02/09/【深度学习】-读书笔记-贰-线性代数/</id>
@@ -184,6 +144,46 @@
     <summary type="html">
     
       &lt;p&gt;代数、分析、几何、概率论，数学的基础知识。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="焚膏继晷" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/"/>
+    
+      <category term="知识储备" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/%E7%9F%A5%E8%AF%86%E5%82%A8%E5%A4%87/"/>
+    
+    
+      <category term="Book" scheme="http://luxialan.com/tags/Book/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【深度学习】 读书笔记 壹 深度学习概述</title>
+    <link href="http://luxialan.com/2017/02/09/%E3%80%90%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E5%A3%B9-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%A6%82%E8%BF%B0/"/>
+    <id>http://luxialan.com/2017/02/09/【深度学习】-读书笔记-壹-深度学习概述/</id>
+    <published>2017-02-09T11:56:12.000Z</published>
+    <updated>2017-02-13T12:39:33.830Z</updated>
+    
+    <content type="html"><![CDATA[<p>深度学习的前世今生。<br><a id="more"></a></p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><h3 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h3><p>AI深度学习：层次化的概念让计算机构建较简单的概念来学习复杂概念。如果绘制出这些概念如何建立在彼此之上的图，我们将得到一张“深”（层次很多）的图。出于这个原因，我们称这种方法为AI深度学习。</p>
+<p>知识图谱(knowledge base)方法: 计算机可以通过这些形式化语言自动地使用逻辑推理规则来理解声明。</p>
+<p>机器学习(machine learning): Al系统需要具备自己获取知识的能力，即从原始数据中提取模式的能力，这种能力称为机器学习。例如：逻辑回归(logistic regression)和朴素贝叶斯(naive Bayes)。</p>
+<p>表示学习(representation learning): 使用机器学习来发现数据的表示(representation)本身。例子： 自动编码器(autoencoder)：输入–&gt;编码器(encoder)–&gt;表示–&gt;解码器(decoder)。</p>
+<p>深度学习(deep learning): 让计算机通过简单概念构建复杂的概念。例子： 前馈深度网络或多层感知机(multilayer perceptron, MLP)。深度学习是AI的途径之一，可以用来学习数据的正确表达和一个多步骤的计算机程序。</p>
+<p><center> <img src="/images/deep_learning_book/concept.png" alt="Alt text"></center></p>
+<h2 id="深度学习的历史趋势"><a href="#深度学习的历史趋势" class="headerlink" title="深度学习的历史趋势"></a>深度学习的历史趋势</h2><ul>
+<li>1.数据量越来越大。</li>
+<li>2.针对深度学习的计算机软硬件设施有所改善，深度学习模型的规模也随之增长。</li>
+<li>3.深度学习已经解决日益复杂的应用，并且精度不断提高。<h3 id="深度学习的三次浪潮"><a href="#深度学习的三次浪潮" class="headerlink" title="深度学习的三次浪潮"></a>深度学习的三次浪潮</h3></li>
+<li>1.第一次浪潮开始于20世纪40年代到20世纪60年代的控制论，随着生物学习理论的发展和第一个模型的实现（感知机）,能实现单个神经元的训练。</li>
+<li>2.第二次浪潮开始于1980-1995年间的链接机制方法，可以使用反向链接训练具有一两个隐藏层的神经网络。</li>
+<li>3.第三次浪潮，深度学习，大约始于2006年。</li>
+</ul>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://github.com/exacity/deeplearningbook-chinese" target="_blank" rel="external">Deep Learning Book</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;深度学习的前世今生。&lt;br&gt;
     
     </summary>
     
