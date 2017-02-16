@@ -92,7 +92,7 @@
 <meta property="og:url" content="http://luxialan.com/2017/02/12/【深度学习】-读书笔记-叁-概率与信息论/index.html">
 <meta property="og:site_name" content="水冼雪">
 <meta property="og:description" content="概率论使我们能够作出不确定的陈述以及在不确定性存在的情况下推理，而信息论使我们能够量化概率分布中的不确定性总量。">
-<meta property="og:updated_time" content="2017-02-15T12:40:42.759Z">
+<meta property="og:updated_time" content="2017-02-15T12:56:32.091Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="【深度学习】 读书笔记 叁 概率与信息论">
 <meta name="twitter:description" content="概率论使我们能够作出不确定的陈述以及在不确定性存在的情况下推理，而信息论使我们能够量化概率分布中的不确定性总量。">
@@ -414,12 +414,16 @@
 <li>$P(\bm{x}=0)=1-/phi</li>
 <li>$P(\bm{x}=1)=/phi$</li>
 <li>$\mathbb{E}_x=/phi$</li>
-<li>$Var_x(x)=/phi(1-/phi)$<h3 id="多项式分布"><a href="#多项式分布" class="headerlink" title="多项式分布"></a>多项式分布</h3><h3 id="高斯分布-正态分布"><a href="#高斯分布-正态分布" class="headerlink" title="高斯分布/正态分布"></a>高斯分布/正态分布</h3><h3 id="指数分布和Laplace分布"><a href="#指数分布和Laplace分布" class="headerlink" title="指数分布和Laplace分布"></a>指数分布和Laplace分布</h3><h3 id="Dirac分布和经验分布"><a href="#Dirac分布和经验分布" class="headerlink" title="Dirac分布和经验分布"></a>Dirac分布和经验分布</h3><h3 id="分布的混合"><a href="#分布的混合" class="headerlink" title="分布的混合"></a>分布的混合</h3><h2 id="常用函数的一些性质"><a href="#常用函数的一些性质" class="headerlink" title="常用函数的一些性质"></a>常用函数的一些性质</h2><h2 id="贝叶斯规则"><a href="#贝叶斯规则" class="headerlink" title="贝叶斯规则"></a>贝叶斯规则</h2><h2 id="连续型变量的技术细节"><a href="#连续型变量的技术细节" class="headerlink" title="连续型变量的技术细节"></a>连续型变量的技术细节</h2><h2 id="信息论"><a href="#信息论" class="headerlink" title="信息论"></a>信息论</h2>信息论是应用数学的一个分支，主要研究的是对一个信号能够提供的多少进行量化。<br>信息论的基本想法是一个不太可能的事件居然发生了，要比一个非常可能的事件发生，能提供更多的信息。</li>
+<li>$Var_x(x)=/phi(1-/phi)$</li>
+</ul>
+<h3 id="多项式分布"><a href="#多项式分布" class="headerlink" title="多项式分布"></a>多项式分布</h3><h3 id="高斯分布-正态分布"><a href="#高斯分布-正态分布" class="headerlink" title="高斯分布/正态分布"></a>高斯分布/正态分布</h3><h3 id="指数分布和Laplace分布"><a href="#指数分布和Laplace分布" class="headerlink" title="指数分布和Laplace分布"></a>指数分布和Laplace分布</h3><h3 id="Dirac分布和经验分布"><a href="#Dirac分布和经验分布" class="headerlink" title="Dirac分布和经验分布"></a>Dirac分布和经验分布</h3><h3 id="分布的混合"><a href="#分布的混合" class="headerlink" title="分布的混合"></a>分布的混合</h3><h2 id="常用函数的一些性质"><a href="#常用函数的一些性质" class="headerlink" title="常用函数的一些性质"></a>常用函数的一些性质</h2><h2 id="贝叶斯规则"><a href="#贝叶斯规则" class="headerlink" title="贝叶斯规则"></a>贝叶斯规则</h2><h2 id="连续型变量的技术细节"><a href="#连续型变量的技术细节" class="headerlink" title="连续型变量的技术细节"></a>连续型变量的技术细节</h2><h2 id="信息论"><a href="#信息论" class="headerlink" title="信息论"></a>信息论</h2><p>信息论是应用数学的一个分支，主要研究的是对一个信号能够提供的多少进行量化。<br>信息论的基本想法是一个不太可能的事件居然发生了，要比一个非常可能的事件发生，能提供更多的信息。</p>
+<ul>
 <li>非常可能发生的事件信息量比较少，并且极端情况下，确保能够发生的事件应该没有信息量。</li>
 <li>更不可能发生的事件要具有更高的信息量</li>
-<li>独立事件应具有增量的信息。例如，投掷的硬币两次正面朝上传递的信息量应该是投掷一次硬币正面朝上的信息量的两倍。<br>为了满足上述三个性质，我们定义一个事件$\rm{x}=x$的自信息(self-information)为$$I(x)=-logP(x)$$<br>我们定义$I(x)$单位是奈特(nats)。一奈特是以$/frac{1}{\epsilon}$的概率观测到一个事件时获得的信息量。<br>自信息只处理单个的输出，我们可以用香农熵(Shannon entropy)来对整个概率分布中的不确定性总量进行量化：<br>$H(x)=\mathbb{E}<em>{x~P}[I(x)]=-\mathbb{E}</em>{x~P}[logP(x)]$<h2 id="14-结构化概率模型"><a href="#14-结构化概率模型" class="headerlink" title="14.结构化概率模型"></a>14.结构化概率模型</h2></li>
+<li>独立事件应具有增量的信息。例如，投掷的硬币两次正面朝上传递的信息量应该是投掷一次硬币正面朝上的信息量的两倍。</li>
 </ul>
-<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://github.com/exacity/deeplearningbook-chinese" target="_blank" rel="external">Deep Learning Book</a></p>
+<p>为了满足上述三个性质，我们定义一个事件$\rm{x}=x$的自信息(self-information)为$$I(x)=-logP(x)$$<br>我们定义$I(x)$单位是奈特(nats)。一奈特是以$/frac{1}{\epsilon}$的概率观测到一个事件时获得的信息量。<br>自信息只处理单个的输出，我们可以用香农熵(Shannon entropy)来对整个概率分布中的不确定性总量进行量化：<br>$H(x)=\mathbb{E}<em>{x~P}[I(x)]=-\mathbb{E}</em>{x~P}[logP(x)]$</p>
+<h2 id="14-结构化概率模型"><a href="#14-结构化概率模型" class="headerlink" title="14.结构化概率模型"></a>14.结构化概率模型</h2><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://github.com/exacity/deeplearningbook-chinese" target="_blank" rel="external">Deep Learning Book</a></p>
 
       
     </div>
@@ -559,7 +563,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">7</span>
+                <span class="site-state-item-count">8</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
