@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://luxialan.com/"/>
-  <updated>2017-02-18T07:52:57.392Z</updated>
+  <updated>2017-02-21T00:45:34.792Z</updated>
   <id>http://luxialan.com/</id>
   
   <author>
@@ -16,16 +16,97 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>【深度学习】 读书笔记 陆 深度前馈网络</title>
-    <link href="http://luxialan.com/2017/02/18/%E3%80%90%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E9%99%86-%E6%B7%B1%E5%BA%A6%E5%89%8D%E9%A6%88%E7%BD%91%E7%BB%9C/"/>
-    <id>http://luxialan.com/2017/02/18/【深度学习】-读书笔记-陆-深度前馈网络/</id>
-    <published>2017-02-18T07:52:57.000Z</published>
-    <updated>2017-02-18T07:52:57.392Z</updated>
+    <title>【深度学习】 读书笔记 柒 深度学习的正则化</title>
+    <link href="http://luxialan.com/2017/02/21/%E3%80%90%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E6%9F%92-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E6%AD%A3%E5%88%99%E5%8C%96/"/>
+    <id>http://luxialan.com/2017/02/21/【深度学习】-读书笔记-柒-深度学习的正则化/</id>
+    <published>2017-02-21T00:44:36.000Z</published>
+    <updated>2017-02-21T00:45:34.792Z</updated>
+    
+    <content type="html"><![CDATA[<p>前馈神经网络对于机器学习的实践是极其重要的。<br><a id="more"></a></p>
+<ul>
+<li>参数范数惩罚</li>
+<li>作为约束的范数惩罚</li>
+<li>正则化和欠约束问题</li>
+<li>数据集增强</li>
+<li>噪声鲁棒性</li>
+<li>半监督学习</li>
+<li>多人物学习</li>
+<li>提前终止</li>
+<li>参数绑定与参数共享</li>
+<li>稀疏表示</li>
+<li>Bagging和其他集成方法</li>
+<li>dropout</li>
+<li>对抗训练</li>
+<li>切面距离、正切传播和流行切分类</li>
+</ul>
+<p>许多策略被明确设计为以增大训练误差为代价来减少测试误差。这些策略统称为正则化。<br>正则化：为了减少学习算法的泛化误差而不是训练误差的修改。<br>正则化策略：向机器学习模型添加额外的约束，如增加对参数的限制。向目标函数增加额外项，对应于参数值的软约束<br>正则化的设计：编码特定类型的先验知识；表达对简单模型的一般偏好；确定欠定的问题；结合多个假说来训练数据。<br>要侧重模型族训练的情形：</p>
+<ul>
+<li>（1）不包括真实的数据生成过程————对应于欠拟合和偏差引入</li>
+<li>（2）匹配真实数据生成过程</li>
+<li>（3）除了包含真是的数据生成过程，还包含了许多其他可能的生成过程————方差（而不是偏差）主导的过拟合<br>正则化的目标是使模型从第三种情况进入到第二种情况。<h2 id="参数范数惩罚"><a href="#参数范数惩罚" class="headerlink" title="参数范数惩罚"></a>参数范数惩罚</h2>正则化后的目标函数$$\hat(J)(\theta;X,y)=J(\theta;X,y)+\alpha\Omega(\theta)$$<br>其中$\alpha\in[0,\infty$)是权衡范数惩罚项$\Omega$和标准目标函数$J(X;\theta)$相对贡献的超参数。<h3 id="L-2-参数正则化"><a href="#L-2-参数正则化" class="headerlink" title="$L^{2}$参数正则化"></a>$L^{2}$参数正则化</h3>$L^2$参数衰减<br>权重衰减$L^2$参数范数惩罚$\Omega(\theta)=frac{1}{2}||w||^{2}_{2}$使得权重更加接近原点。在其他学术圈，$L^2$也被称为岭回归或$Tikhonov$正则。<h2 id="作为约束的范数惩罚"><a href="#作为约束的范数惩罚" class="headerlink" title="作为约束的范数惩罚"></a>作为约束的范数惩罚</h2>考虑通过参数范数正则化的代价函数：<br>$$\hat(J)(\theta;X,y)=J(\theta;X,y)+\alpha\Omega(\theta)$$<h2 id="正则化和欠约束问题"><a href="#正则化和欠约束问题" class="headerlink" title="正则化和欠约束问题"></a>正则化和欠约束问题</h2>正则化的许多形式对应于求逆$X^{T}X+\alpha I$.这个正则化矩阵是可以保证是可逆的。<br>大多数形式的正则化能够保证应用于欠定问题的迭代方法收敛。例如，当似然的斜率等于权重衰减的系数时，权重衰减将导致梯度下降不再增加权重的大小。<br>使用正则化来坚决欠定问题。<h2 id="数据集增强"><a href="#数据集增强" class="headerlink" title="数据集增强"></a>数据集增强</h2></li>
+</ul>
+<h2 id="噪声鲁棒性"><a href="#噪声鲁棒性" class="headerlink" title="噪声鲁棒性"></a>噪声鲁棒性</h2><p>模型的输入加上方差极小的噪音等价于对权重施加范数惩罚。在一般情况下，噪声注入远远比简单地收缩参数强大，特别是噪声被添加到隐藏单元时。向隐藏单元添加噪音是值得单独讨论重要的话题。在第7.12节所述$dropout$算法这种做法主要发展方向。<br>循环神经网络的情况下，权重的贝叶斯推断的随机实现。使用贝叶斯处理学习过程将</p>
+<h2 id="半监督学习"><a href="#半监督学习" class="headerlink" title="半监督学习"></a>半监督学习</h2><p>长期存在的一个变种是应用主成分分析作为分类前（在投影后的数据上分类）的预处理步骤。</p>
+<h2 id="多任务学习"><a href="#多任务学习" class="headerlink" title="多任务学习"></a>多任务学习</h2><p>合并几个任务中的样例（可以视为对参数施加的软约束）来提高泛化的一种方式。额外的训练样本以同样的方式将模型的参数推向泛化更好的方向。<br>仅当不同的任务之间存在某些统计关系的假设是合理时才会发生。</p>
+<h2 id="提前终止"><a href="#提前终止" class="headerlink" title="提前终止"></a>提前终止</h2><p>这意味着我们可以返回使验证集误差最低的参数设置来获得更好的模型。这可能是深度学习中最常用的正则化形式。</p>
+<h2 id="参数绑定和参数共享"><a href="#参数绑定和参数共享" class="headerlink" title="参数绑定和参数共享"></a>参数绑定和参数共享</h2><p>表达我们对模型参数适当值得先验知识。<br>经常想要表达的常见类型的依赖是某些参数应当彼此接近。</p>
+<h2 id="稀疏表示"><a href="#稀疏表示" class="headerlink" title="稀疏表示"></a>稀疏表示</h2><p>$L^{1}$惩罚如何诱导稀疏的参数，意味着许多参数为零（或接近于零）。</p>
+<h2 id="Bagging和其他集成的方法"><a href="#Bagging和其他集成的方法" class="headerlink" title="Bagging和其他集成的方法"></a>Bagging和其他集成的方法</h2><p>$Bagging(bootstrap aggregating)$是通过结合几个模型降低泛化误差的技术。<br>模型平均(model averaging)奏效的原因是不同的模型通常不会再测试集上产生完全相同的错误。<br>具体来说，Bagging涉及构造$k$个不同的数据集。每个数据集与原始数据集具有相同数量的样例，但从原始数据集中有替换采样构成。</p>
+<h2 id="dropout"><a href="#dropout" class="headerlink" title="dropout"></a>dropout</h2><p>$dropout$提供了正则化一大类模型的方法，计算方便但功能强大。$dropout$可以被认为是集成非常多的大神经网络的实用$Bagging$方法。</p>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://github.com/exacity/deeplearningbook-chinese" target="_blank" rel="external">Deep Learning Book</a></p>
+]]></content>
     
     <summary type="html">
     
+      &lt;p&gt;前馈神经网络对于机器学习的实践是极其重要的。&lt;br&gt;
+    
     </summary>
     
+      <category term="焚膏继晷" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/"/>
+    
+      <category term="知识储备" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/%E7%9F%A5%E8%AF%86%E5%82%A8%E5%A4%87/"/>
+    
+    
+      <category term="Book" scheme="http://luxialan.com/tags/Book/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【深度学习】 读书笔记  深度前馈网络</title>
+    <link href="http://luxialan.com/2017/02/18/%E3%80%90%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E9%99%86-%E6%B7%B1%E5%BA%A6%E5%89%8D%E9%A6%88%E7%BD%91%E7%BB%9C/"/>
+    <id>http://luxialan.com/2017/02/18/【深度学习】-读书笔记-陆-深度前馈网络/</id>
+    <published>2017-02-18T07:52:57.000Z</published>
+    <updated>2017-02-20T03:17:21.251Z</updated>
+    
+    <content type="html"><![CDATA[<p>深度学习的基础网络<br><a id="more"></a></p>
+<ul>
+<li>实例: 学习XOR</li>
+</ul>
+<p>深度前馈网络(deep feedforward network)\前馈神经网络(feedforward neural network)\多层感知机(multilayer perception,MLP)<br>前馈网络的目标是近似某个函数$f^{*}$<br>前向，是因为信息流过$x$的函数，流过用于定义$f$的中间计算过程，最终到达输出$y$。即$x-&gt;f-&gt;y$<br>网络，是因为他们通常用许多不同函数复合在一起，例如$f(x)=f^{(3)}(f^{(2)}(f^{(3)}))$。</p>
+<p>线性模型是非常吸引人的，因为高效而可靠地适用在无论是封闭形式还是凸优化里。线性模型也有明显的缺陷，那就是该模型的能力被局限在线性函数里，所以它无法理解任何两个输入变量间的相互作用。<br>核技巧来实现一个本来是基于$\phi$映射的非线性学习算法。我们认为$/phi$提供了一组描述$x$的特征，或者认为它提供了$x$的一个新的表示。<br>如何选择映射$\phi$</p>
+<ul>
+<li>通用的$/phi$，例如无限维的$/phi$，它隐含地用在基于RBF核的核机器上。如果$/phi(x)$具有足够高的维数，我们总是有足够的能力来适应训练集，但是对于测试集的泛化往往不佳。非常通用的特征映射通常只基于局部平滑的原则，并没有将足够的先验信息进行编码来解决高级的问题。</li>
+<li>手动的$/phi$</li>
+<li>深度学习的策略是去学习$/phi$。在这种方法中，我们有一个模型$y=f(x;/theta,w)=/phi(x;/theta)^{T}w$。<br>通过学习特征来改善模型的一般化原则不止适用于本章描述的前馈神经网络。它是深度学习中反复出现的主题，适用于全书描述的所有种类的模型。</li>
+</ul>
+<h2 id="实例：学习XOR"><a href="#实例：学习XOR" class="headerlink" title="实例：学习XOR"></a>实例：学习XOR</h2><h2 id="基于梯度的学习"><a href="#基于梯度的学习" class="headerlink" title="基于梯度的学习"></a>基于梯度的学习</h2><p>线性模型和神经网络的最大区别，在于神经网络的非线性导致大多数我们感兴趣的损失函数都成为了非凸的。</p>
+<h3 id="代价函数"><a href="#代价函数" class="headerlink" title="代价函数"></a>代价函数</h3><h3 id="用最大似然学习条件分布"><a href="#用最大似然学习条件分布" class="headerlink" title="用最大似然学习条件分布"></a>用最大似然学习条件分布</h3><p>### </p>
+<p>### </p>
+<p>### </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;深度学习的基础网络&lt;br&gt;
+    
+    </summary>
+    
+      <category term="焚膏继晷" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/"/>
+    
+      <category term="知识储备" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/%E7%9F%A5%E8%AF%86%E5%82%A8%E5%A4%87/"/>
+    
+    
+      <category term="Book" scheme="http://luxialan.com/tags/Book/"/>
     
   </entry>
   
@@ -283,44 +364,6 @@
     <summary type="html">
     
       &lt;p&gt;机器学习本质上属于应用统计学，更多关注于如何用计算机统计地估计复杂函数，不太关注这些函数的置信区间。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="焚膏继晷" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/"/>
-    
-      <category term="知识储备" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/%E7%9F%A5%E8%AF%86%E5%82%A8%E5%A4%87/"/>
-    
-    
-      <category term="Book" scheme="http://luxialan.com/tags/Book/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【深度学习】 读书笔记 捌 深度模型中的优化</title>
-    <link href="http://luxialan.com/2017/02/14/%E5%85%A8%E6%A0%88%E5%B7%A5%E7%A8%8B%E5%B8%88%E6%8C%87%E5%8D%97/"/>
-    <id>http://luxialan.com/2017/02/14/全栈工程师指南/</id>
-    <published>2017-02-14T06:38:12.000Z</published>
-    <updated>2017-02-18T08:58:54.690Z</updated>
-    
-    <content type="html"><![CDATA[<p>前馈神经网络对于机器学习的实践是极其重要的。<br><a id="more"></a></p>
-<ul>
-<li>学习和优化有什么不同<br>*</li>
-<li>基本算法</li>
-<li>参数初始化策略</li>
-<li>自适应学习率的算法</li>
-<li>二阶近似方法</li>
-<li>优化技巧和元算法</li>
-</ul>
-<h2 id="学习和优化有什么不同"><a href="#学习和优化有什么不同" class="headerlink" title="学习和优化有什么不同"></a>学习和优化有什么不同</h2><p>机器学习通常是简介的。在大多数机器学习问题中，我们关注定义于测试集上的，也可能是不可解的性能度量$P$。因此，我们只是简介地优化$P$。我们希望通过降低损失函数$J(\theta)$来提高$P$。这一点不同于纯优化最小化$J$本身。<br>$$J(\theta)=\mathtt{E}_{(x,y)~/hat{p}_data}L(f(x;/theta),y)$$<br>其中$L$是每个样本的损失函数，$f(x;\theta)$是输入是$x$时的预测输出，$/hat{p}_data$是经验分布。<br>通常，我们更希望最小化期望取自数据生成分布$p<em>data$，$$J^{*}(\theta)=\mathtt{E}</em>{(x,y)~/hat{p}_data}L(f(x;/theta),y)$$</p>
-<h2 id="经验风险最小化"><a href="#经验风险最小化" class="headerlink" title="经验风险最小化"></a>经验风险最小化</h2><p>机器学习算法的目标是降低式(8.2)所示的期望泛化误差。这个数据量被称为风险(risk)。值得注意的是，该期望取自真实的数据分布$p<em>data$。<br>机器学习问题用训练集上的经验分布$/hat{p}(x,y)$替代真实分布$p(x,y)$。如此，我们最小化经验风险$$\mathtt{E}</em>{(x,y)~/hat{p}_data}L(f(x;/theta),y)=frac{1}{m}\$$<br>基于最小化如上平均训练误差的训练过程被称为经验风险最小化。<br>经验风险最小化容易过拟合。高容量的模型会简单地记住训练集。在很多情况下，经验风险最小化并非真的可行。最有效的现代优化算法是基于梯度下降的。在深度学习中我们很少使用经验风险最小化。</p>
-<h2 id="替代损失函数和提前终止"><a href="#替代损失函数和提前终止" class="headerlink" title="替代损失函数和提前终止"></a>替代损失函数和提前终止</h2><h2 id="（小）批算法"><a href="#（小）批算法" class="headerlink" title="（小）批算法"></a>（小）批算法</h2><p>机器学习算法的目标函数通常可以分解成训练样本上的求和。机器学习优化算法通常使用整个损失函数中的一部分项去更新其参数。</p>
-<h2 id="神经网络的优化挑战"><a href="#神经网络的优化挑战" class="headerlink" title="神经网络的优化挑战"></a>神经网络的优化挑战</h2><p>在训练神经网络时，我们肯定会遇到一般的非凸情况。即使是凸优化，也并非没有任何问题。在这一节中，我们会总结几个训练深度模型时会涉及到的主要挑战。</p>
-<h3 id="8-2-1-病态"><a href="#8-2-1-病态" class="headerlink" title="8.2.1 病态"></a>8.2.1 病态</h3><p>海森矩阵$H$的病态。这是数值优化，凸优化或其他形式的优化中普遍存在的问题。<br>病态体现在随机梯度下降会“卡”在某些情况，此时即使很小的更新步长也会增加损失函数。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;前馈神经网络对于机器学习的实践是极其重要的。&lt;br&gt;
     
     </summary>
     
