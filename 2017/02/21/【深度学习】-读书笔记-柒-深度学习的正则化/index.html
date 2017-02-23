@@ -92,7 +92,7 @@
 <meta property="og:url" content="http://luxialan.com/2017/02/21/【深度学习】-读书笔记-柒-深度学习的正则化/index.html">
 <meta property="og:site_name" content="水冼雪">
 <meta property="og:description" content="前馈神经网络对于机器学习的实践是极其重要的。">
-<meta property="og:updated_time" content="2017-02-21T00:45:34.792Z">
+<meta property="og:updated_time" content="2017-02-23T06:43:53.626Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="【深度学习】 读书笔记 柒 深度学习的正则化">
 <meta name="twitter:description" content="前馈神经网络对于机器学习的实践是极其重要的。">
@@ -417,9 +417,13 @@
 <ul>
 <li>（1）不包括真实的数据生成过程————对应于欠拟合和偏差引入</li>
 <li>（2）匹配真实数据生成过程</li>
-<li>（3）除了包含真是的数据生成过程，还包含了许多其他可能的生成过程————方差（而不是偏差）主导的过拟合<br>正则化的目标是使模型从第三种情况进入到第二种情况。<h2 id="参数范数惩罚"><a href="#参数范数惩罚" class="headerlink" title="参数范数惩罚"></a>参数范数惩罚</h2>正则化后的目标函数$$\hat(J)(\theta;X,y)=J(\theta;X,y)+\alpha\Omega(\theta)$$<br>其中$\alpha\in[0,\infty$)是权衡范数惩罚项$\Omega$和标准目标函数$J(X;\theta)$相对贡献的超参数。<h3 id="L-2-参数正则化"><a href="#L-2-参数正则化" class="headerlink" title="$L^{2}$参数正则化"></a>$L^{2}$参数正则化</h3>$L^2$参数衰减<br>权重衰减$L^2$参数范数惩罚$\Omega(\theta)=frac{1}{2}||w||^{2}_{2}$使得权重更加接近原点。在其他学术圈，$L^2$也被称为岭回归或$Tikhonov$正则。<h2 id="作为约束的范数惩罚"><a href="#作为约束的范数惩罚" class="headerlink" title="作为约束的范数惩罚"></a>作为约束的范数惩罚</h2>考虑通过参数范数正则化的代价函数：<br>$$\hat(J)(\theta;X,y)=J(\theta;X,y)+\alpha\Omega(\theta)$$<h2 id="正则化和欠约束问题"><a href="#正则化和欠约束问题" class="headerlink" title="正则化和欠约束问题"></a>正则化和欠约束问题</h2>正则化的许多形式对应于求逆$X^{T}X+\alpha I$.这个正则化矩阵是可以保证是可逆的。<br>大多数形式的正则化能够保证应用于欠定问题的迭代方法收敛。例如，当似然的斜率等于权重衰减的系数时，权重衰减将导致梯度下降不再增加权重的大小。<br>使用正则化来坚决欠定问题。<h2 id="数据集增强"><a href="#数据集增强" class="headerlink" title="数据集增强"></a>数据集增强</h2></li>
+<li>（3）除了包含真是的数据生成过程，还包含了许多其他可能的生成过程————方差（而不是偏差）主导的过拟合<br>正则化的目标是使模型从第三种情况进入到第二种情况。</li>
 </ul>
-<h2 id="噪声鲁棒性"><a href="#噪声鲁棒性" class="headerlink" title="噪声鲁棒性"></a>噪声鲁棒性</h2><p>模型的输入加上方差极小的噪音等价于对权重施加范数惩罚。在一般情况下，噪声注入远远比简单地收缩参数强大，特别是噪声被添加到隐藏单元时。向隐藏单元添加噪音是值得单独讨论重要的话题。在第7.12节所述$dropout$算法这种做法主要发展方向。<br>循环神经网络的情况下，权重的贝叶斯推断的随机实现。使用贝叶斯处理学习过程将</p>
+<h2 id="参数范数惩罚"><a href="#参数范数惩罚" class="headerlink" title="参数范数惩罚"></a>参数范数惩罚</h2><p>正则化后的目标函数$$\hat(J)(\theta;X,y)=J(\theta;X,y)+\alpha\Omega(\theta)$$<br>其中$\alpha\in[0,\infty$)是权衡范数惩罚项$\Omega$和标准目标函数$J(X;\theta)$相对贡献的超参数。</p>
+<h3 id="L-2-参数正则化"><a href="#L-2-参数正则化" class="headerlink" title="$L^{2}$参数正则化"></a>$L^{2}$参数正则化</h3><p>$L^2$参数衰减<br>权重衰减$L^2$参数范数惩罚$\Omega(\theta)=frac{1}{2}||w||^{2}_{2}$使得权重更加接近原点。在其他学术圈，$L^2$也被称为岭回归或$Tikhonov$正则。</p>
+<h2 id="作为约束的范数惩罚"><a href="#作为约束的范数惩罚" class="headerlink" title="作为约束的范数惩罚"></a>作为约束的范数惩罚</h2><p>考虑通过参数范数正则化的代价函数：<br>$$\hat(J)(\theta;X,y)=J(\theta;X,y)+\alpha\Omega(\theta)$$</p>
+<h2 id="正则化和欠约束问题"><a href="#正则化和欠约束问题" class="headerlink" title="正则化和欠约束问题"></a>正则化和欠约束问题</h2><p>正则化的许多形式对应于求逆$X^{T}X+\alpha I$.这个正则化矩阵是可以保证是可逆的。<br>大多数形式的正则化能够保证应用于欠定问题的迭代方法收敛。例如，当似然的斜率等于权重衰减的系数时，权重衰减将导致梯度下降不再增加权重的大小。<br>使用正则化来坚决欠定问题。</p>
+<h2 id="数据集增强"><a href="#数据集增强" class="headerlink" title="数据集增强"></a>数据集增强</h2><h2 id="噪声鲁棒性"><a href="#噪声鲁棒性" class="headerlink" title="噪声鲁棒性"></a>噪声鲁棒性</h2><p>模型的输入加上方差极小的噪音等价于对权重施加范数惩罚。在一般情况下，噪声注入远远比简单地收缩参数强大，特别是噪声被添加到隐藏单元时。向隐藏单元添加噪音是值得单独讨论重要的话题。在第7.12节所述$dropout$算法这种做法主要发展方向。<br>循环神经网络的情况下，权重的贝叶斯推断的随机实现。使用贝叶斯处理学习过程将</p>
 <h2 id="半监督学习"><a href="#半监督学习" class="headerlink" title="半监督学习"></a>半监督学习</h2><p>长期存在的一个变种是应用主成分分析作为分类前（在投影后的数据上分类）的预处理步骤。</p>
 <h2 id="多任务学习"><a href="#多任务学习" class="headerlink" title="多任务学习"></a>多任务学习</h2><p>合并几个任务中的样例（可以视为对参数施加的软约束）来提高泛化的一种方式。额外的训练样本以同样的方式将模型的参数推向泛化更好的方向。<br>仅当不同的任务之间存在某些统计关系的假设是合理时才会发生。</p>
 <h2 id="提前终止"><a href="#提前终止" class="headerlink" title="提前终止"></a>提前终止</h2><p>这意味着我们可以返回使验证集误差最低的参数设置来获得更好的模型。这可能是深度学习中最常用的正则化形式。</p>
@@ -481,8 +485,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/02/18/【深度学习】-读书笔记-陆-深度前馈网络/" rel="next" title="【深度学习】 读书笔记  深度前馈网络">
-                <i class="fa fa-chevron-left"></i> 【深度学习】 读书笔记  深度前馈网络
+              <a href="/2017/02/18/【深度学习】-读书笔记-陆-深度前馈网络/" rel="next" title="【深度学习】 读书笔记 陆 深度前馈网络">
+                <i class="fa fa-chevron-left"></i> 【深度学习】 读书笔记 陆 深度前馈网络
               </a>
             
           </div>
