@@ -86,16 +86,31 @@
 
 
 
-<meta name="description" content="概率论使我们能够作出不确定的陈述以及在不确定性存在的情况下推理，而信息论使我们能够量化概率分布中的不确定性总量。">
+<meta name="description" content="本章主要关注这一类优化问题：寻找神经网络上的一组参数$\theta$以显著降低损失函数$J(\theta)$，该损失函数通常包括整个训练集上的性能评估和正则项。先介绍神经网络优化很难的几个具体原因，然后，我们会介绍几个实用算法啊，包括优化算法本身和初始化参数的技巧。
+
+学习和优化有什么不同
+
+
+学习和优化有什么不同机器学习通常是间接的。在大多数机器学习问题中，我们关注定义于测试集上的，也可能是不">
 <meta property="og:type" content="article">
-<meta property="og:title" content="【深度学习】 读书笔记 叁 概率与信息论">
-<meta property="og:url" content="http://luxialan.com/2017/02/12/【深度学习】-读书笔记-叁-概率与信息论/index.html">
+<meta property="og:title" content="【深度学习】 读书笔记 捌 深度模型中的优化">
+<meta property="og:url" content="http://luxialan.com/2017/02/18/2016总结/index.html">
 <meta property="og:site_name" content="水冼雪">
-<meta property="og:description" content="概率论使我们能够作出不确定的陈述以及在不确定性存在的情况下推理，而信息论使我们能够量化概率分布中的不确定性总量。">
-<meta property="og:updated_time" content="2017-02-23T06:37:15.982Z">
+<meta property="og:description" content="本章主要关注这一类优化问题：寻找神经网络上的一组参数$\theta$以显著降低损失函数$J(\theta)$，该损失函数通常包括整个训练集上的性能评估和正则项。先介绍神经网络优化很难的几个具体原因，然后，我们会介绍几个实用算法啊，包括优化算法本身和初始化参数的技巧。
+
+学习和优化有什么不同
+
+
+学习和优化有什么不同机器学习通常是间接的。在大多数机器学习问题中，我们关注定义于测试集上的，也可能是不">
+<meta property="og:updated_time" content="2017-02-24T12:50:59.653Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="【深度学习】 读书笔记 叁 概率与信息论">
-<meta name="twitter:description" content="概率论使我们能够作出不确定的陈述以及在不确定性存在的情况下推理，而信息论使我们能够量化概率分布中的不确定性总量。">
+<meta name="twitter:title" content="【深度学习】 读书笔记 捌 深度模型中的优化">
+<meta name="twitter:description" content="本章主要关注这一类优化问题：寻找神经网络上的一组参数$\theta$以显著降低损失函数$J(\theta)$，该损失函数通常包括整个训练集上的性能评估和正则项。先介绍神经网络优化很难的几个具体原因，然后，我们会介绍几个实用算法啊，包括优化算法本身和初始化参数的技巧。
+
+学习和优化有什么不同
+
+
+学习和优化有什么不同机器学习通常是间接的。在大多数机器学习问题中，我们关注定义于测试集上的，也可能是不">
 
 
 
@@ -123,13 +138,13 @@
 
 
 
-  <link rel="canonical" href="http://luxialan.com/2017/02/12/【深度学习】-读书笔记-叁-概率与信息论/"/>
+  <link rel="canonical" href="http://luxialan.com/2017/02/18/2016总结/"/>
 
 
 
 
 
-  <title> 【深度学习】 读书笔记 叁 概率与信息论 | 水冼雪 </title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  <title> 【深度学习】 读书笔记 捌 深度模型中的优化 | 水冼雪 </title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -262,7 +277,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://luxialan.com/2017/02/12/【深度学习】-读书笔记-叁-概率与信息论/">
+  <link itemprop="mainEntityOfPage" href="http://luxialan.com/2017/02/18/2016总结/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="luxialan">
@@ -286,7 +301,7 @@
             
             
               
-                【深度学习】 读书笔记 叁 概率与信息论
+                【深度学习】 读书笔记 捌 深度模型中的优化
               
             
           </h1>
@@ -301,8 +316,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-02-12T18:35:13+08:00">
-                2017-02-12
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-02-18T15:52:57+08:00">
+                2017-02-18
               </time>
             
 
@@ -353,8 +368,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2017/02/12/【深度学习】-读书笔记-叁-概率与信息论/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/02/12/【深度学习】-读书笔记-叁-概率与信息论/" itemprop="commentCount"></span>
+                <a href="/2017/02/18/2016总结/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/02/18/2016总结/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -364,7 +379,7 @@
 
           
           
-             <span id="/2017/02/12/【深度学习】-读书笔记-叁-概率与信息论/" class="leancloud_visitors" data-flag-title="【深度学习】 读书笔记 叁 概率与信息论">
+             <span id="/2017/02/18/2016总结/" class="leancloud_visitors" data-flag-title="【深度学习】 读书笔记 捌 深度模型中的优化">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -396,35 +411,26 @@
       
 
       
-        <p>概率论使我们能够作出不确定的陈述以及在不确定性存在的情况下推理，而信息论使我们能够量化概率分布中的不确定性总量。<br><a id="more"></a></p>
-<h2 id="为什么要用概率？"><a href="#为什么要用概率？" class="headerlink" title="为什么要用概率？"></a>为什么要用概率？</h2><p>世界是不确定的，要对世界中的活动进行建模需要用概率论来量化不确定性。<br>不确定性有三种可能的来源：</p>
+        <a id="more"></a>
+<p>本章主要关注这一类优化问题：寻找神经网络上的一组参数$\theta$以显著降低损失函数$J(\theta)$，该损失函数通常包括整个训练集上的性能评估和正则项。先介绍神经网络优化很难的几个具体原因，然后，我们会介绍几个实用算法啊，包括优化算法本身和初始化参数的技巧。</p>
 <ul>
-<li>被建模系统内在的随机性。</li>
-<li>不完全观测。即使是确定的系统，当我们不能观测到所有驱动系统行为的变量时，该系统也会呈现随机性。</li>
-<li>不完全建模。使用一些必须舍弃某些观测信息的建模时，舍弃的信息会导致模型的预测出现不确定性。</li>
+<li>学习和优化有什么不同</li>
+<li></li>
 </ul>
-<p>在很多情况下，使用一些简单而不确定的原则要比复杂而确定的原则更为实用，即使真实的规则是确定的并且我们的模型系统对适应复杂规则具有很好的逼真度。<br>有两种概率，一种概率，直接与事件发生的频率相联系，称为频率概率；另一种概率，涉及到确定性水平，被称为贝叶斯概率。</p>
-<h2 id="随机变量"><a href="#随机变量" class="headerlink" title="随机变量"></a>随机变量</h2><p>随机变量(random variable)是可以随机地取不同值的变量。<br>一种随机变量只是对可能的状态的描述；它必须伴随着一个概率分布来指定每个状态的可能性。</p>
-<h2 id="概率分布"><a href="#概率分布" class="headerlink" title="概率分布"></a>概率分布</h2><p>概率分布(probability distribution)用来描述随机变量或一簇随机变量在每一个可能取到的状态的可能性大小。</p>
-<h3 id="离散型变量和概率分布律函数"><a href="#离散型变量和概率分布律函数" class="headerlink" title="离散型变量和概率分布律函数"></a>离散型变量和概率分布律函数</h3><p>离散型变量的概率分布可以用概率分布律函数(probability mass function,PMF)来描述。我们通常用$P$来表示概率分布律函数。用$x$~$P(x)$表示随机变量x服从P分布。<br>概率分布律函数可以同时作用于多个随机变量。这种多个变量的概率分布被称为联合概率分布(joint probability distribution)。</p>
-<h3 id="连续型变量和概率密度函数"><a href="#连续型变量和概率密度函数" class="headerlink" title="连续型变量和概率密度函数"></a>连续型变量和概率密度函数</h3><h2 id="边缘概率"><a href="#边缘概率" class="headerlink" title="边缘概率"></a>边缘概率</h2><p>我们知道了一组变量的联合概率分布，想要了解其中一个子集的概率分布。这种定义在子集上的概率分布被称为边缘概率分布(marginal probability)。对于连续型变量，我们需要用积分替代求和：$$p(x)=\int p(x,y)dy$$</p>
-<h2 id="条件概率"><a href="#条件概率" class="headerlink" title="条件概率"></a>条件概率</h2><p>$P($y$=y)|$x$=x)=\frac{P(\boldsymbol{y}=y,\boldsymbol{x}=x)}{P(\boldsymbol{x}=x)}$</p>
-<h2 id="条件概率的链式法则"><a href="#条件概率的链式法则" class="headerlink" title="条件概率的链式法则"></a>条件概率的链式法则</h2><h2 id="独立性和条件独立性"><a href="#独立性和条件独立性" class="headerlink" title="独立性和条件独立性"></a>独立性和条件独立性</h2><h2 id="期望，方差和协方差"><a href="#期望，方差和协方差" class="headerlink" title="期望，方差和协方差"></a>期望，方差和协方差</h2><h2 id="常用概率分布"><a href="#常用概率分布" class="headerlink" title="常用概率分布"></a>常用概率分布</h2><h3 id="Bernoulli分布"><a href="#Bernoulli分布" class="headerlink" title="Bernoulli分布"></a>Bernoulli分布</h3><ul>
-<li>$P(\boldsymbol{x}=x)=\phi^x(1-\phi)^{1-x}$</li>
-<li>$P(\boldsymbol{x}=0)=1-\phi$</li>
-<li>$P(\boldsymbol{x}=1)=\phi$</li>
-<li>$\mathbb{E}_x=\phi$</li>
-<li>$Var_x(x)=\phi(1-\phi)$</li>
-</ul>
-<h3 id="多项式分布"><a href="#多项式分布" class="headerlink" title="多项式分布"></a>多项式分布</h3><h3 id="高斯分布-正态分布"><a href="#高斯分布-正态分布" class="headerlink" title="高斯分布/正态分布"></a>高斯分布/正态分布</h3><h3 id="指数分布和Laplace分布"><a href="#指数分布和Laplace分布" class="headerlink" title="指数分布和Laplace分布"></a>指数分布和Laplace分布</h3><h3 id="Dirac分布和经验分布"><a href="#Dirac分布和经验分布" class="headerlink" title="Dirac分布和经验分布"></a>Dirac分布和经验分布</h3><h3 id="分布的混合"><a href="#分布的混合" class="headerlink" title="分布的混合"></a>分布的混合</h3><h2 id="常用函数的一些性质"><a href="#常用函数的一些性质" class="headerlink" title="常用函数的一些性质"></a>常用函数的一些性质</h2><h2 id="贝叶斯规则"><a href="#贝叶斯规则" class="headerlink" title="贝叶斯规则"></a>贝叶斯规则</h2><h2 id="连续型变量的技术细节"><a href="#连续型变量的技术细节" class="headerlink" title="连续型变量的技术细节"></a>连续型变量的技术细节</h2><h2 id="信息论"><a href="#信息论" class="headerlink" title="信息论"></a>信息论</h2><p>信息论是应用数学的一个分支，主要研究的是对一个信号能够提供的多少进行量化。<br>信息论的基本想法是一个不太可能的事件居然发生了，要比一个非常可能的事件发生，能提供更多的信息。</p>
-<ul>
-<li>非常可能发生的事件信息量比较少，并且极端情况下，确保能够发生的事件应该没有信息量。</li>
-<li>更不可能发生的事件要具有更高的信息量</li>
-<li>独立事件应具有增量的信息。例如，投掷的硬币两次正面朝上传递的信息量应该是投掷一次硬币正面朝上的信息量的两倍。</li>
-</ul>
-<p>为了满足上述三个性质，我们定义一个事件$\rm{x}=x$的自信息(self-information)为$$I(x)=-logP(x)$$<br>我们定义$I(x)$单位是奈特(nats)。一奈特是以$/frac{1}{\epsilon}$的概率观测到一个事件时获得的信息量。<br>自信息只处理单个的输出，我们可以用香农熵(Shannon entropy)来对整个概率分布中的不确定性总量进行量化：<br>$H(x)=\mathbb{E}<em>{x~P}[I(x)]=-\mathbb{E}</em>{x~P}[logP(x)]$</p>
-<h2 id="14-结构化概率模型"><a href="#14-结构化概率模型" class="headerlink" title="14.结构化概率模型"></a>14.结构化概率模型</h2><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://github.com/exacity/deeplearningbook-chinese" target="_blank" rel="external">Deep Learning Book</a></p>
-
+<h2 id="学习和优化有什么不同"><a href="#学习和优化有什么不同" class="headerlink" title="学习和优化有什么不同"></a>学习和优化有什么不同</h2><p>机器学习通常是间接的。在大多数机器学习问题中，我们关注定义于测试集上的，也可能是不可解的性能度量$P$。因此，我们只是简介地优化$P$。我们希望通过降低损失函数$J(\theta)$来提高$P$。这一点不同于纯优化最小化$J$本身。<br>$$J(\theta)=\mathtt{E}_{(x,y)~\hat{p}_data}L(f(x;\theta),y)$$<br>其中$L$是每个样本的损失函数，$f(x;\theta)$是输入是$x$时的预测输出，$\hat{p}_data$是经验分布。<br>通常，我们更希望最小化期望取自数据生成分布$p<em>data$，$$J^{*}(\theta)=\mathtt{E}</em>{(x,y)~\hat{p}_data}L(f(x;\theta),y)$$</p>
+<h2 id="经验风险最小化"><a href="#经验风险最小化" class="headerlink" title="经验风险最小化"></a>经验风险最小化</h2><p>机器学习算法的目标是降低式(8.2)所示的期望泛化误差。这个数据量被称为风险(risk)。值得注意的是，该期望取自真实的数据分布$p<em>data$。<br>机器学习问题用训练集上的经验分布$\hat{p}(x,y)$替代真实分布$p(x,y)$。如此，我们最小化经验风险$$\mathtt{E}</em>{(x,y)~\hat{p}_data}L(f(x;\theta),y)=frac{1}{m}\$$<br>基于最小化如上平均训练误差的训练过程被称为经验风险最小化。<br>经验风险最小化容易过拟合。高容量的模型会简单地记住训练集。在很多情况下，经验风险最小化并非真的可行。最有效的现代优化算法是基于梯度下降的。在深度学习中我们很少使用经验风险最小化。</p>
+<h2 id="替代损失函数和提前终止"><a href="#替代损失函数和提前终止" class="headerlink" title="替代损失函数和提前终止"></a>替代损失函数和提前终止</h2><h2 id="（小）批算法"><a href="#（小）批算法" class="headerlink" title="（小）批算法"></a>（小）批算法</h2><p>机器学习算法的目标函数通常可以分解成训练样本上的求和。机器学习优化算法通常使用整个损失函数中的一部分项去更新其参数。</p>
+<h2 id="神经网络的优化挑战"><a href="#神经网络的优化挑战" class="headerlink" title="神经网络的优化挑战"></a>神经网络的优化挑战</h2><p>在训练神经网络时，我们肯定会遇到一般的非凸情况。即使是凸优化，也并非没有任何问题。在这一节中，我们会总结几个训练深度模型时会涉及到的主要挑战。</p>
+<h3 id="8-2-1-病态"><a href="#8-2-1-病态" class="headerlink" title="8.2.1 病态"></a>8.2.1 病态</h3><p>海森矩阵$H$的病态。这是数值优化，凸优化或其他形式的优化中普遍存在的问题。<br>病态体现在随机梯度下降会“卡”在某些情况，此时即使很小的更新步长也会增加损失函数。</p>
+<h3 id="8-2-2-局部极小值"><a href="#8-2-2-局部极小值" class="headerlink" title="8.2.2 局部极小值"></a>8.2.2 局部极小值</h3><h3 id="8-2-3-高原，鞍点和其他平坦区域"><a href="#8-2-3-高原，鞍点和其他平坦区域" class="headerlink" title="8.2.3 高原，鞍点和其他平坦区域"></a>8.2.3 高原，鞍点和其他平坦区域</h3><h3 id="8-2-4-悬崖和梯度爆炸"><a href="#8-2-4-悬崖和梯度爆炸" class="headerlink" title="8.2.4 悬崖和梯度爆炸"></a>8.2.4 悬崖和梯度爆炸</h3><p>多层神经网络通常有像悬崖一样的斜率较大区域，如图8.3所示。这是由于几个较大的权重相乘导致的。遇到斜率极大的悬崖结构时，梯度更新会很大程度地改变参数值，通常会跳过这类悬崖结构。但幸运的是可以使用启发式梯度截断来避免其主要缺点。</p>
+<h3 id="8-2-5-长期相关性"><a href="#8-2-5-长期相关性" class="headerlink" title="8.2.5 长期相关性"></a>8.2.5 长期相关性</h3><p>反复使用相同的参数产生了尤为突出的困难。<br>重复与矩阵$W$相乘的路径。<br>当特征值$\lambda_i$不再$1$附近时，若在量级上大于1则会膨胀到很大；若小于1时则会收缩到很小。<br>收缩和膨胀的梯度问题是指计算图上的梯度也会因为$diag(\lambda)^{t}$，诱发梯度截断的悬崖结构便是膨胀梯度现象的一个例子。<br>从这个观点来看，</p>
+<h2 id="8-3-基本算法"><a href="#8-3-基本算法" class="headerlink" title="8.3 基本算法"></a>8.3 基本算法</h2><h3 id="8-3-1-随机梯度下降"><a href="#8-3-1-随机梯度下降" class="headerlink" title="8.3.1 随机梯度下降"></a>8.3.1 随机梯度下降</h3><p>通过计算独立同分布地从数据生成分布中抽取的$m$个$minibatch$样本的梯度均值，我们可以得到梯度的无偏估计。在实践中，有必要随着时间的推移逐渐降低学习速率。<br>通常，就总训练时间和最终损失值而言，最优初始学习速率会高于大约迭代100步后输出最好效果的学习速率。<br>对于足够大的数据集，$SGD$可能会在处理整个训练集之前就收敛到最终测试集误差的某个固定容差范围内。<br>算法的收敛率，即当前损失函数超出最低可能损失的量。$batch$梯度下降在理论上比随机梯度下降有更好的收敛率。</p>
+<h3 id="动量"><a href="#动量" class="headerlink" title="动量"></a>动量</h3><h3 id="Nesterov-动量"><a href="#Nesterov-动量" class="headerlink" title="Nesterov 动量"></a>Nesterov 动量</h3><h2 id="参数初始化策略"><a href="#参数初始化策略" class="headerlink" title="参数初始化策略"></a>参数初始化策略</h2><p>大多数初始化策略基于在神经网络初始化时实现一些很好的性质。我们没有很好地理解这些性质中的哪些会在学习开始进行后的哪些情况下得以保持。进一步的难点是，有些初始点从优化的观点看或许是有利的，但是从泛化的观点看是不利的。我们对于初始点如何影响泛化的理解是相当原始的，几乎没有提供如何选择初始点的任何指导。<br>也许完全确指的唯一特性是初始参数需要在不同单元间“破坏对称性”。<br>如果我们有和输出一样多的输入，我们可以使用$Gram-Schmidt$正交化于初始的权重矩阵，保证每个单元计算彼此非常不同的函数。在高纬空间上使用高熵分布来随机初始化，计算代价小而且不太可能分配单元计算彼此相同的函数。<br>我们几乎总是初始化模型的权重为高斯或均匀分布中随机抽取的值。初始分布的大小确实对优化过程的结果和网络泛化能力有很大的影响。<br>更大的初始权重具有更强的破坏对称性的作用，有助于避免冗余的单元。正则化和优化有非常不同的视角。优化视角建议权重应该足够大以成功传播信息，但是正则化希望其小一点。诸如随机梯度下降这类对权重较小的增量更新，趋于停止在更靠近的初始参数的区域。</p>
+<h2 id="自适应学习率的算法"><a href="#自适应学习率的算法" class="headerlink" title="自适应学习率的算法"></a>自适应学习率的算法</h2><p>学习率是难以设置的超参数之一，因为它对模型的性能有显著的影响。<br>$delta-bar-delta算法$，该方法基于一个很简单的想法，如果损失对于某个给定模型参数的偏导保持相同的符号，那么学习速率应该增加。</p>
+<h3 id="AdaGrad"><a href="#AdaGrad" class="headerlink" title="AdaGrad"></a>AdaGrad</h3><p>$AdaGrad$算法。放缩每个参数反比于其所有梯度历史平方值总和的平方根。具有损失最大偏导的参数相应地有一个快速下降的学习速率，而具有小偏导的参数在学习速率上有较小的下降。</p>
+<h3 id="RMSProp"><a href="#RMSProp" class="headerlink" title="RMSProp"></a>RMSProp</h3><p>$RMSProp$算法修改$AdaGrad$以在非凸设定下效果更好。</p>
+<h3 id="Adam"><a href="#Adam" class="headerlink" title="Adam"></a>Adam</h3><p>$Adam$</p>
+<h2 id="选择正确的优化算法"><a href="#选择正确的优化算法" class="headerlink" title="选择正确的优化算法"></a>选择正确的优化算法</h2><h2 id="二阶近似方法"><a href="#二阶近似方法" class="headerlink" title="二阶近似方法"></a>二阶近似方法</h2><h3 id="牛顿方法"><a href="#牛顿方法" class="headerlink" title="牛顿方法"></a>牛顿方法</h3><h3 id="共轭梯度"><a href="#共轭梯度" class="headerlink" title="共轭梯度"></a>共轭梯度</h3><h2 id="优化技巧和元算法"><a href="#优化技巧和元算法" class="headerlink" title="优化技巧和元算法"></a>优化技巧和元算法</h2><h3 id="batch-normalization"><a href="#batch-normalization" class="headerlink" title="batch normalization"></a>batch normalization</h3><h3 id="坐标下降"><a href="#坐标下降" class="headerlink" title="坐标下降"></a>坐标下降</h3><h3 id="Polyak-平均"><a href="#Polyak-平均" class="headerlink" title="Polyak 平均"></a>Polyak 平均</h3>
       
     </div>
 
@@ -477,8 +483,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/02/09/【深度学习】-读书笔记-贰-线性代数/" rel="next" title="【深度学习】 读书笔记 贰 线性代数">
-                <i class="fa fa-chevron-left"></i> 【深度学习】 读书笔记 贰 线性代数
+              <a href="/2017/02/18/温哥华-WCCI游记/" rel="next" title="【深度学习】 读书笔记 十六 深度学习中的结构化概率模型">
+                <i class="fa fa-chevron-left"></i> 【深度学习】 读书笔记 十六 深度学习中的结构化概率模型
               </a>
             
           </div>
@@ -487,8 +493,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/02/13/【深度学习】-读书笔记-肆-数值计算/" rel="prev" title="【深度学习】 读书笔记 肆 数值计算">
-                【深度学习】 读书笔记 肆 数值计算 <i class="fa fa-chevron-right"></i>
+              <a href="/2017/02/21/【深度学习】-读书笔记-柒-深度学习的正则化/" rel="prev" title="【深度学习】 读书笔记 柒 深度学习的正则化">
+                【深度学习】 读书笔记 柒 深度学习的正则化 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -515,8 +521,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2017/02/12/【深度学习】-读书笔记-叁-概率与信息论/"
-           data-title="【深度学习】 读书笔记 叁 概率与信息论" data-url="http://luxialan.com/2017/02/12/【深度学习】-读书笔记-叁-概率与信息论/">
+      <div class="ds-thread" data-thread-key="2017/02/18/2016总结/"
+           data-title="【深度学习】 读书笔记 捌 深度模型中的优化" data-url="http://luxialan.com/2017/02/18/2016总结/">
       </div>
     
   </div>
@@ -563,7 +569,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">13</span>
+                <span class="site-state-item-count">15</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -629,7 +635,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#为什么要用概率？"><span class="nav-number">1.</span> <span class="nav-text">为什么要用概率？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#随机变量"><span class="nav-number">2.</span> <span class="nav-text">随机变量</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#概率分布"><span class="nav-number">3.</span> <span class="nav-text">概率分布</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#离散型变量和概率分布律函数"><span class="nav-number">3.1.</span> <span class="nav-text">离散型变量和概率分布律函数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#连续型变量和概率密度函数"><span class="nav-number">3.2.</span> <span class="nav-text">连续型变量和概率密度函数</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#边缘概率"><span class="nav-number">4.</span> <span class="nav-text">边缘概率</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#条件概率"><span class="nav-number">5.</span> <span class="nav-text">条件概率</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#条件概率的链式法则"><span class="nav-number">6.</span> <span class="nav-text">条件概率的链式法则</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#独立性和条件独立性"><span class="nav-number">7.</span> <span class="nav-text">独立性和条件独立性</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#期望，方差和协方差"><span class="nav-number">8.</span> <span class="nav-text">期望，方差和协方差</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#常用概率分布"><span class="nav-number">9.</span> <span class="nav-text">常用概率分布</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Bernoulli分布"><span class="nav-number">9.1.</span> <span class="nav-text">Bernoulli分布</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#多项式分布"><span class="nav-number">9.2.</span> <span class="nav-text">多项式分布</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#高斯分布-正态分布"><span class="nav-number">9.3.</span> <span class="nav-text">高斯分布/正态分布</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#指数分布和Laplace分布"><span class="nav-number">9.4.</span> <span class="nav-text">指数分布和Laplace分布</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Dirac分布和经验分布"><span class="nav-number">9.5.</span> <span class="nav-text">Dirac分布和经验分布</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#分布的混合"><span class="nav-number">9.6.</span> <span class="nav-text">分布的混合</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#常用函数的一些性质"><span class="nav-number">10.</span> <span class="nav-text">常用函数的一些性质</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#贝叶斯规则"><span class="nav-number">11.</span> <span class="nav-text">贝叶斯规则</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#连续型变量的技术细节"><span class="nav-number">12.</span> <span class="nav-text">连续型变量的技术细节</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#信息论"><span class="nav-number">13.</span> <span class="nav-text">信息论</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#14-结构化概率模型"><span class="nav-number">14.</span> <span class="nav-text">14.结构化概率模型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考"><span class="nav-number">15.</span> <span class="nav-text">参考</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#学习和优化有什么不同"><span class="nav-number">1.</span> <span class="nav-text">学习和优化有什么不同</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#经验风险最小化"><span class="nav-number">2.</span> <span class="nav-text">经验风险最小化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#替代损失函数和提前终止"><span class="nav-number">3.</span> <span class="nav-text">替代损失函数和提前终止</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#（小）批算法"><span class="nav-number">4.</span> <span class="nav-text">（小）批算法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#神经网络的优化挑战"><span class="nav-number">5.</span> <span class="nav-text">神经网络的优化挑战</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#8-2-1-病态"><span class="nav-number">5.1.</span> <span class="nav-text">8.2.1 病态</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#8-2-2-局部极小值"><span class="nav-number">5.2.</span> <span class="nav-text">8.2.2 局部极小值</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#8-2-3-高原，鞍点和其他平坦区域"><span class="nav-number">5.3.</span> <span class="nav-text">8.2.3 高原，鞍点和其他平坦区域</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#8-2-4-悬崖和梯度爆炸"><span class="nav-number">5.4.</span> <span class="nav-text">8.2.4 悬崖和梯度爆炸</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#8-2-5-长期相关性"><span class="nav-number">5.5.</span> <span class="nav-text">8.2.5 长期相关性</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#8-3-基本算法"><span class="nav-number">6.</span> <span class="nav-text">8.3 基本算法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#8-3-1-随机梯度下降"><span class="nav-number">6.1.</span> <span class="nav-text">8.3.1 随机梯度下降</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#动量"><span class="nav-number">6.2.</span> <span class="nav-text">动量</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Nesterov-动量"><span class="nav-number">6.3.</span> <span class="nav-text">Nesterov 动量</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参数初始化策略"><span class="nav-number">7.</span> <span class="nav-text">参数初始化策略</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#自适应学习率的算法"><span class="nav-number">8.</span> <span class="nav-text">自适应学习率的算法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#AdaGrad"><span class="nav-number">8.1.</span> <span class="nav-text">AdaGrad</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#RMSProp"><span class="nav-number">8.2.</span> <span class="nav-text">RMSProp</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Adam"><span class="nav-number">8.3.</span> <span class="nav-text">Adam</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#选择正确的优化算法"><span class="nav-number">9.</span> <span class="nav-text">选择正确的优化算法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二阶近似方法"><span class="nav-number">10.</span> <span class="nav-text">二阶近似方法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#牛顿方法"><span class="nav-number">10.1.</span> <span class="nav-text">牛顿方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#共轭梯度"><span class="nav-number">10.2.</span> <span class="nav-text">共轭梯度</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#优化技巧和元算法"><span class="nav-number">11.</span> <span class="nav-text">优化技巧和元算法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#batch-normalization"><span class="nav-number">11.1.</span> <span class="nav-text">batch normalization</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#坐标下降"><span class="nav-number">11.2.</span> <span class="nav-text">坐标下降</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Polyak-平均"><span class="nav-number">11.3.</span> <span class="nav-text">Polyak 平均</span></a></li></ol></li></ol></div>
             
 
           </div>

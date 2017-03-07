@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://luxialan.com/"/>
-  <updated>2017-02-23T02:58:00.736Z</updated>
+  <updated>2017-03-07T03:26:36.364Z</updated>
   <id>http://luxialan.com/</id>
   
   <author>
@@ -14,6 +14,161 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【量化交易 如何建立自己的算法交易】 读书笔记</title>
+    <link href="http://luxialan.com/2017/03/07/%E3%80%90%E9%87%8F%E5%8C%96%E4%BA%A4%E6%98%93-%E5%A6%82%E4%BD%95%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%AE%97%E6%B3%95%E4%BA%A4%E6%98%93%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    <id>http://luxialan.com/2017/03/07/【量化交易-如何建立自己的算法交易】-读书笔记/</id>
+    <published>2017-03-07T03:25:34.000Z</published>
+    <updated>2017-03-07T03:26:36.364Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<p>量化交易，也称算法交易，是严格按照计算机算法程序给出的买卖决策进行的证券交易。</p>
+<ul>
+<li>易扩大</li>
+<li>节省时间</li>
+<li>营销非必需</li>
+</ul>
+<h2 id="策略"><a href="#策略" class="headerlink" title="策略"></a>策略</h2><ul>
+<li>对基本策略变形</li>
+<li>真正困难的地方并不是缺乏交易理念，而是缺乏甄别策略的能力。<h3 id="有效的策略"><a href="#有效的策略" class="headerlink" title="有效的策略"></a>有效的策略</h3></li>
+<li>工作时间</li>
+<li>编程水平</li>
+<li>交易资本</li>
+<li>目标<h3 id="不可行的策略"><a href="#不可行的策略" class="headerlink" title="不可行的策略"></a>不可行的策略</h3></li>
+<li>策略与基准相比如何？收益持续性如何。</li>
+</ul>
+<p>使用夏普比率或信息比率作为量化交易策略的业绩衡量指标<br>信息比率=超额收益率的均值/超额收益率的标准差<br>超额收益率=组合收益率-基准收益率</p>
+<ul>
+<li>策略的年交易次数有限，夏普比率可能就不会太高。</li>
+<li>策略的挫跌很大，或是挫跌时间很长，也不大可能有很高的夏普比率。<h3 id="交易成本如何影响策略"><a href="#交易成本如何影响策略" class="headerlink" title="交易成本如何影响策略"></a>交易成本如何影响策略</h3></li>
+<li>交易成本不仅包括经纪商收取的佣金，还包括流动性成本。<h3 id="数据有无存活偏差"><a href="#数据有无存活偏差" class="headerlink" title="数据有无存活偏差"></a>数据有无存活偏差</h3></li>
+<li>股票价格的历史数据库往往不包括那些由于破产、退市、兼并或收购而消失的股票，因此存在所谓的存货偏差。<h3 id="策略的业绩如何随时间变化而变化？"><a href="#策略的业绩如何随时间变化而变化？" class="headerlink" title="策略的业绩如何随时间变化而变化？"></a>策略的业绩如何随时间变化而变化？</h3></li>
+<li>状态转换应该也被纳入复杂模型<h3 id="过拟合问题"><a href="#过拟合问题" class="headerlink" title="过拟合问题"></a>过拟合问题</h3>统计学意义上相互独立的金融数据的数量是非常有限的，有效的AI方法有以下特征。</li>
+<li>基于正确的计量经济学或理论基础，而不是随机发现的模式。</li>
+<li>所需的参数用到历史数据较少</li>
+<li>只用到了线性回归，并未使用复杂的非线性函数</li>
+<li>概念上很简单</li>
+<li>所有优化都必须在不含未来未知数据的移动回顾窗口中实现，并且这种优化的效果必须不断地被未来未知的数据所证实。<h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2>如何找到潜在的交易策略：</li>
+<li>商学院或其他经济研究机构的网站。</li>
+<li>面向零售投资者的金融网站和博客。</li>
+<li>可与其他交易员交流心得的交易员论坛。<br>如何筛选策略：</li>
+<li>你有多少时间可以用来完善你的交易程序</li>
+<li>你的编程能力如何</li>
+<li>你的资本规模有多大</li>
+<li>你的目标是稳定的月度收入还是追求大额的长期资本收益？<br>合适的策略：</li>
+<li>它能否跑赢基准</li>
+<li>它有足够高的夏普比率吗？</li>
+<li>它有足够小的挫跌和足够短的挫跌期吗？</li>
+<li>回测有无存活偏差？</li>
+<li>与早年相比，策略近几年不灵了吗？</li>
+<li>策略具有避开基金经理激烈竞争的“特色”吗？<h2 id="回测"><a href="#回测" class="headerlink" title="回测"></a>回测</h2><h3 id="回测平台-感觉很老了"><a href="#回测平台-感觉很老了" class="headerlink" title="回测平台(感觉很老了)"></a>回测平台(感觉很老了)</h3></li>
+<li>Excel</li>
+<li>MATLAB</li>
+<li>TradeStation<h3 id="回测数据"><a href="#回测数据" class="headerlink" title="回测数据"></a>回测数据</h3></li>
+<li>注意事项一：数据是否经分拆及股息调整</li>
+<li>注意事项二：数据有无存活偏差</li>
+<li>注意事项三：实盘价而不是最高、最低价<h3 id="业绩度量"><a href="#业绩度量" class="headerlink" title="业绩度量"></a>业绩度量</h3><h3 id="回测陷阱"><a href="#回测陷阱" class="headerlink" title="回测陷阱"></a>回测陷阱</h3></li>
+<li>前视偏差</li>
+<li>数据过拟合。构建数据驱动模型时，几乎不可能消除过拟合</li>
+<li>敏感性分析<h3 id="策略改进"><a href="#策略改进" class="headerlink" title="策略改进"></a>策略改进</h3></li>
+<li>策略的改进，最好基于经济学基本原理，或者透彻研究过的市场现象，而不是依据一些主观的试错法则。否则，就有可能产生数据过拟合。<h3 id="小结-1"><a href="#小结-1" class="headerlink" title="小结"></a>小结</h3>回测会牵扯到许多细节问题，如：</li>
+<li>数据：分拆和股息的调整，日最高、最低价的噪声，存活偏差。</li>
+<li>业绩度量：年化夏普比率和最大挫跌。</li>
+<li>前视偏差：在过去的交易决策中使用无法得到的事后信息。</li>
+<li>数据迁就偏差：拟合历史数据时使用过多参数，可以用大样本数据、样本外测试和敏感性分析来避免此类偏差。</li>
+<li>交易成本：交易成本会影响策略业绩。</li>
+<li>策略改进：通过策略的微小调整来优化业绩的常见方法。<h2 id="创建交易业务"><a href="#创建交易业务" class="headerlink" title="创建交易业务"></a>创建交易业务</h2>零售经纪商可以给予完全的自由和更好的资本保护，但杠杆低；自营交易公司给予的自由和资本保护较少，但杠杆高。<br>无论是选择零售经纪商还是选择自营交易公司，都要确保交易账户和系统满足以下特征：</li>
+<li>相对较低的佣金</li>
+<li>可交易金融工具品种广泛</li>
+<li>有足够深度的流动资金池</li>
+<li>最重要的是，获取实时数据和传送指令的API<br>交易员的操作环境包括：</li>
+<li>一台双核或四核电脑</li>
+<li>高速网络</li>
+<li>防中断电源</li>
+<li>实时数据和新闻来源</li>
+<li>服务器托管<h2 id="自动交易系统的功能"><a href="#自动交易系统的功能" class="headerlink" title="自动交易系统的功能"></a>自动交易系统的功能</h2></li>
+</ul>
+<h2 id="资金和风险管理"><a href="#资金和风险管理" class="headerlink" title="资金和风险管理"></a>资金和风险管理</h2><ul>
+<li>最优资本配置和杠杆</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;量化交易，也称算法交易，是严格按照计算机算法程序给出的买卖决策进行的证券交易。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;易扩大&lt;/li&gt;
+&lt;li&gt;节省时间&lt;/li&gt;
+&lt;li&gt;营销非必需&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;策略&quot;&gt;&lt;a href=&quot;#
+    
+    </summary>
+    
+      <category term="焚膏继晷" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/"/>
+    
+      <category term="知识储备" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/%E7%9F%A5%E8%AF%86%E5%82%A8%E5%A4%87/"/>
+    
+    
+      <category term="Book" scheme="http://luxialan.com/tags/Book/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【我是高频交易工程师】 读书笔记</title>
+    <link href="http://luxialan.com/2017/03/04/%E3%80%90%E6%88%91%E6%98%AF%E9%AB%98%E9%A2%91%E4%BA%A4%E6%98%93%E5%B7%A5%E7%A8%8B%E5%B8%88%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    <id>http://luxialan.com/2017/03/04/【我是高频交易工程师】-读书笔记/</id>
+    <published>2017-03-04T03:39:39.000Z</published>
+    <updated>2017-03-04T13:10:57.694Z</updated>
+    
+    <content type="html"><![CDATA[<p>高频交易是为了增加市场流动性。<br><a id="more"></a></p>
+<ul>
+<li>高频交易的概念：系统、动力、理论基石</li>
+<li>高频交易的技术</li>
+<li>高频交易的策略</li>
+<li>高频交易的职业选择</li>
+</ul>
+<h2 id="高频交易的概念"><a href="#高频交易的概念" class="headerlink" title="高频交易的概念"></a>高频交易的概念</h2><h3 id="高频交易系统"><a href="#高频交易系统" class="headerlink" title="高频交易系统"></a>高频交易系统</h3><ul>
+<li>交易指令完全由电脑发送，对市场数据的响应延时在微秒级</li>
+<li>系统由专门的软硬件组成，研发时需要大量计算机专家级的工作</li>
+<li>系统的硬件需要放在离交易所主机很近的位置上，所谓co-location。并且得到专门的准入许可证，交易指令直接发送至交易所。<br>高频，并非指成交的频率高，有些系统只是下委托单和修改、回撤委托单的频率高。高频交易主要包括下面几种类型：</li>
+<li>被动做市 这种策略是在交易所挂限价单进行双边交易以提供流动性。所谓双边交易，是指做市商手中持有一定存货，然后同时进行买和卖双方交易。这种策略的买入包括买卖价差和交易所提供的返佣两部分。</li>
+<li>套利 就是看两种高相关性的产品之间的价差。</li>
+<li>结构化 就是利用技术手段，比如高速连接和下单，来探测其他较慢的市场参与者的交易意图并且抢在他们之前进行交易。将利润建立在他人损失上。</li>
+<li>趋势 这个策略本身在低频也存在。简而言之，就是预测一定时间内的价格走势，顺势而为。<h3 id="高频交易的动力：追逐流动性的交易所们"><a href="#高频交易的动力：追逐流动性的交易所们" class="headerlink" title="高频交易的动力：追逐流动性的交易所们"></a>高频交易的动力：追逐流动性的交易所们</h3></li>
+<li>高频做市策略的动机和驱动力：在市场碎片化的大背景下，各家交易所为提高自身竞争力从而吸引更多交易量，必须聘请高水平做市商入驻，帮助改善流动性质量。</li>
+<li>高频做市商所做交易的行为本质：这种交易只求参与其中，作为买卖双方的中转即可，并不需要追求买卖价差的绝对数值。极端情况下，参与程度本身即为所出售的产品，而具体的某笔交易并不以盈利为目的。<h3 id="高频交易的理论基石：市场微观结构"><a href="#高频交易的理论基石：市场微观结构" class="headerlink" title="高频交易的理论基石：市场微观结构"></a>高频交易的理论基石：市场微观结构</h3>HFT(High Frequency Trading) is the price to pay for fragmentation; it is not possible to put trading venues in competition without agents building high-frequency liquidity bridges across them.</li>
+</ul>
+<h2 id="高频交易的技术"><a href="#高频交易的技术" class="headerlink" title="高频交易的技术"></a>高频交易的技术</h2><h2 id="高频交易的策略"><a href="#高频交易的策略" class="headerlink" title="高频交易的策略"></a>高频交易的策略</h2><h2 id="高频交易的职业选择"><a href="#高频交易的职业选择" class="headerlink" title="高频交易的职业选择"></a>高频交易的职业选择</h2><h3 id="去基金公司而不是单干"><a href="#去基金公司而不是单干" class="headerlink" title="去基金公司而不是单干"></a>去基金公司而不是单干</h3><ul>
+<li>缺钱</li>
+<li>杠杆</li>
+<li>公司的IT系统支持<h3 id="Quant和程序员差别"><a href="#Quant和程序员差别" class="headerlink" title="Quant和程序员差别"></a>Quant和程序员差别</h3></li>
+<li>Quant的工作主要还是和数字打交道，写程序的目的是为了用计算机去解决数字计算的问题。<h3 id="Quant分类：P-Quant和Q-Quant"><a href="#Quant分类：P-Quant和Q-Quant" class="headerlink" title="Quant分类：P Quant和Q Quant"></a>Quant分类：P Quant和Q Quant</h3></li>
+<li>Q重模型而轻数据，P重数据而轻模型。<h3 id="如何成为优秀的Quant"><a href="#如何成为优秀的Quant" class="headerlink" title="如何成为优秀的Quant"></a>如何成为优秀的Quant</h3></li>
+<li>理解人性</li>
+<li>合作</li>
+<li>理性</li>
+<li>抗压</li>
+<li>珍惜亲人</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;高频交易是为了增加市场流动性。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="焚膏继晷" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/"/>
+    
+      <category term="知识储备" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/%E7%9F%A5%E8%AF%86%E5%82%A8%E5%A4%87/"/>
+    
+    
+      <category term="Book" scheme="http://luxialan.com/tags/Book/"/>
+    
+  </entry>
   
   <entry>
     <title>【人件】 读书笔记</title>
@@ -594,22 +749,65 @@
     <link href="http://luxialan.com/2017/02/09/%E3%80%90%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E5%A3%B9-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%A6%82%E8%BF%B0/"/>
     <id>http://luxialan.com/2017/02/09/【深度学习】-读书笔记-壹-深度学习概述/</id>
     <published>2017-02-09T05:56:12.000Z</published>
-    <updated>2017-02-13T13:27:58.072Z</updated>
+    <updated>2017-03-05T13:15:05.722Z</updated>
     
-    <content type="html"><![CDATA[<p>深度学习的前世今生。<br><a id="more"></a></p>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><h3 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h3><p>AI深度学习：层次化的概念让计算机构建较简单的概念来学习复杂概念。如果绘制出这些概念如何建立在彼此之上的图，我们将得到一张“深”（层次很多）的图。出于这个原因，我们称这种方法为AI深度学习。</p>
-<p>知识图谱(knowledge base)方法: 计算机可以通过这些形式化语言自动地使用逻辑推理规则来理解声明。</p>
-<p>机器学习(machine learning): Al系统需要具备自己获取知识的能力，即从原始数据中提取模式的能力，这种能力称为机器学习。例如：逻辑回归(logistic regression)和朴素贝叶斯(naive Bayes)。</p>
-<p>表示学习(representation learning): 使用机器学习来发现数据的表示(representation)本身。例子： 自动编码器(autoencoder)：输入–&gt;编码器(encoder)–&gt;表示–&gt;解码器(decoder)。</p>
-<p>深度学习(deep learning): 让计算机通过简单概念构建复杂的概念。例子： 前馈深度网络或多层感知机(multilayer perceptron, MLP)。深度学习是AI的途径之一，可以用来学习数据的正确表达和一个多步骤的计算机程序。</p>
-<p><center> <img src="/images/deep_learning_book/concept.png" alt="Alt text"></center></p>
-<h2 id="深度学习的历史趋势"><a href="#深度学习的历史趋势" class="headerlink" title="深度学习的历史趋势"></a>深度学习的历史趋势</h2><ul>
-<li>1.数据量越来越大。</li>
-<li>2.针对深度学习的计算机软硬件设施有所改善，深度学习模型的规模也随之增长。</li>
-<li>3.深度学习已经解决日益复杂的应用，并且精度不断提高。<h3 id="深度学习的三次浪潮"><a href="#深度学习的三次浪潮" class="headerlink" title="深度学习的三次浪潮"></a>深度学习的三次浪潮</h3></li>
-<li>1.第一次浪潮开始于20世纪40年代到20世纪60年代的控制论，随着生物学习理论的发展和第一个模型的实现（感知机）,能实现单个神经元的训练。</li>
-<li>2.第二次浪潮开始于1980-1995年间的链接机制方法，可以使用反向链接训练具有一两个隐藏层的神经网络。</li>
-<li>3.第三次浪潮，深度学习，大约始于2006年。</li>
+    <content type="html"><![CDATA[<p>深度学习的前世今生。<br><a id="more"></a><br>量化交易，也称算法交易，是严格按照计算机算法程序给出的买卖决策进行的证券交易。</p>
+<p>量化交易与</p>
+<ul>
+<li>易扩大</li>
+<li>节省时间</li>
+<li>营销非必需</li>
+</ul>
+<h2 id="策略"><a href="#策略" class="headerlink" title="策略"></a>策略</h2><ul>
+<li>对基本策略变形</li>
+<li>真正困难的地方并不是缺乏交易理念，而是缺乏甄别策略的能力。<h3 id="有效的策略"><a href="#有效的策略" class="headerlink" title="有效的策略"></a>有效的策略</h3></li>
+<li>工作时间</li>
+<li>编程水平</li>
+<li>交易资本</li>
+<li>目标<h3 id="不可行的策略"><a href="#不可行的策略" class="headerlink" title="不可行的策略"></a>不可行的策略</h3></li>
+<li>策略与基准相比如何？收益持续性如何。</li>
+</ul>
+<p>使用夏普比率或信息比率作为量化交易策略的业绩衡量指标<br>信息比率=超额收益率的均值/超额收益率的标准差<br>超额收益率=组合收益率-基准收益率</p>
+<ul>
+<li>策略的年交易次数有限，夏普比率可能就不会太高。</li>
+<li>策略的挫跌很大，或是挫跌时间很长，也不大可能有很高的夏普比率。<h3 id="交易成本如何影响策略"><a href="#交易成本如何影响策略" class="headerlink" title="交易成本如何影响策略"></a>交易成本如何影响策略</h3></li>
+<li>交易成本不仅包括经纪商收取的佣金，还包括流动性成本。<h3 id="数据有无存活偏差"><a href="#数据有无存活偏差" class="headerlink" title="数据有无存活偏差"></a>数据有无存活偏差</h3></li>
+<li>股票价格的历史数据库往往不包括那些由于破产、退市、兼并或收购而消失的股票，因此存在所谓的存货偏差。<h3 id="策略的业绩如何随时间变化而变化？"><a href="#策略的业绩如何随时间变化而变化？" class="headerlink" title="策略的业绩如何随时间变化而变化？"></a>策略的业绩如何随时间变化而变化？</h3></li>
+<li>状态转换应该也被纳入复杂模型<h3 id="过拟合问题"><a href="#过拟合问题" class="headerlink" title="过拟合问题"></a>过拟合问题</h3>统计学意义上相互独立的金融数据的数量是非常有限的，有效的AI方法有以下特征。</li>
+<li>基于正确的计量经济学或理论基础，而不是随机发现的模式。</li>
+<li>所需的参数用到历史数据较少</li>
+<li>只用到了线性回归，并未使用复杂的非线性函数</li>
+<li>概念上很简单</li>
+<li>所有优化都必须在不含未来未知数据的移动回顾窗口中实现，并且这种优化的效果必须不断地被未来未知的数据所证实。<h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2>如何找到潜在的交易策略：</li>
+<li>商学院或其他经济研究机构的网站。</li>
+<li>面向零售投资者的金融网站和博客。</li>
+<li>可与其他交易员交流心得的交易员论坛。<br>如何筛选策略：</li>
+<li>你有多少时间可以用来完善你的交易程序</li>
+<li>你的编程能力如何</li>
+<li>你的资本规模有多大</li>
+<li>你的目标是稳定的月度收入还是追求大额的长期资本收益？<br>合适的策略：</li>
+<li>它能否跑赢基准</li>
+<li>它有足够高的夏普比率吗？</li>
+<li>它有足够小的挫跌和足够短的挫跌期吗？</li>
+<li>回测有无存活偏差？</li>
+<li>与早年相比，策略近几年不灵了吗？</li>
+<li>策略具有避开基金经理激烈竞争的“特色”吗？<h2 id="回测"><a href="#回测" class="headerlink" title="回测"></a>回测</h2><h3 id="回测平台-感觉很老了"><a href="#回测平台-感觉很老了" class="headerlink" title="回测平台(感觉很老了)"></a>回测平台(感觉很老了)</h3></li>
+<li>Excel</li>
+<li>MATLAB</li>
+<li>TradeStation<h3 id="回测数据"><a href="#回测数据" class="headerlink" title="回测数据"></a>回测数据</h3></li>
+<li>注意事项一：数据是否经分拆及股息调整</li>
+<li>注意事项二：数据有无存活偏差</li>
+<li>注意事项三：实盘价而不是最高、最低价<h3 id="业绩度量"><a href="#业绩度量" class="headerlink" title="业绩度量"></a>业绩度量</h3><h3 id="回测陷阱"><a href="#回测陷阱" class="headerlink" title="回测陷阱"></a>回测陷阱</h3></li>
+<li>前视偏差</li>
+<li>数据过拟合。构建数据驱动模型时，几乎不可能消除过拟合</li>
+<li>敏感性分析<h3 id="策略改进"><a href="#策略改进" class="headerlink" title="策略改进"></a>策略改进</h3></li>
+<li>策略的改进，最好基于经济学基本原理，或者透彻研究过的市场现象，而不是依据一些主观的试错法则。否则，就有可能产生数据过拟合。<h3 id="小结-1"><a href="#小结-1" class="headerlink" title="小结"></a>小结</h3>回测会牵扯到许多细节问题，如：</li>
+<li>数据：分拆和股息的调整，日最高、最低价的噪声，存活偏差。</li>
+<li>业绩度量：年化夏普比率和最大挫跌。</li>
+<li>前视偏差：在过去的交易决策中使用无法得到的事后信息。</li>
+<li>数据迁就偏差：拟合历史数据时使用过多参数，可以用大样本数据、样本外测试和敏感性分析来避免此类偏差。</li>
+<li>交易成本：交易成本会影响策略业绩。</li>
+<li>策略改进：通过策略的微小调整来优化业绩的常见方法。</li>
 </ul>
 <h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://github.com/exacity/deeplearningbook-chinese" target="_blank" rel="external">Deep Learning Book</a></p>
 ]]></content>
