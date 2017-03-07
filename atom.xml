@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://luxialan.com/"/>
-  <updated>2017-03-07T03:26:36.364Z</updated>
+  <updated>2017-03-07T03:34:02.732Z</updated>
   <id>http://luxialan.com/</id>
   
   <author>
@@ -20,10 +20,9 @@
     <link href="http://luxialan.com/2017/03/07/%E3%80%90%E9%87%8F%E5%8C%96%E4%BA%A4%E6%98%93-%E5%A6%82%E4%BD%95%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%AE%97%E6%B3%95%E4%BA%A4%E6%98%93%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     <id>http://luxialan.com/2017/03/07/【量化交易-如何建立自己的算法交易】-读书笔记/</id>
     <published>2017-03-07T03:25:34.000Z</published>
-    <updated>2017-03-07T03:26:36.364Z</updated>
+    <updated>2017-03-07T03:34:02.732Z</updated>
     
-    <content type="html"><![CDATA[<a id="more"></a>
-<p>量化交易，也称算法交易，是严格按照计算机算法程序给出的买卖决策进行的证券交易。</p>
+    <content type="html"><![CDATA[<p>量化交易，也称算法交易，是严格按照计算机算法程序给出的买卖决策进行的证券交易。<br><a id="more"></a></p>
 <ul>
 <li>易扩大</li>
 <li>节省时间</li>
@@ -96,14 +95,7 @@
     
     <summary type="html">
     
-      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;量化交易，也称算法交易，是严格按照计算机算法程序给出的买卖决策进行的证券交易。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;易扩大&lt;/li&gt;
-&lt;li&gt;节省时间&lt;/li&gt;
-&lt;li&gt;营销非必需&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;策略&quot;&gt;&lt;a href=&quot;#
+      &lt;p&gt;量化交易，也称算法交易，是严格按照计算机算法程序给出的买卖决策进行的证券交易。&lt;br&gt;
     
     </summary>
     
