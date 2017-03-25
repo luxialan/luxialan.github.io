@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next mist use-motion" lang="zh-Hans">
+<html class="theme-next muse use-motion" lang="zh-Hans">
 <head>
   <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -92,7 +92,7 @@
 <meta property="og:url" content="http://luxialan.com/2017/02/14/2017第一谈/index.html">
 <meta property="og:site_name" content="水冼雪">
 <meta property="og:description" content="前馈神经网络对于机器学习的实践是极其重要的。">
-<meta property="og:updated_time" content="2017-02-21T13:41:49.596Z">
+<meta property="og:updated_time" content="2017-03-16T03:09:52.130Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="【深度学习】 读书笔记 拾一 深度模型中的优化">
 <meta name="twitter:description" content="前馈神经网络对于机器学习的实践是极其重要的。">
@@ -103,7 +103,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Mist',
+    scheme: 'Muse',
     sidebar: {"position":"left","display":"post"},
     fancybox: true,
     motion: true,
@@ -353,8 +353,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2017/02/14/2017第一谈/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/02/14/2017第一谈/" itemprop="commentCount"></span>
+                <a class="cloud-tie-join-count" href="/2017/02/14/2017第一谈/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count join-count" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -441,7 +441,10 @@
 <p>前馈神经网络对于机器学习的实践是极其重要的。</p>
 <h2 id="应用"><a href="#应用" class="headerlink" title="应用"></a>应用</h2><p>如何使用深度学习来解决计算机视觉，语音识别，自然语言处理以及其他商业领域中的应用。<br>尽管深度学习的一个目标是设计能够处理多种任务的算法，然而截止目前应用深度学习仍然需要一些特定的条件。比如说，计算机视觉中的额任务对每一个样本都需要大量的输入特征（像素）。自然语言处理中对每一个输入特征都需要大量的可能值（词汇表中的词汇）建模。</p>
 <h2 id="大规模深度学习"><a href="#大规模深度学习" class="headerlink" title="大规模深度学习"></a>大规模深度学习</h2><p>深度学习的基本思想是建立在链接</p>
-<h2 id="自动编码器"><a href="#自动编码器" class="headerlink" title="自动编码器"></a>自动编码器</h2><p>自动编码器是神经网络的一种，经过训练后尝试将输入复制到输出。自动编码器内部有一个隐含层$h$，可以产生$编码(code)$来表示输入。该网络可以看做由两部分组成：一个编码器函数$h=f(x)$和一个生成重构的解码器$r=g(h)$。如果一个自动编码器学会简单地设置$g(f(x))=x$，那么这个自动编码器不会很有用。相反，自动编码器应该被设计成不能学会完美地复制。这通常需要强加一些约束，使自动编码器应该被设计成不能学会完美地复制。强加一些约束，使自动编码器值能近似地复制，并只能复制类似训练数据的输入</p>
+<h2 id="自动编码器"><a href="#自动编码器" class="headerlink" title="自动编码器"></a>自动编码器</h2><p>自动编码器是神经网络的一种，经过训练后尝试将输入复制到输出。自动编码器内部有一个隐含层$h$，可以产生$编码(code)$来表示输入。该网络可以看做由两部分组成：一个编码器函数$h=f(x)$和一个生成重构的解码器$r=g(h)$。如果一个自动编码器学会简单地设置$g(f(x))=x$，那么这个自动编码器不会很有用。相反，自动编码器应该被设计成不能学会完美地复制。这通常需要强加一些约束，使自动编码器应该被设计成不能学会完美地复制。强加一些约束，使自动编码器值能近似地复制，并只能复制类似训练数据的输入。划定输入数据不同方面的主次次序，有用特性。</p>
+<p>随机算法可以粗略地分为两类：$Las Vegas$算法和蒙特卡洛算法</p>
+<h2 id="采样和蒙特卡洛方法"><a href="#采样和蒙特卡洛方法" class="headerlink" title="采样和蒙特卡洛方法"></a>采样和蒙特卡洛方法</h2><h3 id="为什么需要采样？"><a href="#为什么需要采样？" class="headerlink" title="为什么需要采样？"></a>为什么需要采样？</h3><h3 id="玻尔兹曼机"><a href="#玻尔兹曼机" class="headerlink" title="玻尔兹曼机"></a>玻尔兹曼机</h3><p>第二十章 深度生成模型</p>
+<h2 id="玻尔兹曼机-1"><a href="#玻尔兹曼机-1" class="headerlink" title="玻尔兹曼机"></a>玻尔兹曼机</h2><p>用来学习二值向量上的任意概率分布。我们简要介绍二值玻尔兹曼机并讨论训练模型和执行推断时出现的问题。<br>我们在$d$维二值随机变量$x\in{0,1}^{d}$上定义玻尔兹曼机。<br>意味着$$P(x)=/frac{exp(-E(x))}{Z}$$<br>其中$E(x)$是能量函数，$Z$是确保$P(x)=1$的配分函数。<br>玻尔兹曼机的能量函数如下给出：<br>$$E(x)=-x^{T}Ux-b^{T}x$$<br>当不是所有变量都能被观察到时，玻尔兹曼机变得更强大。在这种情况下，隐变量类似于多层感知机中的隐藏单元，并模拟可见单元之间的高阶交互。玻尔兹曼机变成了离散变量的概率分布律函数的通用比逼近器。<br>我们将单元$x$分解成两个子集：可见单元$v$和隐含单元$h$，能量函数变为<br>$$E(v,h)=-v^{T}Rv-v^{T}Wh-h^{T}Sh-b^{T}v-c^{T}h$$<br>玻尔兹曼机的学习</p>
 
       
     </div>
@@ -505,8 +508,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/02/14/【深度学习】-读书笔记-伍-机器学习基础/" rel="prev" title="【深度学习】 读书笔记 伍 机器学习基础">
-                【深度学习】 读书笔记 伍 机器学习基础 <i class="fa fa-chevron-right"></i>
+              <a href="/2017/02/14/全栈工程师指南/" rel="prev" title="【深度学习】 读书笔记 捌 深度模型中的优化">
+                【深度学习】 读书笔记 捌 深度模型中的优化 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -533,9 +536,7 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2017/02/14/2017第一谈/"
-           data-title="【深度学习】 读书笔记 拾一 深度模型中的优化" data-url="http://luxialan.com/2017/02/14/2017第一谈/">
-      </div>
+      <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
     
   </div>
 
@@ -581,7 +582,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">15</span>
+                <span class="site-state-item-count">17</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -590,7 +591,7 @@
           
             <div class="site-state-item site-state-categories">
               <a href="/categories">
-                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-count">5</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -599,7 +600,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-count">4</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -647,7 +648,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#实用方法"><span class="nav-number">1.</span> <span class="nav-text">实用方法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#默认的基准模型"><span class="nav-number">2.</span> <span class="nav-text">默认的基准模型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#动机"><span class="nav-number">3.</span> <span class="nav-text">动机</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#随机或无监督的特征"><span class="nav-number">4.</span> <span class="nav-text">随机或无监督的特征</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#卷积神经网络与深度学习的历史"><span class="nav-number">5.</span> <span class="nav-text">卷积神经网络与深度学习的历史</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#池化"><span class="nav-number">6.</span> <span class="nav-text">池化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#卷积与池化未做一种无限强的先验"><span class="nav-number">7.</span> <span class="nav-text">卷积与池化未做一种无限强的先验</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#基本卷积函数的变体"><span class="nav-number">8.</span> <span class="nav-text">基本卷积函数的变体</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#应用"><span class="nav-number">9.</span> <span class="nav-text">应用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#大规模深度学习"><span class="nav-number">10.</span> <span class="nav-text">大规模深度学习</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#自动编码器"><span class="nav-number">11.</span> <span class="nav-text">自动编码器</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#实用方法"><span class="nav-number">1.</span> <span class="nav-text">实用方法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#默认的基准模型"><span class="nav-number">2.</span> <span class="nav-text">默认的基准模型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#动机"><span class="nav-number">3.</span> <span class="nav-text">动机</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#随机或无监督的特征"><span class="nav-number">4.</span> <span class="nav-text">随机或无监督的特征</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#卷积神经网络与深度学习的历史"><span class="nav-number">5.</span> <span class="nav-text">卷积神经网络与深度学习的历史</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#池化"><span class="nav-number">6.</span> <span class="nav-text">池化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#卷积与池化未做一种无限强的先验"><span class="nav-number">7.</span> <span class="nav-text">卷积与池化未做一种无限强的先验</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#基本卷积函数的变体"><span class="nav-number">8.</span> <span class="nav-text">基本卷积函数的变体</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#应用"><span class="nav-number">9.</span> <span class="nav-text">应用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#大规模深度学习"><span class="nav-number">10.</span> <span class="nav-text">大规模深度学习</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#自动编码器"><span class="nav-number">11.</span> <span class="nav-text">自动编码器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#采样和蒙特卡洛方法"><span class="nav-number">12.</span> <span class="nav-text">采样和蒙特卡洛方法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#为什么需要采样？"><span class="nav-number">12.1.</span> <span class="nav-text">为什么需要采样？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#玻尔兹曼机"><span class="nav-number">12.2.</span> <span class="nav-text">玻尔兹曼机</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#玻尔兹曼机-1"><span class="nav-number">13.</span> <span class="nav-text">玻尔兹曼机</span></a></li></ol></div>
             
 
           </div>
@@ -683,7 +684,7 @@
 <div class="theme-info">
   主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
+    NexT.Muse
   </a>
 </div>
 
@@ -781,35 +782,31 @@
 
   
 
-  
-    
+
+
   
 
-  <script type="text/javascript">
-    var duoshuoQuery = {short_name:"luxialan"};
-    (function() {
-      var ds = document.createElement('script');
-      ds.type = 'text/javascript';ds.async = true;
-      ds.id = 'duoshuo-script';
-      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-      ds.charset = 'UTF-8';
-      (document.getElementsByTagName('head')[0]
-      || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-  </script>
+
+
+
+	
+
+
+
+
 
   
     
-    
-    <script src="/lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
-    <script src="/js/src/hook-duoshuo.js"></script>
+    <script>
+      var cloudTieConfig = {
+        url: document.location.href, 
+        sourceId: "",
+        productKey: "d6e1f7f678ea429ebcfba90cddeedbad",
+        target: "cloud-tie-wrapper"
+      };
+    </script>
+    <script src="https://img1.ws.126.net/f2e/tie/yun/sdk/loader.js"></script>
   
-
-
-
-
-
-
 
 
 
