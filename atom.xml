@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://luxialan.com/"/>
-  <updated>2017-04-20T00:50:27.331Z</updated>
+  <updated>2017-07-02T06:56:26.181Z</updated>
   <id>http://luxialan.com/</id>
   
   <author>
@@ -16,11 +16,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>研究生总结</title>
+    <link href="http://luxialan.com/2017/07/02/%E7%A0%94%E7%A9%B6%E7%94%9F%E6%80%BB%E7%BB%93/"/>
+    <id>http://luxialan.com/2017/07/02/研究生总结/</id>
+    <published>2017-07-02T06:56:26.000Z</published>
+    <updated>2017-07-02T06:56:26.181Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【分类器性能指标】 知识点总结</title>
+    <link href="http://luxialan.com/2017/04/21/%E3%80%90%E5%88%86%E7%B1%BB%E5%99%A8%E6%80%A7%E8%83%BD%E6%8C%87%E6%A0%87%E3%80%91-%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/"/>
+    <id>http://luxialan.com/2017/04/21/【分类器性能指标】-知识点总结/</id>
+    <published>2017-04-21T09:07:03.000Z</published>
+    <updated>2017-04-21T09:07:04.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>【程序员健康指南】 读书笔记</title>
     <link href="http://luxialan.com/2017/04/19/%E3%80%90%E7%A8%8B%E5%BA%8F%E5%91%98%E5%81%A5%E5%BA%B7%E6%8C%87%E5%8D%97%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     <id>http://luxialan.com/2017/04/19/【程序员健康指南】-读书笔记/</id>
     <published>2017-04-19T07:49:35.000Z</published>
-    <updated>2017-04-20T00:50:27.331Z</updated>
+    <updated>2017-04-20T00:50:28.000Z</updated>
     
     <content type="html"><![CDATA[<p>身体是程序员的本钱<br><a id="more"></a></p>
 <h2 id="日常清单"><a href="#日常清单" class="headerlink" title="日常清单"></a>日常清单</h2><ul>
@@ -63,7 +91,7 @@
     <link href="http://luxialan.com/2017/03/07/%E3%80%90%E9%87%8F%E5%8C%96%E4%BA%A4%E6%98%93-%E5%A6%82%E4%BD%95%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%AE%97%E6%B3%95%E4%BA%A4%E6%98%93%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     <id>http://luxialan.com/2017/03/07/【量化交易-如何建立自己的算法交易】-读书笔记/</id>
     <published>2017-03-07T03:25:34.000Z</published>
-    <updated>2017-03-07T14:21:45.325Z</updated>
+    <updated>2017-03-07T14:21:46.000Z</updated>
     
     <content type="html"><![CDATA[<p>量化交易，也称算法交易，是严格按照计算机算法程序给出的买卖决策进行的证券交易。<br><a id="more"></a></p>
 <ul>
@@ -156,7 +184,7 @@
     <link href="http://luxialan.com/2017/03/04/%E3%80%90%E6%88%91%E6%98%AF%E9%AB%98%E9%A2%91%E4%BA%A4%E6%98%93%E5%B7%A5%E7%A8%8B%E5%B8%88%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     <id>http://luxialan.com/2017/03/04/【我是高频交易工程师】-读书笔记/</id>
     <published>2017-03-04T03:39:39.000Z</published>
-    <updated>2017-03-04T13:10:57.694Z</updated>
+    <updated>2017-03-04T13:10:58.000Z</updated>
     
     <content type="html"><![CDATA[<p>高频交易是为了增加市场流动性。<br><a id="more"></a></p>
 <ul>
@@ -210,7 +238,7 @@
     <link href="http://luxialan.com/2017/02/23/%E3%80%90%E4%BA%BA%E4%BB%B6%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     <id>http://luxialan.com/2017/02/23/【人件】-读书笔记/</id>
     <published>2017-02-23T00:57:08.000Z</published>
-    <updated>2017-02-23T02:58:00.736Z</updated>
+    <updated>2017-02-23T02:58:02.000Z</updated>
     
     <content type="html"><![CDATA[<p>人不仅仅是个物件，还有人性。<br><a id="more"></a></p>
 <ul>
@@ -275,7 +303,7 @@
     <link href="http://luxialan.com/2017/02/21/%E3%80%90%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E6%9F%92-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E6%AD%A3%E5%88%99%E5%8C%96/"/>
     <id>http://luxialan.com/2017/02/21/【深度学习】-读书笔记-柒-深度学习的正则化/</id>
     <published>2017-02-21T00:44:36.000Z</published>
-    <updated>2017-02-23T06:43:53.626Z</updated>
+    <updated>2017-02-23T06:43:54.000Z</updated>
     
     <content type="html"><![CDATA[<p>前馈神经网络对于机器学习的实践是极其重要的。<br><a id="more"></a></p>
 <ul>
@@ -335,7 +363,7 @@
     <link href="http://luxialan.com/2017/02/18/%E3%80%90%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E9%99%86-%E6%B7%B1%E5%BA%A6%E5%89%8D%E9%A6%88%E7%BD%91%E7%BB%9C/"/>
     <id>http://luxialan.com/2017/02/18/【深度学习】-读书笔记-陆-深度前馈网络/</id>
     <published>2017-02-18T07:52:57.000Z</published>
-    <updated>2017-02-23T06:43:00.095Z</updated>
+    <updated>2017-02-23T06:43:02.000Z</updated>
     
     <content type="html"><![CDATA[<p>深度学习的基础网络<br><a id="more"></a></p>
 <ul>
@@ -374,7 +402,7 @@
     <link href="http://luxialan.com/2017/02/16/%E3%80%90%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     <id>http://luxialan.com/2017/02/16/【概率论与数理统计】-读书笔记/</id>
     <published>2017-02-16T06:34:39.000Z</published>
-    <updated>2017-02-16T06:38:20.638Z</updated>
+    <updated>2017-02-16T06:38:22.000Z</updated>
     
     <content type="html"><![CDATA[<p>概率论与数理统计基础知识总结<br><a id="more"></a></p>
 <ul>
@@ -491,7 +519,7 @@
     <link href="http://luxialan.com/2017/02/15/%E7%90%86%E8%B4%A2%E5%9F%BA%E7%A1%80%E6%8C%87%E5%8D%97/"/>
     <id>http://luxialan.com/2017/02/15/理财基础指南/</id>
     <published>2017-02-15T08:37:54.000Z</published>
-    <updated>2017-02-16T06:47:31.072Z</updated>
+    <updated>2017-02-16T06:47:32.000Z</updated>
     
     <content type="html"><![CDATA[<p>你不理财，财不理你<br><a id="more"></a><br>投资渠道</p>
 <ul>
@@ -537,11 +565,71 @@
   </entry>
   
   <entry>
+    <title>【深度学习】 读书笔记 捌 深度模型中的优化</title>
+    <link href="http://luxialan.com/2017/02/14/%E5%85%A8%E6%A0%88%E5%B7%A5%E7%A8%8B%E5%B8%88%E6%8C%87%E5%8D%97/"/>
+    <id>http://luxialan.com/2017/02/14/全栈工程师指南/</id>
+    <published>2017-02-14T06:38:12.000Z</published>
+    <updated>2017-03-16T03:09:56.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>前馈神经网络对于机器学习的实践是极其重要的。<br><a id="more"></a></p>
+<ul>
+<li>卷积运算</li>
+<li>动机</li>
+<li>池化</li>
+<li>卷积与池化作为一种无限强的先验</li>
+<li>基本卷积函数的变体</li>
+<li>结构化输出</li>
+<li>数据类型</li>
+<li>高效的卷积算法</li>
+<li>随机或无监督的特征</li>
+<li>卷积神经网络的神经科学基础</li>
+<li>卷积神经网络与深度学习的历史</li>
+</ul>
+<p>##<br>卷积网络，也叫做卷积神经网络，是一种专门用来处理具有类似网格结构的数据的神经网络。卷积是一种特殊的线性运算。卷积网络是指那些至少在网络的一层中使用卷积运算来替代一般的矩阵乘法运算的神经网络。</p>
+<h2 id="动机"><a href="#动机" class="headerlink" title="动机"></a>动机</h2><p>卷积运算通过三个重要的思想来帮助改进机器学习系统：稀疏交互、参数共享、等变表示。<br>传统的神经网络使用矩阵乘法来建立输入与输出的连接关系。参数矩阵的每一个独立的参数都描述了每一个输入单元与每一个输出单元间的交互。这意味着每一个输出单元与每一个输入单元都产生交互。<br>这通过使得核的规模远小于输入的规模来实现。</p>
+<h2 id="随机或无监督的特征"><a href="#随机或无监督的特征" class="headerlink" title="随机或无监督的特征"></a>随机或无监督的特征</h2><p>减少卷积网络训练成本的一种方式是使用那些不是通过有监督方式训练的特征。<br>有三种基本策略不通过有监督训练而得到卷积核。</p>
+<ul>
+<li>简单地随机初始化它们</li>
+<li>手动设计它们</li>
+<li>无监督的标准来学习核<h2 id="卷积神经网络与深度学习的历史"><a href="#卷积神经网络与深度学习的历史" class="headerlink" title="卷积神经网络与深度学习的历史"></a>卷积神经网络与深度学习的历史</h2>卷积网络在深度学习的历史中发挥了重要作用。它们是将研究大脑获得的深刻理解成功用于机器学习应用的关键例子。</li>
+</ul>
+<h2 id="池化"><a href="#池化" class="headerlink" title="池化"></a>池化</h2><h2 id="卷积与池化未做一种无限强的先验"><a href="#卷积与池化未做一种无限强的先验" class="headerlink" title="卷积与池化未做一种无限强的先验"></a>卷积与池化未做一种无限强的先验</h2><p>我们看到数据之前我们认为什么样的模型是合理的信念。<br>先验被认为是强或者弱取决于先验中概率密度的集中程度。弱先验具有较高的熵值，例如方差很大的高斯分布，这样的先验允许数据对于参数的改变具有或多或少的自由性。强先验具有较低的熵值，例如方差很小的高斯分布，这样的先验在决定参数最终取值时起着更加积极的作用。<br>对于全连接网络的权值有一个无限强的先验。这个无限强的先验是说一个隐藏单元的权值必须和它邻居的权值相等，但在 空间中改变。这个先验也要求除了那些处在隐藏单元空间连续的小的接受域以内的权值外，其余的权值都为零。使用池化也是一个无限强的先验：每一个单元都具有少量平移的不变性。<br>其中一个关键的洞察是卷积和池化可能导致欠拟合<br>另一个关键洞察是当我们比较卷积模型的统计学习表现时，指能以基准中的其他卷积模型作为比较的对象。</p>
+<h2 id="基本卷积函数的变体"><a href="#基本卷积函数的变体" class="headerlink" title="基本卷积函数的变体"></a>基本卷积函数的变体</h2><p>学习和优化有什么不同<br>机器学习通常是简介的。在大多数机器学习问题中，我们关注定义于测试集上的，也可能是不可解的性能度量$P$。因此，我们只是简介地优化$P$。我们希望通过降低损失函数$J(\theta)$来提高$P$。这一点不同于纯优化最小化$J$本身。<br>$$J(\theta)=\mathtt{E}_{(x,y)~\hat{p}_data}L(f(x;\theta),y)$$<br>其中$L$是每个样本的损失函数，$f(x;\theta)$是输入是$x$时的预测输出，$\hat{p}_data$是经验分布。<br>通常，我们更希望最小化期望取自数据生成分布$p<em>data$，$$J^{*}(\theta)=\mathtt{E}</em>{(x,y)~\hat{p}_data}L(f(x;\theta),y)$$</p>
+<h2 id="经验风险最小化"><a href="#经验风险最小化" class="headerlink" title="经验风险最小化"></a>经验风险最小化</h2><p>机器学习算法的目标是降低式(8.2)所示的期望泛化误差。这个数据量被称为风险(risk)。值得注意的是，该期望取自真实的数据分布$p<em>data$。<br>机器学习问题用训练集上的经验分布$\hat{p}(x,y)$替代真实分布$p(x,y)$。如此，我们最小化经验风险$$\mathtt{E}</em>{(x,y)~\hat{p}_data}L(f(x;\theta),y)=frac{1}{m}\$$<br>基于最小化如上平均训练误差的训练过程被称为经验风险最小化。<br>经验风险最小化容易过拟合。高容量的模型会简单地记住训练集。在很多情况下，经验风险最小化并非真的可行。最有效的现代优化算法是基于梯度下降的。在深度学习中我们很少使用经验风险最小化。</p>
+<h2 id="替代损失函数和提前终止"><a href="#替代损失函数和提前终止" class="headerlink" title="替代损失函数和提前终止"></a>替代损失函数和提前终止</h2><h2 id="（小）批算法"><a href="#（小）批算法" class="headerlink" title="（小）批算法"></a>（小）批算法</h2><p>机器学习算法的目标函数通常可以分解成训练样本上的求和。机器学习优化算法通常使用整个损失函数中的一部分项去更新其参数。</p>
+<h2 id="神经网络的优化挑战"><a href="#神经网络的优化挑战" class="headerlink" title="神经网络的优化挑战"></a>神经网络的优化挑战</h2><p>在训练神经网络时，我们肯定会遇到一般的非凸情况。即使是凸优化，也并非没有任何问题。在这一节中，我们会总结几个训练深度模型时会涉及到的主要挑战。</p>
+<h3 id="8-2-1-病态"><a href="#8-2-1-病态" class="headerlink" title="8.2.1 病态"></a>8.2.1 病态</h3><p>海森矩阵$H$的病态。这是数值优化，凸优化或其他形式的优化中普遍存在的问题。<br>病态体现在随机梯度下降会“卡”在某些情况，此时即使很小的更新步长也会增加损失函数。</p>
+<h3 id="8-2-2-局部极小值"><a href="#8-2-2-局部极小值" class="headerlink" title="8.2.2 局部极小值"></a>8.2.2 局部极小值</h3><h3 id="8-2-3-高原，鞍点和其他平坦区域"><a href="#8-2-3-高原，鞍点和其他平坦区域" class="headerlink" title="8.2.3 高原，鞍点和其他平坦区域"></a>8.2.3 高原，鞍点和其他平坦区域</h3><h3 id="8-2-4-悬崖和梯度爆炸"><a href="#8-2-4-悬崖和梯度爆炸" class="headerlink" title="8.2.4 悬崖和梯度爆炸"></a>8.2.4 悬崖和梯度爆炸</h3><p>多层神经网络通常有像悬崖一样的斜率较大区域，如图8.3所示。这是由于几个较大的权重相乘导致的。遇到斜率极大的悬崖结构时，梯度更新会很大程度地改变参数值，通常会跳过这类悬崖结构。但幸运的是可以使用启发式梯度截断来避免其主要缺点。</p>
+<h3 id="8-2-5-长期相关性"><a href="#8-2-5-长期相关性" class="headerlink" title="8.2.5 长期相关性"></a>8.2.5 长期相关性</h3><p>反复使用相同的参数产生了尤为突出的困难。<br>重复与矩阵$W$相乘的路径。<br>当特征值$\lambda_i$不再$1$附近时，若在量级上大于1则会膨胀到很大；若小于1时则会收缩到很小。<br>收缩和膨胀的梯度问题是指计算图上的梯度也会因为$diag(\lambda)^{t}$，诱发梯度截断的悬崖结构便是膨胀梯度现象的一个例子。<br>从这个观点来看，</p>
+<h2 id="8-3-基本算法"><a href="#8-3-基本算法" class="headerlink" title="8.3 基本算法"></a>8.3 基本算法</h2><h3 id="8-3-1-随机梯度下降"><a href="#8-3-1-随机梯度下降" class="headerlink" title="8.3.1 随机梯度下降"></a>8.3.1 随机梯度下降</h3><p>通过计算独立同分布地从数据生成分布中抽取的$m$个$minibatch$样本的梯度均值，我们可以得到梯度的无偏估计。在实践中，有必要随着时间的推移逐渐降低学习速率。<br>通常，就总训练时间和最终损失值而言，最优初始学习速率会高于大约迭代100步后输出最好效果的学习速率。<br>对于足够大的数据集，$SGD$可能会在处理整个训练集之前就收敛到最终测试集误差的某个固定容差范围内。<br>算法的收敛率，即当前损失函数超出最低可能损失的量。$batch$梯度下降在理论上比随机梯度下降有更好的收敛率。</p>
+<h3 id="动量"><a href="#动量" class="headerlink" title="动量"></a>动量</h3><h3 id="Nesterov-动量"><a href="#Nesterov-动量" class="headerlink" title="Nesterov 动量"></a>Nesterov 动量</h3><h2 id="参数初始化策略"><a href="#参数初始化策略" class="headerlink" title="参数初始化策略"></a>参数初始化策略</h2><p>大多数初始化策略基于在神经网络初始化时实现一些很好的性质。我们没有很好地理解这些性质中的哪些会在学习开始进行后的哪些情况下得以保持。进一步的难点是，有些初始点从优化的观点看或许是有利的，但是从泛化的观点看是不利的。我们对于初始点如何影响泛化的理解是相当原始的，几乎没有提供如何选择初始点的任何指导。<br>也许完全确指的唯一特性是初始参数需要在不同单元间“破坏对称性”。<br>如果我们有和输出一样多的输入，我们可以使用$Gram-Schmidt$正交化于初始的权重矩阵，保证每个单元计算彼此非常不同的函数。在高纬空间上使用高熵分布来随机初始化，计算代价小而且不太可能分配单元计算彼此相同的函数。<br>我们几乎总是初始化模型的权重为高斯或均匀分布中随机抽取的值。初始分布的大小确实对优化过程的结果和网络泛化能力有很大的影响。<br>更大的初始权重具有更强的破坏对称性的作用，有助于避免冗余的单元。正则化和优化有非常不同的视角。优化视角建议权重应该足够大以成功传播信息，但是正则化希望其小一点。诸如随机梯度下降这类对权重较小的增量更新，趋于停止在更靠近的初始参数的区域。</p>
+<h2 id="自适应学习率的算法"><a href="#自适应学习率的算法" class="headerlink" title="自适应学习率的算法"></a>自适应学习率的算法</h2><p>学习率是难以设置的超参数之一，因为它对模型的性能有显著的影响。<br>$delta-bar-delta算法$，该方法基于一个很简单的想法，如果损失对于某个给定模型参数的偏导保持相同的符号，那么学习速率应该增加。</p>
+<h3 id="AdaGrad"><a href="#AdaGrad" class="headerlink" title="AdaGrad"></a>AdaGrad</h3><p>$AdaGrad$算法。放缩每个参数反比于其所有梯度历史平方值总和的平方根。具有损失最大偏导的参数相应地有一个快速下降的学习速率，而具有小偏导的参数在学习速率上有较小的下降。</p>
+<h3 id="RMSProp"><a href="#RMSProp" class="headerlink" title="RMSProp"></a>RMSProp</h3><p>$RMSProp$算法修改$AdaGrad$以在非凸设定下效果更好。</p>
+<h3 id="Adam"><a href="#Adam" class="headerlink" title="Adam"></a>Adam</h3><p>$Adam$</p>
+<h2 id="选择正确的优化算法"><a href="#选择正确的优化算法" class="headerlink" title="选择正确的优化算法"></a>选择正确的优化算法</h2><h2 id="二阶近似方法"><a href="#二阶近似方法" class="headerlink" title="二阶近似方法"></a>二阶近似方法</h2><h3 id="牛顿方法"><a href="#牛顿方法" class="headerlink" title="牛顿方法"></a>牛顿方法</h3><h3 id="共轭梯度"><a href="#共轭梯度" class="headerlink" title="共轭梯度"></a>共轭梯度</h3><h2 id="优化技巧和元算法"><a href="#优化技巧和元算法" class="headerlink" title="优化技巧和元算法"></a>优化技巧和元算法</h2><h3 id="batch-normalization"><a href="#batch-normalization" class="headerlink" title="batch normalization"></a>batch normalization</h3><h3 id="坐标下降"><a href="#坐标下降" class="headerlink" title="坐标下降"></a>坐标下降</h3><h3 id="Polyak-平均"><a href="#Polyak-平均" class="headerlink" title="Polyak 平均"></a>Polyak 平均</h3>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;前馈神经网络对于机器学习的实践是极其重要的。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="焚膏继晷" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/"/>
+    
+      <category term="知识储备" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/%E7%9F%A5%E8%AF%86%E5%82%A8%E5%A4%87/"/>
+    
+    
+      <category term="Book" scheme="http://luxialan.com/tags/Book/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【深度学习】 读书笔记 伍 机器学习基础</title>
     <link href="http://luxialan.com/2017/02/14/%E3%80%90%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E4%BC%8D-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80/"/>
     <id>http://luxialan.com/2017/02/14/【深度学习】-读书笔记-伍-机器学习基础/</id>
     <published>2017-02-14T06:38:12.000Z</published>
-    <updated>2017-02-16T06:51:54.455Z</updated>
+    <updated>2017-02-16T06:51:56.000Z</updated>
     
     <content type="html"><![CDATA[<p>机器学习本质上属于应用统计学，更多关注于如何用计算机统计地估计复杂函数，不太关注这些函数的置信区间。<br><a id="more"></a></p>
 <ul>
@@ -640,7 +728,7 @@
     <link href="http://luxialan.com/2017/02/14/2017%E7%AC%AC%E4%B8%80%E8%B0%88/"/>
     <id>http://luxialan.com/2017/02/14/2017第一谈/</id>
     <published>2017-02-14T06:38:12.000Z</published>
-    <updated>2017-03-16T03:09:52.130Z</updated>
+    <updated>2017-03-16T03:09:54.000Z</updated>
     
     <content type="html"><![CDATA[<p>前馈神经网络对于机器学习的实践是极其重要的。<br><a id="more"></a></p>
 <ul>
@@ -709,71 +797,11 @@
   </entry>
   
   <entry>
-    <title>【深度学习】 读书笔记 捌 深度模型中的优化</title>
-    <link href="http://luxialan.com/2017/02/14/%E5%85%A8%E6%A0%88%E5%B7%A5%E7%A8%8B%E5%B8%88%E6%8C%87%E5%8D%97/"/>
-    <id>http://luxialan.com/2017/02/14/全栈工程师指南/</id>
-    <published>2017-02-14T06:38:12.000Z</published>
-    <updated>2017-03-16T03:09:55.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>前馈神经网络对于机器学习的实践是极其重要的。<br><a id="more"></a></p>
-<ul>
-<li>卷积运算</li>
-<li>动机</li>
-<li>池化</li>
-<li>卷积与池化作为一种无限强的先验</li>
-<li>基本卷积函数的变体</li>
-<li>结构化输出</li>
-<li>数据类型</li>
-<li>高效的卷积算法</li>
-<li>随机或无监督的特征</li>
-<li>卷积神经网络的神经科学基础</li>
-<li>卷积神经网络与深度学习的历史</li>
-</ul>
-<p>##<br>卷积网络，也叫做卷积神经网络，是一种专门用来处理具有类似网格结构的数据的神经网络。卷积是一种特殊的线性运算。卷积网络是指那些至少在网络的一层中使用卷积运算来替代一般的矩阵乘法运算的神经网络。</p>
-<h2 id="动机"><a href="#动机" class="headerlink" title="动机"></a>动机</h2><p>卷积运算通过三个重要的思想来帮助改进机器学习系统：稀疏交互、参数共享、等变表示。<br>传统的神经网络使用矩阵乘法来建立输入与输出的连接关系。参数矩阵的每一个独立的参数都描述了每一个输入单元与每一个输出单元间的交互。这意味着每一个输出单元与每一个输入单元都产生交互。<br>这通过使得核的规模远小于输入的规模来实现。</p>
-<h2 id="随机或无监督的特征"><a href="#随机或无监督的特征" class="headerlink" title="随机或无监督的特征"></a>随机或无监督的特征</h2><p>减少卷积网络训练成本的一种方式是使用那些不是通过有监督方式训练的特征。<br>有三种基本策略不通过有监督训练而得到卷积核。</p>
-<ul>
-<li>简单地随机初始化它们</li>
-<li>手动设计它们</li>
-<li>无监督的标准来学习核<h2 id="卷积神经网络与深度学习的历史"><a href="#卷积神经网络与深度学习的历史" class="headerlink" title="卷积神经网络与深度学习的历史"></a>卷积神经网络与深度学习的历史</h2>卷积网络在深度学习的历史中发挥了重要作用。它们是将研究大脑获得的深刻理解成功用于机器学习应用的关键例子。</li>
-</ul>
-<h2 id="池化"><a href="#池化" class="headerlink" title="池化"></a>池化</h2><h2 id="卷积与池化未做一种无限强的先验"><a href="#卷积与池化未做一种无限强的先验" class="headerlink" title="卷积与池化未做一种无限强的先验"></a>卷积与池化未做一种无限强的先验</h2><p>我们看到数据之前我们认为什么样的模型是合理的信念。<br>先验被认为是强或者弱取决于先验中概率密度的集中程度。弱先验具有较高的熵值，例如方差很大的高斯分布，这样的先验允许数据对于参数的改变具有或多或少的自由性。强先验具有较低的熵值，例如方差很小的高斯分布，这样的先验在决定参数最终取值时起着更加积极的作用。<br>对于全连接网络的权值有一个无限强的先验。这个无限强的先验是说一个隐藏单元的权值必须和它邻居的权值相等，但在 空间中改变。这个先验也要求除了那些处在隐藏单元空间连续的小的接受域以内的权值外，其余的权值都为零。使用池化也是一个无限强的先验：每一个单元都具有少量平移的不变性。<br>其中一个关键的洞察是卷积和池化可能导致欠拟合<br>另一个关键洞察是当我们比较卷积模型的统计学习表现时，指能以基准中的其他卷积模型作为比较的对象。</p>
-<h2 id="基本卷积函数的变体"><a href="#基本卷积函数的变体" class="headerlink" title="基本卷积函数的变体"></a>基本卷积函数的变体</h2><p>学习和优化有什么不同<br>机器学习通常是简介的。在大多数机器学习问题中，我们关注定义于测试集上的，也可能是不可解的性能度量$P$。因此，我们只是简介地优化$P$。我们希望通过降低损失函数$J(\theta)$来提高$P$。这一点不同于纯优化最小化$J$本身。<br>$$J(\theta)=\mathtt{E}_{(x,y)~\hat{p}_data}L(f(x;\theta),y)$$<br>其中$L$是每个样本的损失函数，$f(x;\theta)$是输入是$x$时的预测输出，$\hat{p}_data$是经验分布。<br>通常，我们更希望最小化期望取自数据生成分布$p<em>data$，$$J^{*}(\theta)=\mathtt{E}</em>{(x,y)~\hat{p}_data}L(f(x;\theta),y)$$</p>
-<h2 id="经验风险最小化"><a href="#经验风险最小化" class="headerlink" title="经验风险最小化"></a>经验风险最小化</h2><p>机器学习算法的目标是降低式(8.2)所示的期望泛化误差。这个数据量被称为风险(risk)。值得注意的是，该期望取自真实的数据分布$p<em>data$。<br>机器学习问题用训练集上的经验分布$\hat{p}(x,y)$替代真实分布$p(x,y)$。如此，我们最小化经验风险$$\mathtt{E}</em>{(x,y)~\hat{p}_data}L(f(x;\theta),y)=frac{1}{m}\$$<br>基于最小化如上平均训练误差的训练过程被称为经验风险最小化。<br>经验风险最小化容易过拟合。高容量的模型会简单地记住训练集。在很多情况下，经验风险最小化并非真的可行。最有效的现代优化算法是基于梯度下降的。在深度学习中我们很少使用经验风险最小化。</p>
-<h2 id="替代损失函数和提前终止"><a href="#替代损失函数和提前终止" class="headerlink" title="替代损失函数和提前终止"></a>替代损失函数和提前终止</h2><h2 id="（小）批算法"><a href="#（小）批算法" class="headerlink" title="（小）批算法"></a>（小）批算法</h2><p>机器学习算法的目标函数通常可以分解成训练样本上的求和。机器学习优化算法通常使用整个损失函数中的一部分项去更新其参数。</p>
-<h2 id="神经网络的优化挑战"><a href="#神经网络的优化挑战" class="headerlink" title="神经网络的优化挑战"></a>神经网络的优化挑战</h2><p>在训练神经网络时，我们肯定会遇到一般的非凸情况。即使是凸优化，也并非没有任何问题。在这一节中，我们会总结几个训练深度模型时会涉及到的主要挑战。</p>
-<h3 id="8-2-1-病态"><a href="#8-2-1-病态" class="headerlink" title="8.2.1 病态"></a>8.2.1 病态</h3><p>海森矩阵$H$的病态。这是数值优化，凸优化或其他形式的优化中普遍存在的问题。<br>病态体现在随机梯度下降会“卡”在某些情况，此时即使很小的更新步长也会增加损失函数。</p>
-<h3 id="8-2-2-局部极小值"><a href="#8-2-2-局部极小值" class="headerlink" title="8.2.2 局部极小值"></a>8.2.2 局部极小值</h3><h3 id="8-2-3-高原，鞍点和其他平坦区域"><a href="#8-2-3-高原，鞍点和其他平坦区域" class="headerlink" title="8.2.3 高原，鞍点和其他平坦区域"></a>8.2.3 高原，鞍点和其他平坦区域</h3><h3 id="8-2-4-悬崖和梯度爆炸"><a href="#8-2-4-悬崖和梯度爆炸" class="headerlink" title="8.2.4 悬崖和梯度爆炸"></a>8.2.4 悬崖和梯度爆炸</h3><p>多层神经网络通常有像悬崖一样的斜率较大区域，如图8.3所示。这是由于几个较大的权重相乘导致的。遇到斜率极大的悬崖结构时，梯度更新会很大程度地改变参数值，通常会跳过这类悬崖结构。但幸运的是可以使用启发式梯度截断来避免其主要缺点。</p>
-<h3 id="8-2-5-长期相关性"><a href="#8-2-5-长期相关性" class="headerlink" title="8.2.5 长期相关性"></a>8.2.5 长期相关性</h3><p>反复使用相同的参数产生了尤为突出的困难。<br>重复与矩阵$W$相乘的路径。<br>当特征值$\lambda_i$不再$1$附近时，若在量级上大于1则会膨胀到很大；若小于1时则会收缩到很小。<br>收缩和膨胀的梯度问题是指计算图上的梯度也会因为$diag(\lambda)^{t}$，诱发梯度截断的悬崖结构便是膨胀梯度现象的一个例子。<br>从这个观点来看，</p>
-<h2 id="8-3-基本算法"><a href="#8-3-基本算法" class="headerlink" title="8.3 基本算法"></a>8.3 基本算法</h2><h3 id="8-3-1-随机梯度下降"><a href="#8-3-1-随机梯度下降" class="headerlink" title="8.3.1 随机梯度下降"></a>8.3.1 随机梯度下降</h3><p>通过计算独立同分布地从数据生成分布中抽取的$m$个$minibatch$样本的梯度均值，我们可以得到梯度的无偏估计。在实践中，有必要随着时间的推移逐渐降低学习速率。<br>通常，就总训练时间和最终损失值而言，最优初始学习速率会高于大约迭代100步后输出最好效果的学习速率。<br>对于足够大的数据集，$SGD$可能会在处理整个训练集之前就收敛到最终测试集误差的某个固定容差范围内。<br>算法的收敛率，即当前损失函数超出最低可能损失的量。$batch$梯度下降在理论上比随机梯度下降有更好的收敛率。</p>
-<h3 id="动量"><a href="#动量" class="headerlink" title="动量"></a>动量</h3><h3 id="Nesterov-动量"><a href="#Nesterov-动量" class="headerlink" title="Nesterov 动量"></a>Nesterov 动量</h3><h2 id="参数初始化策略"><a href="#参数初始化策略" class="headerlink" title="参数初始化策略"></a>参数初始化策略</h2><p>大多数初始化策略基于在神经网络初始化时实现一些很好的性质。我们没有很好地理解这些性质中的哪些会在学习开始进行后的哪些情况下得以保持。进一步的难点是，有些初始点从优化的观点看或许是有利的，但是从泛化的观点看是不利的。我们对于初始点如何影响泛化的理解是相当原始的，几乎没有提供如何选择初始点的任何指导。<br>也许完全确指的唯一特性是初始参数需要在不同单元间“破坏对称性”。<br>如果我们有和输出一样多的输入，我们可以使用$Gram-Schmidt$正交化于初始的权重矩阵，保证每个单元计算彼此非常不同的函数。在高纬空间上使用高熵分布来随机初始化，计算代价小而且不太可能分配单元计算彼此相同的函数。<br>我们几乎总是初始化模型的权重为高斯或均匀分布中随机抽取的值。初始分布的大小确实对优化过程的结果和网络泛化能力有很大的影响。<br>更大的初始权重具有更强的破坏对称性的作用，有助于避免冗余的单元。正则化和优化有非常不同的视角。优化视角建议权重应该足够大以成功传播信息，但是正则化希望其小一点。诸如随机梯度下降这类对权重较小的增量更新，趋于停止在更靠近的初始参数的区域。</p>
-<h2 id="自适应学习率的算法"><a href="#自适应学习率的算法" class="headerlink" title="自适应学习率的算法"></a>自适应学习率的算法</h2><p>学习率是难以设置的超参数之一，因为它对模型的性能有显著的影响。<br>$delta-bar-delta算法$，该方法基于一个很简单的想法，如果损失对于某个给定模型参数的偏导保持相同的符号，那么学习速率应该增加。</p>
-<h3 id="AdaGrad"><a href="#AdaGrad" class="headerlink" title="AdaGrad"></a>AdaGrad</h3><p>$AdaGrad$算法。放缩每个参数反比于其所有梯度历史平方值总和的平方根。具有损失最大偏导的参数相应地有一个快速下降的学习速率，而具有小偏导的参数在学习速率上有较小的下降。</p>
-<h3 id="RMSProp"><a href="#RMSProp" class="headerlink" title="RMSProp"></a>RMSProp</h3><p>$RMSProp$算法修改$AdaGrad$以在非凸设定下效果更好。</p>
-<h3 id="Adam"><a href="#Adam" class="headerlink" title="Adam"></a>Adam</h3><p>$Adam$</p>
-<h2 id="选择正确的优化算法"><a href="#选择正确的优化算法" class="headerlink" title="选择正确的优化算法"></a>选择正确的优化算法</h2><h2 id="二阶近似方法"><a href="#二阶近似方法" class="headerlink" title="二阶近似方法"></a>二阶近似方法</h2><h3 id="牛顿方法"><a href="#牛顿方法" class="headerlink" title="牛顿方法"></a>牛顿方法</h3><h3 id="共轭梯度"><a href="#共轭梯度" class="headerlink" title="共轭梯度"></a>共轭梯度</h3><h2 id="优化技巧和元算法"><a href="#优化技巧和元算法" class="headerlink" title="优化技巧和元算法"></a>优化技巧和元算法</h2><h3 id="batch-normalization"><a href="#batch-normalization" class="headerlink" title="batch normalization"></a>batch normalization</h3><h3 id="坐标下降"><a href="#坐标下降" class="headerlink" title="坐标下降"></a>坐标下降</h3><h3 id="Polyak-平均"><a href="#Polyak-平均" class="headerlink" title="Polyak 平均"></a>Polyak 平均</h3>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;前馈神经网络对于机器学习的实践是极其重要的。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="焚膏继晷" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/"/>
-    
-      <category term="知识储备" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/%E7%9F%A5%E8%AF%86%E5%82%A8%E5%A4%87/"/>
-    
-    
-      <category term="Book" scheme="http://luxialan.com/tags/Book/"/>
-    
-  </entry>
-  
-  <entry>
     <title>【深度学习】 读书笔记 肆 数值计算</title>
     <link href="http://luxialan.com/2017/02/13/%E3%80%90%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E8%82%86-%E6%95%B0%E5%80%BC%E8%AE%A1%E7%AE%97/"/>
     <id>http://luxialan.com/2017/02/13/【深度学习】-读书笔记-肆-数值计算/</id>
     <published>2017-02-13T11:08:27.000Z</published>
-    <updated>2017-02-23T06:39:04.739Z</updated>
+    <updated>2017-02-23T06:39:06.000Z</updated>
     
     <content type="html"><![CDATA[<p>机器学习算法需要数值计算的方法来迭代求解无解析解的数学问题。包括优化和线性方程组求解。<br><a id="more"></a></p>
 <ul>
@@ -809,7 +837,7 @@
     <link href="http://luxialan.com/2017/02/12/%E3%80%90%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E5%8F%81-%E6%A6%82%E7%8E%87%E4%B8%8E%E4%BF%A1%E6%81%AF%E8%AE%BA/"/>
     <id>http://luxialan.com/2017/02/12/【深度学习】-读书笔记-叁-概率与信息论/</id>
     <published>2017-02-12T10:35:13.000Z</published>
-    <updated>2017-02-23T06:37:15.982Z</updated>
+    <updated>2017-02-23T06:37:16.000Z</updated>
     
     <content type="html"><![CDATA[<p>概率论使我们能够作出不确定的陈述以及在不确定性存在的情况下推理，而信息论使我们能够量化概率分布中的不确定性总量。<br><a id="more"></a></p>
 <h2 id="为什么要用概率？"><a href="#为什么要用概率？" class="headerlink" title="为什么要用概率？"></a>为什么要用概率？</h2><p>世界是不确定的，要对世界中的活动进行建模需要用概率论来量化不确定性。<br>不确定性有三种可能的来源：</p>
@@ -861,7 +889,7 @@
     <link href="http://luxialan.com/2017/02/09/%E3%80%90%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E8%B4%B0-%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/"/>
     <id>http://luxialan.com/2017/02/09/【深度学习】-读书笔记-贰-线性代数/</id>
     <published>2017-02-09T11:56:12.000Z</published>
-    <updated>2017-02-15T12:46:54.929Z</updated>
+    <updated>2017-02-15T12:46:56.000Z</updated>
     
     <content type="html"><![CDATA[<p>代数、分析、几何、概率论，数学的基础知识。<br><a id="more"></a></p>
 <ul>
@@ -917,7 +945,7 @@
     <link href="http://luxialan.com/2017/02/09/%E3%80%90%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E5%A3%B9-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%A6%82%E8%BF%B0/"/>
     <id>http://luxialan.com/2017/02/09/【深度学习】-读书笔记-壹-深度学习概述/</id>
     <published>2017-02-09T05:56:12.000Z</published>
-    <updated>2017-03-21T09:09:02.903Z</updated>
+    <updated>2017-03-21T09:09:04.000Z</updated>
     
     <content type="html"><![CDATA[<p>深度学习的前世今生。<br><a id="more"></a><br>量化交易，也称算法交易，是严格按照计算机算法程序给出的买卖决策进行的证券交易。</p>
 <p>量化交易与</p>
@@ -1013,7 +1041,7 @@
     <link href="http://luxialan.com/2016/12/29/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%9B%86%E7%BE%A4%E6%8C%87%E5%8D%97/"/>
     <id>http://luxialan.com/2016/12/29/服务器集群指南/</id>
     <published>2016-12-29T02:07:09.000Z</published>
-    <updated>2017-01-22T13:58:52.711Z</updated>
+    <updated>2017-01-22T13:58:54.000Z</updated>
     
     <content type="html"><![CDATA[<p>研究生期间协助导师搭建和管理实验室的服务器，其中涉及到基础的服务器集群搭建、管理和维护。由于时间有限，只总结出一个大的框架，仅供参考。<br><a id="more"></a></p>
 <h2 id="服务器集群搭建"><a href="#服务器集群搭建" class="headerlink" title="服务器集群搭建"></a>服务器集群搭建</h2><h3 id="服务集群拓扑图"><a href="#服务集群拓扑图" class="headerlink" title="服务集群拓扑图"></a>服务集群拓扑图</h3><p><center> <img src="/images/server/server_topology.png" alt="Alt text"></center><br>一个服务器集群应当有一台以上的数据中心存储数据Data Server，Data Server特点是存储量尽可能大而运算能力可以不必太高，另外多台服务器作为运行程序的Work Server,根据不同的需求配置Work Server.</p>
