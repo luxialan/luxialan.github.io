@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://luxialan.com/"/>
-  <updated>2017-08-05T07:59:10.131Z</updated>
+  <updated>2017-08-05T08:33:03.043Z</updated>
   <id>http://luxialan.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://luxialan.com/2017/08/02/%E3%80%8A%E9%87%91%E9%92%B1%E6%9C%89%E6%9C%AF%E3%80%8B-%E7%AC%94%E8%AE%B0/"/>
     <id>http://luxialan.com/2017/08/02/《金钱有术》-笔记/</id>
     <published>2017-08-02T03:51:32.000Z</published>
-    <updated>2017-08-05T07:59:10.131Z</updated>
+    <updated>2017-08-05T08:33:03.043Z</updated>
     
     <content type="html"><![CDATA[<p>金融基础知识<br><a id="more"></a></p>
 <h2 id="银行理财产品"><a href="#银行理财产品" class="headerlink" title="银行理财产品"></a>银行理财产品</h2><h3 id="信用市场类"><a href="#信用市场类" class="headerlink" title="信用市场类"></a>信用市场类</h3><p>从本质上来看，信贷类业务是项目融资，大致有两个用途：第一，不占用风险资产和信贷规模的表外出账，这个基础资产的审核标准跟贷款客户是一样的，甚至本身就有正常的授信额度。</p>
@@ -63,12 +63,12 @@
     
     </summary>
     
-      <category term="Learning" scheme="http://luxialan.com/categories/Learning/"/>
+      <category term="learning" scheme="http://luxialan.com/categories/learning/"/>
     
     
-      <category term="Economy/Finance" scheme="http://luxialan.com/tags/Economy-Finance/"/>
+      <category term="note" scheme="http://luxialan.com/tags/note/"/>
     
-      <category term="Note" scheme="http://luxialan.com/tags/Note/"/>
+      <category term="economy/finance" scheme="http://luxialan.com/tags/economy-finance/"/>
     
   </entry>
   
@@ -109,9 +109,9 @@
       <category term="learning" scheme="http://luxialan.com/categories/learning/"/>
     
     
-      <category term="economy/finance" scheme="http://luxialan.com/tags/economy-finance/"/>
-    
       <category term="note" scheme="http://luxialan.com/tags/note/"/>
+    
+      <category term="economy/finance" scheme="http://luxialan.com/tags/economy-finance/"/>
     
   </entry>
   
@@ -185,9 +185,9 @@
       <category term="learning" scheme="http://luxialan.com/categories/learning/"/>
     
     
-      <category term="economy/finance" scheme="http://luxialan.com/tags/economy-finance/"/>
-    
       <category term="note" scheme="http://luxialan.com/tags/note/"/>
+    
+      <category term="economy/finance" scheme="http://luxialan.com/tags/economy-finance/"/>
     
   </entry>
   
@@ -229,9 +229,9 @@
       <category term="learning" scheme="http://luxialan.com/categories/learning/"/>
     
     
-      <category term="economy/finance" scheme="http://luxialan.com/tags/economy-finance/"/>
-    
       <category term="note" scheme="http://luxialan.com/tags/note/"/>
+    
+      <category term="economy/finance" scheme="http://luxialan.com/tags/economy-finance/"/>
     
   </entry>
   
@@ -441,9 +441,9 @@
       <category term="learning" scheme="http://luxialan.com/categories/learning/"/>
     
     
-      <category term="economy/finance" scheme="http://luxialan.com/tags/economy-finance/"/>
-    
       <category term="note" scheme="http://luxialan.com/tags/note/"/>
+    
+      <category term="economy/finance" scheme="http://luxialan.com/tags/economy-finance/"/>
     
   </entry>
   
@@ -495,9 +495,9 @@
       <category term="learning" scheme="http://luxialan.com/categories/learning/"/>
     
     
-      <category term="economy/finance" scheme="http://luxialan.com/tags/economy-finance/"/>
-    
       <category term="note" scheme="http://luxialan.com/tags/note/"/>
+    
+      <category term="economy/finance" scheme="http://luxialan.com/tags/economy-finance/"/>
     
   </entry>
   
@@ -506,7 +506,7 @@
     <link href="http://luxialan.com/2017/02/23/%E3%80%8A%E4%BA%BA%E4%BB%B6%E3%80%8B-%E7%AC%94%E8%AE%B0/"/>
     <id>http://luxialan.com/2017/02/23/《人件》-笔记/</id>
     <published>2017-02-23T00:57:08.000Z</published>
-    <updated>2017-08-05T08:14:18.918Z</updated>
+    <updated>2017-08-05T08:33:24.898Z</updated>
     
     <content type="html"><![CDATA[<p>人不仅仅是个物件，还有人性。<br><a id="more"></a></p>
 <ul>
@@ -776,9 +776,9 @@
       <category term="learning" scheme="http://luxialan.com/categories/learning/"/>
     
     
-      <category term="note" scheme="http://luxialan.com/tags/note/"/>
-    
       <category term="math" scheme="http://luxialan.com/tags/math/"/>
+    
+      <category term="note" scheme="http://luxialan.com/tags/note/"/>
     
   </entry>
   
@@ -826,9 +826,9 @@
       <category term="Investment" scheme="http://luxialan.com/categories/Investment/"/>
     
     
-      <category term="Economy/Finance" scheme="http://luxialan.com/tags/Economy-Finance/"/>
-    
       <category term="Handbook" scheme="http://luxialan.com/tags/Handbook/"/>
+    
+      <category term="Economy/Finance" scheme="http://luxialan.com/tags/Economy-Finance/"/>
     
   </entry>
   
