@@ -89,7 +89,7 @@
 <meta name="description" content="每天进步一点点">
 <meta property="og:type" content="website">
 <meta property="og:title" content="水冼雪">
-<meta property="og:url" content="http://luxialan.com/tags/economy-finance/index.html">
+<meta property="og:url" content="http://luxialan.com/tags/Economy-Finance/index.html">
 <meta property="og:site_name" content="水冼雪">
 <meta property="og:description" content="每天进步一点点">
 <meta name="twitter:card" content="summary">
@@ -122,13 +122,13 @@
 
 
 
-  <link rel="canonical" href="http://luxialan.com/tags/economy-finance/"/>
+  <link rel="canonical" href="http://luxialan.com/tags/Economy-Finance/"/>
 
 
 
 
 
-  <title> 标签: economy/finance | 水冼雪 </title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  <title> 标签: Economy/Finance | 水冼雪 </title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -294,7 +294,7 @@
   <div id="posts" class="posts-collapse">
     <div class="collection-title">
       <h2 >
-        economy/finance
+        Economy/Finance
         <small>标签</small>
       </h2>
     </div>
@@ -307,9 +307,9 @@
 
       <h1 class="post-title">
         
-            <a class="post-title-link" href="/2017/08/01/《量化投资方法论》-笔记/" itemprop="url">
+            <a class="post-title-link" href="/2017/08/02/《金钱有术》-笔记/" itemprop="url">
               
-                <span itemprop="name">《量化投资方法论》 笔记</span>
+                <span itemprop="name">《金钱有术》 笔记</span>
               
             </a>
         
@@ -317,9 +317,37 @@
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
-              datetime="2017-08-01T15:37:25+08:00"
-              content="2017-08-01" >
-          08-01
+              datetime="2017-08-02T11:51:32+08:00"
+              content="2017-08-02" >
+          08-02
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+    
+      
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h1 class="post-title">
+        
+            <a class="post-title-link" href="/2017/02/15/理财基础指南/" itemprop="url">
+              
+                <span itemprop="name">理财基础指南</span>
+              
+            </a>
+        
+      </h1>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2017-02-15T16:37:54+08:00"
+              content="2017-02-15" >
+          02-15
         </time>
       </div>
 
@@ -740,41 +768,7 @@
 
 </body>
 </html>
-       var element = document.getElementById(url);
-
-            $(element).find(COUNT_CONTAINER_REF).text(time);
-          }
-          for(var i = 0; i < entries.length; i++) {
-            var url = entries[i];
-            var element = document.getElementById(url);
-            var countSpan = $(element).find(COUNT_CONTAINER_REF);
-            if( countSpan.text() == '') {
-              countSpan.text(0);
-            }
-          }
-        })
-        .fail(function (object, error) {
-          console.log("Error: " + error.code + " " + error.message);
-        });
-    }
-
-    function addCount(Counter) {
-      var $visitors = $(".leancloud_visitors");
-      var url = $visitors.attr('id').trim();
-      var title = $visitors.attr('data-flag-title').trim();
-      var query = new AV.Query(Counter);
-
-      query.equalTo("url", url);
-      query.find({
-        success: function(results) {
-          if (results.length > 0) {
-            var counter = results[0];
-            counter.fetchWhenSave(true);
-            counter.increment("time");
-            counter.save(null, {
-              success: function(counter) {
-                var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+me'));
               },
               error: function(counter, error) {
                 console.log('Failed to save Visitor num, with error message: ' + error.message);
