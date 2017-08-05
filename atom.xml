@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://luxialan.com/"/>
-  <updated>2017-08-04T06:46:00.672Z</updated>
+  <updated>2017-08-05T07:33:24.821Z</updated>
   <id>http://luxialan.com/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>【金钱有术】 读后感</title>
-    <link href="http://luxialan.com/2017/08/02/%E3%80%90%E9%87%91%E9%92%B1%E6%9C%89%E6%9C%AF%E3%80%91-%E8%AF%BB%E5%90%8E%E6%84%9F/"/>
-    <id>http://luxialan.com/2017/08/02/【金钱有术】-读后感/</id>
+    <title>《金钱有术》 笔记</title>
+    <link href="http://luxialan.com/2017/08/02/%E3%80%8A%E9%87%91%E9%92%B1%E6%9C%89%E6%9C%AF%E3%80%8B-%E7%AC%94%E8%AE%B0/"/>
+    <id>http://luxialan.com/2017/08/02/《金钱有术》-笔记/</id>
     <published>2017-08-02T03:51:32.000Z</published>
-    <updated>2017-08-04T06:46:00.672Z</updated>
+    <updated>2017-08-05T07:33:24.821Z</updated>
     
     <content type="html"><![CDATA[<p>金融基础知识<br><a id="more"></a></p>
 <h2 id="银行理财产品"><a href="#银行理财产品" class="headerlink" title="银行理财产品"></a>银行理财产品</h2><h3 id="信用市场类"><a href="#信用市场类" class="headerlink" title="信用市场类"></a>信用市场类</h3><p>从本质上来看，信贷类业务是项目融资，大致有两个用途：第一，不占用风险资产和信贷规模的表外出账，这个基础资产的审核标准跟贷款客户是一样的，甚至本身就有正常的授信额度。</p>
@@ -63,23 +63,19 @@
     
     </summary>
     
-      <category term="焚膏继晷" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/"/>
-    
-      <category term="知识储备" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/%E7%9F%A5%E8%AF%86%E5%82%A8%E5%A4%87/"/>
+      <category term="Learning" scheme="http://luxialan.com/categories/Learning/"/>
     
     
-      <category term="Book" scheme="http://luxialan.com/tags/Book/"/>
-    
-      <category term="Economy/Finance" scheme="http://luxialan.com/tags/Economy-Finance/"/>
+      <category term="Economy/Finance，Note" scheme="http://luxialan.com/tags/Economy-Finance%EF%BC%8CNote/"/>
     
   </entry>
   
   <entry>
-    <title>【量化投资方法论】 笔记</title>
-    <link href="http://luxialan.com/2017/08/01/%E3%80%90%E9%87%8F%E5%8C%96%E6%8A%95%E8%B5%84%E6%96%B9%E6%B3%95%E8%AE%BA%E3%80%91-%E7%AC%94%E8%AE%B0/"/>
-    <id>http://luxialan.com/2017/08/01/【量化投资方法论】-笔记/</id>
+    <title>《量化投资方法论》 笔记</title>
+    <link href="http://luxialan.com/2017/08/01/%E3%80%8A%E9%87%8F%E5%8C%96%E6%8A%95%E8%B5%84%E6%96%B9%E6%B3%95%E8%AE%BA%E3%80%8B-%E7%AC%94%E8%AE%B0/"/>
+    <id>http://luxialan.com/2017/08/01/《量化投资方法论》-笔记/</id>
     <published>2017-08-01T07:37:25.000Z</published>
-    <updated>2017-08-03T02:29:22.571Z</updated>
+    <updated>2017-08-05T07:40:29.009Z</updated>
     
     <content type="html"><![CDATA[<p>风险与收益的平衡<br><a id="more"></a></p>
 <h2 id="量化投资两个问题"><a href="#量化投资两个问题" class="headerlink" title="量化投资两个问题"></a>量化投资两个问题</h2><h3 id="如何定义与看待期望收益与风险"><a href="#如何定义与看待期望收益与风险" class="headerlink" title="如何定义与看待期望收益与风险"></a>如何定义与看待期望收益与风险</h3><p>研究的重点，要放在期望收益上，也就是从概率意义上以及大样本意义上的期望水平。</p>
@@ -108,14 +104,10 @@
     
     </summary>
     
-      <category term="焚膏继晷" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/"/>
-    
-      <category term="知识储备" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/%E7%9F%A5%E8%AF%86%E5%82%A8%E5%A4%87/"/>
+      <category term="Learning" scheme="http://luxialan.com/categories/Learning/"/>
     
     
-      <category term="Economy/Finance" scheme="http://luxialan.com/tags/Economy-Finance/"/>
-    
-      <category term="Note" scheme="http://luxialan.com/tags/Note/"/>
+      <category term="Economy/Finance，Note" scheme="http://luxialan.com/tags/Economy-Finance%EF%BC%8CNote/"/>
     
   </entry>
   
@@ -124,10 +116,9 @@
     <link href="http://luxialan.com/2017/07/30/%E3%80%90%E7%AC%AC%E4%BA%8C%E5%91%A8%E3%80%91-%E6%9C%89%E6%9C%8B%E8%87%AA%E8%BF%9C%E6%96%B9%E6%9D%A5/"/>
     <id>http://luxialan.com/2017/07/30/【第二周】-有朋自远方来/</id>
     <published>2017-07-30T13:40:05.000Z</published>
-    <updated>2017-08-04T01:12:27.316Z</updated>
+    <updated>2017-08-05T02:13:11.434Z</updated>
     
-    <content type="html"><![CDATA[<p>有朋自远方来，不亦乐乎<br><a id="more"></a><br>今天见了许久没见的小黄，也第一次见到了小黄的女朋友，由衷地为他们找到适合彼此的另一半感到高兴。<br>一起喝了早茶，逛了下西西弗书店。在西西弗书店翻到一本《百鬼夜行》，其中有一页是介绍道成寺钟。</p>
-<p><center> <img src="/images/week/week2.jpg" alt="Alt text"></center><br>感情的确应该是相互的，长久的感情离不开相互的欣赏与吸引，友情如此，爱情也是如此。</p>
+    <content type="html"><![CDATA[<p>有朋自远方来，不亦乐乎<br><a id="more"></a><br>今天见了许久没见的小黄，也第一次见到了小黄的女朋友，由衷地为他们找到适合彼此的另一半感到高兴。<br>一起喝了早茶，逛了下西西弗书店。在西西弗书店翻到一本《百鬼夜行》，其中有一页是介绍道成寺钟。<br><img src="/images/week/week2.jpg" width="300" height="200" alt="book" align="center"><br>感情的确应该是相互的，长久的感情离不开相互的欣赏与吸引，友情如此，爱情也是如此。</p>
 ]]></content>
     
     <summary type="html">
@@ -146,11 +137,11 @@
   </entry>
   
   <entry>
-    <title>【量化投资与当前市场】 笔记</title>
-    <link href="http://luxialan.com/2017/07/29/%E3%80%90%E9%87%8F%E5%8C%96%E6%8A%95%E8%B5%84%E4%B8%8E%E5%BD%93%E5%89%8D%E5%B8%82%E5%9C%BA%E3%80%91-%E7%AC%94%E8%AE%B0/"/>
-    <id>http://luxialan.com/2017/07/29/【量化投资与当前市场】-笔记/</id>
+    <title>《量化投资与当前市场》 笔记</title>
+    <link href="http://luxialan.com/2017/07/29/%E3%80%8A%E9%87%8F%E5%8C%96%E6%8A%95%E8%B5%84%E4%B8%8E%E5%BD%93%E5%89%8D%E5%B8%82%E5%9C%BA%E3%80%8B-%E7%AC%94%E8%AE%B0/"/>
+    <id>http://luxialan.com/2017/07/29/《量化投资与当前市场》-笔记/</id>
     <published>2017-07-29T09:57:40.000Z</published>
-    <updated>2017-08-04T01:12:54.885Z</updated>
+    <updated>2017-08-05T07:41:06.676Z</updated>
     
     <content type="html"><![CDATA[<p>量化投资的崛起<br><a id="more"></a></p>
 <h3 id="量化投资的范围"><a href="#量化投资的范围" class="headerlink" title="量化投资的范围"></a>量化投资的范围</h3><h4 id="期货CTA策略"><a href="#期货CTA策略" class="headerlink" title="期货CTA策略"></a>期货CTA策略</h4><p>趋势跟踪策略、跨品种、跨期的套利策略。CTA策略容纳的资金量有限，在公募基金量化投资中不是一种主流的策略</p>
@@ -189,9 +180,7 @@
     
     </summary>
     
-      <category term="焚膏继晷" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/"/>
-    
-      <category term="知识储备" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/%E7%9F%A5%E8%AF%86%E5%82%A8%E5%A4%87/"/>
+      <category term="Learning" scheme="http://luxialan.com/categories/Learning/"/>
     
     
       <category term="Economy/Finance" scheme="http://luxialan.com/tags/Economy-Finance/"/>
@@ -201,11 +190,11 @@
   </entry>
   
   <entry>
-    <title>【证券分析】 读书笔记</title>
-    <link href="http://luxialan.com/2017/07/18/%E3%80%90%E8%AF%81%E5%88%B8%E5%88%86%E6%9E%90%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    <id>http://luxialan.com/2017/07/18/【证券分析】-读书笔记/</id>
+    <title>《证券分析》 笔记</title>
+    <link href="http://luxialan.com/2017/07/18/%E3%80%8A%E8%AF%81%E5%88%B8%E5%88%86%E6%9E%90%E3%80%8B-%E7%AC%94%E8%AE%B0/"/>
+    <id>http://luxialan.com/2017/07/18/《证券分析》-笔记/</id>
     <published>2017-07-18T08:27:01.000Z</published>
-    <updated>2017-07-29T10:00:25.521Z</updated>
+    <updated>2017-08-05T07:30:44.108Z</updated>
     
     <content type="html"><![CDATA[<p>高频交易是为了增加市场流动性。<br><a id="more"></a></p>
 <h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>第一部分 调查及方法<br>第1章 证券分析的范围、局限和内在价值的概念<br>第2章 分析中的基本要素 量和质的因素<br>第3章 信息来源<br>第4章 投资与投机的区别<br>第5章 证券的分类</p>
@@ -235,14 +224,12 @@
     
     </summary>
     
-      <category term="焚膏继晷" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/"/>
+      <category term="学无止境" scheme="http://luxialan.com/categories/%E5%AD%A6%E6%97%A0%E6%AD%A2%E5%A2%83/"/>
     
-      <category term="知识储备" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/%E7%9F%A5%E8%AF%86%E5%82%A8%E5%A4%87/"/>
-    
-    
-      <category term="Book" scheme="http://luxialan.com/tags/Book/"/>
     
       <category term="Economy/Finance" scheme="http://luxialan.com/tags/Economy-Finance/"/>
+    
+      <category term="Note" scheme="http://luxialan.com/tags/Note/"/>
     
   </entry>
   
@@ -280,7 +267,7 @@
     <link href="http://luxialan.com/2017/07/04/%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%88%E6%8C%87%E5%8D%97/"/>
     <id>http://luxialan.com/2017/07/04/前端工程师指南/</id>
     <published>2017-07-04T03:01:43.000Z</published>
-    <updated>2017-07-21T14:20:24.427Z</updated>
+    <updated>2017-08-05T07:50:14.310Z</updated>
     
     <content type="html"><![CDATA[<p>前端开发相关知识点<br><a id="more"></a></p>
 <h3 id="三大基础知识"><a href="#三大基础知识" class="headerlink" title="三大基础知识"></a>三大基础知识</h3><p>HTML\CSS\JavaScript<br>HTML是网页的标记语言</p>
@@ -292,21 +279,21 @@
     
     </summary>
     
-      <category term="焚膏继晷" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/"/>
-    
-      <category term="技术管理" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/%E6%8A%80%E6%9C%AF%E7%AE%A1%E7%90%86/"/>
+      <category term="Technique" scheme="http://luxialan.com/categories/Technique/"/>
     
     
       <category term="Technique" scheme="http://luxialan.com/tags/Technique/"/>
     
+      <category term="Handbook" scheme="http://luxialan.com/tags/Handbook/"/>
+    
   </entry>
   
   <entry>
-    <title>研究生这三年</title>
-    <link href="http://luxialan.com/2017/07/02/%E7%A0%94%E7%A9%B6%E7%94%9F%E8%BF%99%E4%B8%89%E5%B9%B4/"/>
-    <id>http://luxialan.com/2017/07/02/研究生这三年/</id>
+    <title>【2016年总结】 研究生这三年</title>
+    <link href="http://luxialan.com/2017/07/02/%E3%80%902016%E5%B9%B4%E6%80%BB%E7%BB%93%E3%80%91-%E7%A0%94%E7%A9%B6%E7%94%9F%E8%BF%99%E4%B8%89%E5%B9%B4/"/>
+    <id>http://luxialan.com/2017/07/02/【2016年总结】-研究生这三年/</id>
     <published>2017-07-02T07:05:35.000Z</published>
-    <updated>2017-07-03T11:13:03.574Z</updated>
+    <updated>2017-08-05T07:48:45.480Z</updated>
     
     <content type="html"><![CDATA[<p>谢谢<br><a id="more"></a><br>白煦过隙，研究生三年转眼就过了，很感谢这三年的时光，至今仍记得当年大四时抱着试一试的态度联系现在导师的忐忑心情。这三年伴随实验室一起成长，从最初的十几人扩展到现在的几十人，期间经历了不少事情，回头看由于自己的不成熟当时处理得并不是那么得当，但很幸运地，周围的人大多给予了包容和理解。遇见了值得珍惜的伙伴，对我而言是很重要的存在。同门师兄弟都有各自闪光的地方，所以时常提醒自己要多多努力，身处一个向上发展的团队中，很容易将平台的光环误以为是自身的能力。</p>
 ]]></content>
@@ -317,9 +304,7 @@
     
     </summary>
     
-      <category term="随便侃侃" scheme="http://luxialan.com/categories/%E9%9A%8F%E4%BE%BF%E4%BE%83%E4%BE%83/"/>
-    
-      <category term="总结" scheme="http://luxialan.com/categories/%E9%9A%8F%E4%BE%BF%E4%BE%83%E4%BE%83/%E6%80%BB%E7%BB%93/"/>
+      <category term="Gossip" scheme="http://luxialan.com/categories/Gossip/"/>
     
     
       <category term="Gossip" scheme="http://luxialan.com/tags/Gossip/"/>
@@ -327,11 +312,11 @@
   </entry>
   
   <entry>
-    <title>【程序员健康指南】 读书笔记</title>
-    <link href="http://luxialan.com/2017/04/19/%E3%80%90%E7%A8%8B%E5%BA%8F%E5%91%98%E5%81%A5%E5%BA%B7%E6%8C%87%E5%8D%97%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    <id>http://luxialan.com/2017/04/19/【程序员健康指南】-读书笔记/</id>
+    <title>《程序员健康指南》 笔记</title>
+    <link href="http://luxialan.com/2017/04/19/%E3%80%8A%E7%A8%8B%E5%BA%8F%E5%91%98%E5%81%A5%E5%BA%B7%E6%8C%87%E5%8D%97%E3%80%8B%20-%E7%AC%94%E8%AE%B0/"/>
+    <id>http://luxialan.com/2017/04/19/《程序员健康指南》 -笔记/</id>
     <published>2017-04-19T07:49:35.000Z</published>
-    <updated>2017-04-20T00:50:28.000Z</updated>
+    <updated>2017-08-05T07:22:48.638Z</updated>
     
     <content type="html"><![CDATA[<p>身体是程序员的本钱<br><a id="more"></a></p>
 <h2 id="日常清单"><a href="#日常清单" class="headerlink" title="日常清单"></a>日常清单</h2><ul>
@@ -360,21 +345,21 @@
     
     </summary>
     
-      <category term="焚膏继晷" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/"/>
-    
-      <category term="知识储备" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/%E7%9F%A5%E8%AF%86%E5%82%A8%E5%A4%87/"/>
+      <category term="learning" scheme="http://luxialan.com/categories/learning/"/>
     
     
-      <category term="Book" scheme="http://luxialan.com/tags/Book/"/>
+      <category term="Note" scheme="http://luxialan.com/tags/Note/"/>
+    
+      <category term="Technique" scheme="http://luxialan.com/tags/Technique/"/>
     
   </entry>
   
   <entry>
-    <title>【量化交易 如何建立自己的算法交易】 读书笔记</title>
-    <link href="http://luxialan.com/2017/03/07/%E3%80%90%E9%87%8F%E5%8C%96%E4%BA%A4%E6%98%93-%E5%A6%82%E4%BD%95%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%AE%97%E6%B3%95%E4%BA%A4%E6%98%93%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    <id>http://luxialan.com/2017/03/07/【量化交易-如何建立自己的算法交易】-读书笔记/</id>
+    <title>《量化交易 如何建立自己的算法交易》 笔记</title>
+    <link href="http://luxialan.com/2017/03/07/%E3%80%8A%E9%87%8F%E5%8C%96%E4%BA%A4%E6%98%93-%E5%A6%82%E4%BD%95%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%AE%97%E6%B3%95%E4%BA%A4%E6%98%93%E3%80%8B-%E7%AC%94%E8%AE%B0/"/>
+    <id>http://luxialan.com/2017/03/07/《量化交易-如何建立自己的算法交易》-笔记/</id>
     <published>2017-03-07T03:25:34.000Z</published>
-    <updated>2017-03-07T14:21:46.000Z</updated>
+    <updated>2017-08-05T07:39:42.572Z</updated>
     
     <content type="html"><![CDATA[<p>量化交易，也称算法交易，是严格按照计算机算法程序给出的买卖决策进行的证券交易。<br><a id="more"></a></p>
 <ul>
@@ -453,21 +438,19 @@
     
     </summary>
     
-      <category term="焚膏继晷" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/"/>
-    
-      <category term="知识储备" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/%E7%9F%A5%E8%AF%86%E5%82%A8%E5%A4%87/"/>
+      <category term="Learning" scheme="http://luxialan.com/categories/Learning/"/>
     
     
-      <category term="Book" scheme="http://luxialan.com/tags/Book/"/>
+      <category term="Economy/Finance，Note" scheme="http://luxialan.com/tags/Economy-Finance%EF%BC%8CNote/"/>
     
   </entry>
   
   <entry>
-    <title>【我是高频交易工程师】 读书笔记</title>
-    <link href="http://luxialan.com/2017/03/04/%E3%80%90%E6%88%91%E6%98%AF%E9%AB%98%E9%A2%91%E4%BA%A4%E6%98%93%E5%B7%A5%E7%A8%8B%E5%B8%88%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    <id>http://luxialan.com/2017/03/04/【我是高频交易工程师】-读书笔记/</id>
+    <title>《我是高频交易工程师》 笔记</title>
+    <link href="http://luxialan.com/2017/03/04/%E3%80%8A%E6%88%91%E6%98%AF%E9%AB%98%E9%A2%91%E4%BA%A4%E6%98%93%E5%B7%A5%E7%A8%8B%E5%B8%88%E3%80%8B-%E7%AC%94%E8%AE%B0/"/>
+    <id>http://luxialan.com/2017/03/04/《我是高频交易工程师》-笔记/</id>
     <published>2017-03-04T03:39:39.000Z</published>
-    <updated>2017-03-04T13:10:58.000Z</updated>
+    <updated>2017-08-05T07:46:34.006Z</updated>
     
     <content type="html"><![CDATA[<p>高频交易是为了增加市场流动性。<br><a id="more"></a></p>
 <ul>
@@ -507,21 +490,21 @@
     
     </summary>
     
-      <category term="焚膏继晷" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/"/>
-    
-      <category term="知识储备" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/%E7%9F%A5%E8%AF%86%E5%82%A8%E5%A4%87/"/>
+      <category term="Learning" scheme="http://luxialan.com/categories/Learning/"/>
     
     
-      <category term="Book" scheme="http://luxialan.com/tags/Book/"/>
+      <category term="Economy/Finance" scheme="http://luxialan.com/tags/Economy-Finance/"/>
+    
+      <category term="Note" scheme="http://luxialan.com/tags/Note/"/>
     
   </entry>
   
   <entry>
-    <title>【人件】 读书笔记</title>
-    <link href="http://luxialan.com/2017/02/23/%E3%80%90%E4%BA%BA%E4%BB%B6%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    <id>http://luxialan.com/2017/02/23/【人件】-读书笔记/</id>
+    <title>《人件》 笔记</title>
+    <link href="http://luxialan.com/2017/02/23/%E3%80%8A%E4%BA%BA%E4%BB%B6%E3%80%8B-%E7%AC%94%E8%AE%B0/"/>
+    <id>http://luxialan.com/2017/02/23/《人件》-笔记/</id>
     <published>2017-02-23T00:57:08.000Z</published>
-    <updated>2017-02-23T02:58:02.000Z</updated>
+    <updated>2017-08-05T07:41:38.414Z</updated>
     
     <content type="html"><![CDATA[<p>人不仅仅是个物件，还有人性。<br><a id="more"></a></p>
 <ul>
@@ -572,21 +555,21 @@
     
     </summary>
     
-      <category term="焚膏继晷" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/"/>
-    
-      <category term="知识储备" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/%E7%9F%A5%E8%AF%86%E5%82%A8%E5%A4%87/"/>
+      <category term="Learning" scheme="http://luxialan.com/categories/Learning/"/>
     
     
-      <category term="Book" scheme="http://luxialan.com/tags/Book/"/>
+      <category term="Note" scheme="http://luxialan.com/tags/Note/"/>
+    
+      <category term="Technique" scheme="http://luxialan.com/tags/Technique/"/>
     
   </entry>
   
   <entry>
-    <title>【深度学习】 读书笔记 柒 深度学习的正则化</title>
-    <link href="http://luxialan.com/2017/02/21/%E3%80%90%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E6%9F%92-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E6%AD%A3%E5%88%99%E5%8C%96/"/>
-    <id>http://luxialan.com/2017/02/21/【深度学习】-读书笔记-柒-深度学习的正则化/</id>
+    <title>《深度学习》 笔记 柒 深度学习的正则化</title>
+    <link href="http://luxialan.com/2017/02/21/%E3%80%8A%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%8B-%E7%AC%94%E8%AE%B0-%E6%9F%92-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E6%AD%A3%E5%88%99%E5%8C%96/"/>
+    <id>http://luxialan.com/2017/02/21/《深度学习》-笔记-柒-深度学习的正则化/</id>
     <published>2017-02-21T00:44:36.000Z</published>
-    <updated>2017-02-23T06:43:54.000Z</updated>
+    <updated>2017-08-05T07:43:23.559Z</updated>
     
     <content type="html"><![CDATA[<p>前馈神经网络对于机器学习的实践是极其重要的。<br><a id="more"></a></p>
 <ul>
@@ -632,21 +615,21 @@
     
     </summary>
     
-      <category term="焚膏继晷" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/"/>
-    
-      <category term="知识储备" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/%E7%9F%A5%E8%AF%86%E5%82%A8%E5%A4%87/"/>
+      <category term="Learning" scheme="http://luxialan.com/categories/Learning/"/>
     
     
-      <category term="Book" scheme="http://luxialan.com/tags/Book/"/>
+      <category term="Note" scheme="http://luxialan.com/tags/Note/"/>
+    
+      <category term="Technique" scheme="http://luxialan.com/tags/Technique/"/>
     
   </entry>
   
   <entry>
-    <title>【深度学习】 读书笔记 陆 深度前馈网络</title>
-    <link href="http://luxialan.com/2017/02/18/%E3%80%90%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E9%99%86-%E6%B7%B1%E5%BA%A6%E5%89%8D%E9%A6%88%E7%BD%91%E7%BB%9C/"/>
-    <id>http://luxialan.com/2017/02/18/【深度学习】-读书笔记-陆-深度前馈网络/</id>
+    <title>《深度学习》 笔记 陆 深度前馈网络</title>
+    <link href="http://luxialan.com/2017/02/18/%E3%80%8A%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%8B-%E7%AC%94%E8%AE%B0-%E9%99%86-%E6%B7%B1%E5%BA%A6%E5%89%8D%E9%A6%88%E7%BD%91%E7%BB%9C/"/>
+    <id>http://luxialan.com/2017/02/18/《深度学习》-笔记-陆-深度前馈网络/</id>
     <published>2017-02-18T07:52:57.000Z</published>
-    <updated>2017-02-23T06:43:02.000Z</updated>
+    <updated>2017-08-05T07:42:59.296Z</updated>
     
     <content type="html"><![CDATA[<p>深度学习的基础网络<br><a id="more"></a></p>
 <ul>
@@ -671,21 +654,21 @@
     
     </summary>
     
-      <category term="焚膏继晷" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/"/>
-    
-      <category term="知识储备" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/%E7%9F%A5%E8%AF%86%E5%82%A8%E5%A4%87/"/>
+      <category term="Learning" scheme="http://luxialan.com/categories/Learning/"/>
     
     
-      <category term="Book" scheme="http://luxialan.com/tags/Book/"/>
+      <category term="Note" scheme="http://luxialan.com/tags/Note/"/>
+    
+      <category term="Technique" scheme="http://luxialan.com/tags/Technique/"/>
     
   </entry>
   
   <entry>
-    <title>【概率论与数理统计】 读书笔记</title>
-    <link href="http://luxialan.com/2017/02/16/%E3%80%90%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    <id>http://luxialan.com/2017/02/16/【概率论与数理统计】-读书笔记/</id>
+    <title>《概率论与数理统计》 笔记</title>
+    <link href="http://luxialan.com/2017/02/16/%E3%80%8A%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1%E3%80%8B-%E7%AC%94%E8%AE%B0/"/>
+    <id>http://luxialan.com/2017/02/16/《概率论与数理统计》-笔记/</id>
     <published>2017-02-16T06:34:39.000Z</published>
-    <updated>2017-02-16T06:38:22.000Z</updated>
+    <updated>2017-08-05T07:32:49.280Z</updated>
     
     <content type="html"><![CDATA[<p>概率论与数理统计基础知识总结<br><a id="more"></a></p>
 <ul>
@@ -788,12 +771,12 @@
     
     </summary>
     
-      <category term="焚膏继晷" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/"/>
-    
-      <category term="知识储备" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/%E7%9F%A5%E8%AF%86%E5%82%A8%E5%A4%87/"/>
+      <category term="Learning" scheme="http://luxialan.com/categories/Learning/"/>
     
     
-      <category term="Book" scheme="http://luxialan.com/tags/Book/"/>
+      <category term="Note" scheme="http://luxialan.com/tags/Note/"/>
+    
+      <category term="Math" scheme="http://luxialan.com/tags/Math/"/>
     
   </entry>
   
@@ -802,7 +785,7 @@
     <link href="http://luxialan.com/2017/02/15/%E7%90%86%E8%B4%A2%E5%9F%BA%E7%A1%80%E6%8C%87%E5%8D%97/"/>
     <id>http://luxialan.com/2017/02/15/理财基础指南/</id>
     <published>2017-02-15T08:37:54.000Z</published>
-    <updated>2017-02-16T06:47:32.000Z</updated>
+    <updated>2017-08-05T07:29:34.498Z</updated>
     
     <content type="html"><![CDATA[<p>你不理财，财不理你<br><a id="more"></a><br>投资渠道</p>
 <ul>
@@ -838,21 +821,21 @@
     
     </summary>
     
-      <category term="焚膏继晷" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/"/>
-    
-      <category term="经济金融" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/%E7%BB%8F%E6%B5%8E%E9%87%91%E8%9E%8D/"/>
+      <category term="Investment" scheme="http://luxialan.com/categories/Investment/"/>
     
     
       <category term="Economy/Finance" scheme="http://luxialan.com/tags/Economy-Finance/"/>
     
+      <category term="Handbook" scheme="http://luxialan.com/tags/Handbook/"/>
+    
   </entry>
   
   <entry>
-    <title>【深度学习】 读书笔记 伍 机器学习基础</title>
-    <link href="http://luxialan.com/2017/02/14/%E3%80%90%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E4%BC%8D-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80/"/>
-    <id>http://luxialan.com/2017/02/14/【深度学习】-读书笔记-伍-机器学习基础/</id>
+    <title>《深度学习》 笔记 伍 机器学习基础</title>
+    <link href="http://luxialan.com/2017/02/14/%E3%80%8A%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%8B-%E7%AC%94%E8%AE%B0-%E4%BC%8D-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80/"/>
+    <id>http://luxialan.com/2017/02/14/《深度学习》-笔记-伍-机器学习基础/</id>
     <published>2017-02-14T06:38:12.000Z</published>
-    <updated>2017-02-16T06:51:56.000Z</updated>
+    <updated>2017-08-05T07:44:51.560Z</updated>
     
     <content type="html"><![CDATA[<p>机器学习本质上属于应用统计学，更多关注于如何用计算机统计地估计复杂函数，不太关注这些函数的置信区间。<br><a id="more"></a></p>
 <ul>
@@ -937,154 +920,21 @@
     
     </summary>
     
-      <category term="焚膏继晷" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/"/>
-    
-      <category term="知识储备" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/%E7%9F%A5%E8%AF%86%E5%82%A8%E5%A4%87/"/>
+      <category term="Learning" scheme="http://luxialan.com/categories/Learning/"/>
     
     
-      <category term="Book" scheme="http://luxialan.com/tags/Book/"/>
+      <category term="Note" scheme="http://luxialan.com/tags/Note/"/>
     
-  </entry>
-  
-  <entry>
-    <title>【深度学习】 读书笔记 拾一 深度模型中的优化</title>
-    <link href="http://luxialan.com/2017/02/14/2017%E7%AC%AC%E4%B8%80%E8%B0%88/"/>
-    <id>http://luxialan.com/2017/02/14/2017第一谈/</id>
-    <published>2017-02-14T06:38:12.000Z</published>
-    <updated>2017-03-16T03:09:54.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>前馈神经网络对于机器学习的实践是极其重要的。<br><a id="more"></a></p>
-<ul>
-<li>性能度量</li>
-<li>默认的基准模型</li>
-<li>决定是否收集更多数据</li>
-<li>选择超参数</li>
-<li>调试技巧</li>
-<li>实例：多位数字识别</li>
-</ul>
-<h2 id="实用方法"><a href="#实用方法" class="headerlink" title="实用方法"></a>实用方法</h2><p>应用深度学习技术不仅需要知道存在拿哪些算法和解释它们如何工作的原则，一个好的机器学习实践者也需要知道如何挑选一个针对特别应用的算法，以及如何监管和回应实验中得到的反馈以改进机器学习系统。<br>实践者需要决定</p>
-<ul>
-<li>是否收集更多的数据</li>
-<li>增加或减少模型容量</li>
-<li>添加或删除正则化功能</li>
-<li>改进模型的优化</li>
-<li>改进模型的近似推断</li>
-<li>调试模型的软件实现</li>
-</ul>
-<p>##<br>在实践中，正确使用一个普通算法通常比草率使用一个不清楚的算法效果更好。</p>
-<p>我们建议一下几个使用额设计流程</p>
-<ul>
-<li>你的目标</li>
-<li>性能度量</li>
-<li><em>
-</em></li>
-</ul>
-<h2 id="默认的基准模型"><a href="#默认的基准模型" class="headerlink" title="默认的基准模型"></a>默认的基准模型</h2><p>## </p>
-<h2 id="动机"><a href="#动机" class="headerlink" title="动机"></a>动机</h2><p>卷积运算通过三个重要的思想来帮助改进机器学习系统：稀疏交互、参数共享、等变表示。<br>传统的神经网络使用矩阵乘法来建立输入与输出的连接关系。参数矩阵的每一个独立的参数都描述了每一个输入单元与每一个输出单元间的交互。这意味着每一个输出单元与每一个输入单元都产生交互。<br>这通过使得核的规模远小于输入的规模来实现。</p>
-<h2 id="随机或无监督的特征"><a href="#随机或无监督的特征" class="headerlink" title="随机或无监督的特征"></a>随机或无监督的特征</h2><p>减少卷积网络训练成本的一种方式是使用那些不是通过有监督方式训练的特征。<br>有三种基本策略不通过有监督训练而得到卷积核。</p>
-<ul>
-<li>简单地随机初始化它们</li>
-<li>手动设计它们</li>
-<li>无监督的标准来学习核<h2 id="卷积神经网络与深度学习的历史"><a href="#卷积神经网络与深度学习的历史" class="headerlink" title="卷积神经网络与深度学习的历史"></a>卷积神经网络与深度学习的历史</h2>卷积网络在深度学习的历史中发挥了重要作用。它们是将研究大脑获得的深刻理解成功用于机器学习应用的关键例子。</li>
-</ul>
-<h2 id="池化"><a href="#池化" class="headerlink" title="池化"></a>池化</h2><h2 id="卷积与池化未做一种无限强的先验"><a href="#卷积与池化未做一种无限强的先验" class="headerlink" title="卷积与池化未做一种无限强的先验"></a>卷积与池化未做一种无限强的先验</h2><p>我们看到数据之前我们认为什么样的模型是合理的信念。<br>先验被认为是强或者弱取决于先验中概率密度的集中程度。弱先验具有较高的熵值，例如方差很大的高斯分布，这样的先验允许数据对于参数的改变具有或多或少的自由性。强先验具有较低的熵值，例如方差很小的高斯分布，这样的先验在决定参数最终取值时起着更加积极的作用。<br>对于全连接网络的权值有一个无限强的先验。这个无限强的先验是说一个隐藏单元的权值必须和它邻居的权值相等，但在 空间中改变。这个先验也要求除了那些处在隐藏单元空间连续的小的接受域以内的权值外，其余的权值都为零。使用池化也是一个无限强的先验：每一个单元都具有少量平移的不变性。<br>其中一个关键的洞察是卷积和池化可能导致欠拟合<br>另一个关键洞察是当我们比较卷积模型的统计学习表现时，指能以基准中的其他卷积模型作为比较的对象。</p>
-<h2 id="基本卷积函数的变体"><a href="#基本卷积函数的变体" class="headerlink" title="基本卷积函数的变体"></a>基本卷积函数的变体</h2><hr>
-<p>title: 【深度学习】 读书笔记 拾二 深度模型中的优化<br>date: 2017-02-14 14:38:12<br>categories: </p>
-<ul>
-<li>焚膏继晷</li>
-<li>知识储备<br>tags: Book</li>
-</ul>
-<hr>
-<p>前馈神经网络对于机器学习的实践是极其重要的。</p>
-<h2 id="应用"><a href="#应用" class="headerlink" title="应用"></a>应用</h2><p>如何使用深度学习来解决计算机视觉，语音识别，自然语言处理以及其他商业领域中的应用。<br>尽管深度学习的一个目标是设计能够处理多种任务的算法，然而截止目前应用深度学习仍然需要一些特定的条件。比如说，计算机视觉中的额任务对每一个样本都需要大量的输入特征（像素）。自然语言处理中对每一个输入特征都需要大量的可能值（词汇表中的词汇）建模。</p>
-<h2 id="大规模深度学习"><a href="#大规模深度学习" class="headerlink" title="大规模深度学习"></a>大规模深度学习</h2><p>深度学习的基本思想是建立在链接</p>
-<h2 id="自动编码器"><a href="#自动编码器" class="headerlink" title="自动编码器"></a>自动编码器</h2><p>自动编码器是神经网络的一种，经过训练后尝试将输入复制到输出。自动编码器内部有一个隐含层$h$，可以产生$编码(code)$来表示输入。该网络可以看做由两部分组成：一个编码器函数$h=f(x)$和一个生成重构的解码器$r=g(h)$。如果一个自动编码器学会简单地设置$g(f(x))=x$，那么这个自动编码器不会很有用。相反，自动编码器应该被设计成不能学会完美地复制。这通常需要强加一些约束，使自动编码器应该被设计成不能学会完美地复制。强加一些约束，使自动编码器值能近似地复制，并只能复制类似训练数据的输入。划定输入数据不同方面的主次次序，有用特性。</p>
-<p>随机算法可以粗略地分为两类：$Las Vegas$算法和蒙特卡洛算法</p>
-<h2 id="采样和蒙特卡洛方法"><a href="#采样和蒙特卡洛方法" class="headerlink" title="采样和蒙特卡洛方法"></a>采样和蒙特卡洛方法</h2><h3 id="为什么需要采样？"><a href="#为什么需要采样？" class="headerlink" title="为什么需要采样？"></a>为什么需要采样？</h3><h3 id="玻尔兹曼机"><a href="#玻尔兹曼机" class="headerlink" title="玻尔兹曼机"></a>玻尔兹曼机</h3><p>第二十章 深度生成模型</p>
-<h2 id="玻尔兹曼机-1"><a href="#玻尔兹曼机-1" class="headerlink" title="玻尔兹曼机"></a>玻尔兹曼机</h2><p>用来学习二值向量上的任意概率分布。我们简要介绍二值玻尔兹曼机并讨论训练模型和执行推断时出现的问题。<br>我们在$d$维二值随机变量$x\in{0,1}^{d}$上定义玻尔兹曼机。<br>意味着$$P(x)=/frac{exp(-E(x))}{Z}$$<br>其中$E(x)$是能量函数，$Z$是确保$P(x)=1$的配分函数。<br>玻尔兹曼机的能量函数如下给出：<br>$$E(x)=-x^{T}Ux-b^{T}x$$<br>当不是所有变量都能被观察到时，玻尔兹曼机变得更强大。在这种情况下，隐变量类似于多层感知机中的隐藏单元，并模拟可见单元之间的高阶交互。玻尔兹曼机变成了离散变量的概率分布律函数的通用比逼近器。<br>我们将单元$x$分解成两个子集：可见单元$v$和隐含单元$h$，能量函数变为<br>$$E(v,h)=-v^{T}Rv-v^{T}Wh-h^{T}Sh-b^{T}v-c^{T}h$$<br>玻尔兹曼机的学习</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;前馈神经网络对于机器学习的实践是极其重要的。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="焚膏继晷" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/"/>
-    
-      <category term="知识储备" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/%E7%9F%A5%E8%AF%86%E5%82%A8%E5%A4%87/"/>
-    
-    
-      <category term="Book" scheme="http://luxialan.com/tags/Book/"/>
+      <category term="Technique" scheme="http://luxialan.com/tags/Technique/"/>
     
   </entry>
   
   <entry>
-    <title>【深度学习】 读书笔记 捌 深度模型中的优化</title>
-    <link href="http://luxialan.com/2017/02/14/%E5%85%A8%E6%A0%88%E5%B7%A5%E7%A8%8B%E5%B8%88%E6%8C%87%E5%8D%97/"/>
-    <id>http://luxialan.com/2017/02/14/全栈工程师指南/</id>
-    <published>2017-02-14T06:38:12.000Z</published>
-    <updated>2017-03-16T03:09:56.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>前馈神经网络对于机器学习的实践是极其重要的。<br><a id="more"></a></p>
-<ul>
-<li>卷积运算</li>
-<li>动机</li>
-<li>池化</li>
-<li>卷积与池化作为一种无限强的先验</li>
-<li>基本卷积函数的变体</li>
-<li>结构化输出</li>
-<li>数据类型</li>
-<li>高效的卷积算法</li>
-<li>随机或无监督的特征</li>
-<li>卷积神经网络的神经科学基础</li>
-<li>卷积神经网络与深度学习的历史</li>
-</ul>
-<p>##<br>卷积网络，也叫做卷积神经网络，是一种专门用来处理具有类似网格结构的数据的神经网络。卷积是一种特殊的线性运算。卷积网络是指那些至少在网络的一层中使用卷积运算来替代一般的矩阵乘法运算的神经网络。</p>
-<h2 id="动机"><a href="#动机" class="headerlink" title="动机"></a>动机</h2><p>卷积运算通过三个重要的思想来帮助改进机器学习系统：稀疏交互、参数共享、等变表示。<br>传统的神经网络使用矩阵乘法来建立输入与输出的连接关系。参数矩阵的每一个独立的参数都描述了每一个输入单元与每一个输出单元间的交互。这意味着每一个输出单元与每一个输入单元都产生交互。<br>这通过使得核的规模远小于输入的规模来实现。</p>
-<h2 id="随机或无监督的特征"><a href="#随机或无监督的特征" class="headerlink" title="随机或无监督的特征"></a>随机或无监督的特征</h2><p>减少卷积网络训练成本的一种方式是使用那些不是通过有监督方式训练的特征。<br>有三种基本策略不通过有监督训练而得到卷积核。</p>
-<ul>
-<li>简单地随机初始化它们</li>
-<li>手动设计它们</li>
-<li>无监督的标准来学习核<h2 id="卷积神经网络与深度学习的历史"><a href="#卷积神经网络与深度学习的历史" class="headerlink" title="卷积神经网络与深度学习的历史"></a>卷积神经网络与深度学习的历史</h2>卷积网络在深度学习的历史中发挥了重要作用。它们是将研究大脑获得的深刻理解成功用于机器学习应用的关键例子。</li>
-</ul>
-<h2 id="池化"><a href="#池化" class="headerlink" title="池化"></a>池化</h2><h2 id="卷积与池化未做一种无限强的先验"><a href="#卷积与池化未做一种无限强的先验" class="headerlink" title="卷积与池化未做一种无限强的先验"></a>卷积与池化未做一种无限强的先验</h2><p>我们看到数据之前我们认为什么样的模型是合理的信念。<br>先验被认为是强或者弱取决于先验中概率密度的集中程度。弱先验具有较高的熵值，例如方差很大的高斯分布，这样的先验允许数据对于参数的改变具有或多或少的自由性。强先验具有较低的熵值，例如方差很小的高斯分布，这样的先验在决定参数最终取值时起着更加积极的作用。<br>对于全连接网络的权值有一个无限强的先验。这个无限强的先验是说一个隐藏单元的权值必须和它邻居的权值相等，但在 空间中改变。这个先验也要求除了那些处在隐藏单元空间连续的小的接受域以内的权值外，其余的权值都为零。使用池化也是一个无限强的先验：每一个单元都具有少量平移的不变性。<br>其中一个关键的洞察是卷积和池化可能导致欠拟合<br>另一个关键洞察是当我们比较卷积模型的统计学习表现时，指能以基准中的其他卷积模型作为比较的对象。</p>
-<h2 id="基本卷积函数的变体"><a href="#基本卷积函数的变体" class="headerlink" title="基本卷积函数的变体"></a>基本卷积函数的变体</h2><p>学习和优化有什么不同<br>机器学习通常是简介的。在大多数机器学习问题中，我们关注定义于测试集上的，也可能是不可解的性能度量$P$。因此，我们只是简介地优化$P$。我们希望通过降低损失函数$J(\theta)$来提高$P$。这一点不同于纯优化最小化$J$本身。<br>$$J(\theta)=\mathtt{E}_{(x,y)~\hat{p}_data}L(f(x;\theta),y)$$<br>其中$L$是每个样本的损失函数，$f(x;\theta)$是输入是$x$时的预测输出，$\hat{p}_data$是经验分布。<br>通常，我们更希望最小化期望取自数据生成分布$p<em>data$，$$J^{*}(\theta)=\mathtt{E}</em>{(x,y)~\hat{p}_data}L(f(x;\theta),y)$$</p>
-<h2 id="经验风险最小化"><a href="#经验风险最小化" class="headerlink" title="经验风险最小化"></a>经验风险最小化</h2><p>机器学习算法的目标是降低式(8.2)所示的期望泛化误差。这个数据量被称为风险(risk)。值得注意的是，该期望取自真实的数据分布$p<em>data$。<br>机器学习问题用训练集上的经验分布$\hat{p}(x,y)$替代真实分布$p(x,y)$。如此，我们最小化经验风险$$\mathtt{E}</em>{(x,y)~\hat{p}_data}L(f(x;\theta),y)=frac{1}{m}\$$<br>基于最小化如上平均训练误差的训练过程被称为经验风险最小化。<br>经验风险最小化容易过拟合。高容量的模型会简单地记住训练集。在很多情况下，经验风险最小化并非真的可行。最有效的现代优化算法是基于梯度下降的。在深度学习中我们很少使用经验风险最小化。</p>
-<h2 id="替代损失函数和提前终止"><a href="#替代损失函数和提前终止" class="headerlink" title="替代损失函数和提前终止"></a>替代损失函数和提前终止</h2><h2 id="（小）批算法"><a href="#（小）批算法" class="headerlink" title="（小）批算法"></a>（小）批算法</h2><p>机器学习算法的目标函数通常可以分解成训练样本上的求和。机器学习优化算法通常使用整个损失函数中的一部分项去更新其参数。</p>
-<h2 id="神经网络的优化挑战"><a href="#神经网络的优化挑战" class="headerlink" title="神经网络的优化挑战"></a>神经网络的优化挑战</h2><p>在训练神经网络时，我们肯定会遇到一般的非凸情况。即使是凸优化，也并非没有任何问题。在这一节中，我们会总结几个训练深度模型时会涉及到的主要挑战。</p>
-<h3 id="8-2-1-病态"><a href="#8-2-1-病态" class="headerlink" title="8.2.1 病态"></a>8.2.1 病态</h3><p>海森矩阵$H$的病态。这是数值优化，凸优化或其他形式的优化中普遍存在的问题。<br>病态体现在随机梯度下降会“卡”在某些情况，此时即使很小的更新步长也会增加损失函数。</p>
-<h3 id="8-2-2-局部极小值"><a href="#8-2-2-局部极小值" class="headerlink" title="8.2.2 局部极小值"></a>8.2.2 局部极小值</h3><h3 id="8-2-3-高原，鞍点和其他平坦区域"><a href="#8-2-3-高原，鞍点和其他平坦区域" class="headerlink" title="8.2.3 高原，鞍点和其他平坦区域"></a>8.2.3 高原，鞍点和其他平坦区域</h3><h3 id="8-2-4-悬崖和梯度爆炸"><a href="#8-2-4-悬崖和梯度爆炸" class="headerlink" title="8.2.4 悬崖和梯度爆炸"></a>8.2.4 悬崖和梯度爆炸</h3><p>多层神经网络通常有像悬崖一样的斜率较大区域，如图8.3所示。这是由于几个较大的权重相乘导致的。遇到斜率极大的悬崖结构时，梯度更新会很大程度地改变参数值，通常会跳过这类悬崖结构。但幸运的是可以使用启发式梯度截断来避免其主要缺点。</p>
-<h3 id="8-2-5-长期相关性"><a href="#8-2-5-长期相关性" class="headerlink" title="8.2.5 长期相关性"></a>8.2.5 长期相关性</h3><p>反复使用相同的参数产生了尤为突出的困难。<br>重复与矩阵$W$相乘的路径。<br>当特征值$\lambda_i$不再$1$附近时，若在量级上大于1则会膨胀到很大；若小于1时则会收缩到很小。<br>收缩和膨胀的梯度问题是指计算图上的梯度也会因为$diag(\lambda)^{t}$，诱发梯度截断的悬崖结构便是膨胀梯度现象的一个例子。<br>从这个观点来看，</p>
-<h2 id="8-3-基本算法"><a href="#8-3-基本算法" class="headerlink" title="8.3 基本算法"></a>8.3 基本算法</h2><h3 id="8-3-1-随机梯度下降"><a href="#8-3-1-随机梯度下降" class="headerlink" title="8.3.1 随机梯度下降"></a>8.3.1 随机梯度下降</h3><p>通过计算独立同分布地从数据生成分布中抽取的$m$个$minibatch$样本的梯度均值，我们可以得到梯度的无偏估计。在实践中，有必要随着时间的推移逐渐降低学习速率。<br>通常，就总训练时间和最终损失值而言，最优初始学习速率会高于大约迭代100步后输出最好效果的学习速率。<br>对于足够大的数据集，$SGD$可能会在处理整个训练集之前就收敛到最终测试集误差的某个固定容差范围内。<br>算法的收敛率，即当前损失函数超出最低可能损失的量。$batch$梯度下降在理论上比随机梯度下降有更好的收敛率。</p>
-<h3 id="动量"><a href="#动量" class="headerlink" title="动量"></a>动量</h3><h3 id="Nesterov-动量"><a href="#Nesterov-动量" class="headerlink" title="Nesterov 动量"></a>Nesterov 动量</h3><h2 id="参数初始化策略"><a href="#参数初始化策略" class="headerlink" title="参数初始化策略"></a>参数初始化策略</h2><p>大多数初始化策略基于在神经网络初始化时实现一些很好的性质。我们没有很好地理解这些性质中的哪些会在学习开始进行后的哪些情况下得以保持。进一步的难点是，有些初始点从优化的观点看或许是有利的，但是从泛化的观点看是不利的。我们对于初始点如何影响泛化的理解是相当原始的，几乎没有提供如何选择初始点的任何指导。<br>也许完全确指的唯一特性是初始参数需要在不同单元间“破坏对称性”。<br>如果我们有和输出一样多的输入，我们可以使用$Gram-Schmidt$正交化于初始的权重矩阵，保证每个单元计算彼此非常不同的函数。在高纬空间上使用高熵分布来随机初始化，计算代价小而且不太可能分配单元计算彼此相同的函数。<br>我们几乎总是初始化模型的权重为高斯或均匀分布中随机抽取的值。初始分布的大小确实对优化过程的结果和网络泛化能力有很大的影响。<br>更大的初始权重具有更强的破坏对称性的作用，有助于避免冗余的单元。正则化和优化有非常不同的视角。优化视角建议权重应该足够大以成功传播信息，但是正则化希望其小一点。诸如随机梯度下降这类对权重较小的增量更新，趋于停止在更靠近的初始参数的区域。</p>
-<h2 id="自适应学习率的算法"><a href="#自适应学习率的算法" class="headerlink" title="自适应学习率的算法"></a>自适应学习率的算法</h2><p>学习率是难以设置的超参数之一，因为它对模型的性能有显著的影响。<br>$delta-bar-delta算法$，该方法基于一个很简单的想法，如果损失对于某个给定模型参数的偏导保持相同的符号，那么学习速率应该增加。</p>
-<h3 id="AdaGrad"><a href="#AdaGrad" class="headerlink" title="AdaGrad"></a>AdaGrad</h3><p>$AdaGrad$算法。放缩每个参数反比于其所有梯度历史平方值总和的平方根。具有损失最大偏导的参数相应地有一个快速下降的学习速率，而具有小偏导的参数在学习速率上有较小的下降。</p>
-<h3 id="RMSProp"><a href="#RMSProp" class="headerlink" title="RMSProp"></a>RMSProp</h3><p>$RMSProp$算法修改$AdaGrad$以在非凸设定下效果更好。</p>
-<h3 id="Adam"><a href="#Adam" class="headerlink" title="Adam"></a>Adam</h3><p>$Adam$</p>
-<h2 id="选择正确的优化算法"><a href="#选择正确的优化算法" class="headerlink" title="选择正确的优化算法"></a>选择正确的优化算法</h2><h2 id="二阶近似方法"><a href="#二阶近似方法" class="headerlink" title="二阶近似方法"></a>二阶近似方法</h2><h3 id="牛顿方法"><a href="#牛顿方法" class="headerlink" title="牛顿方法"></a>牛顿方法</h3><h3 id="共轭梯度"><a href="#共轭梯度" class="headerlink" title="共轭梯度"></a>共轭梯度</h3><h2 id="优化技巧和元算法"><a href="#优化技巧和元算法" class="headerlink" title="优化技巧和元算法"></a>优化技巧和元算法</h2><h3 id="batch-normalization"><a href="#batch-normalization" class="headerlink" title="batch normalization"></a>batch normalization</h3><h3 id="坐标下降"><a href="#坐标下降" class="headerlink" title="坐标下降"></a>坐标下降</h3><h3 id="Polyak-平均"><a href="#Polyak-平均" class="headerlink" title="Polyak 平均"></a>Polyak 平均</h3>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;前馈神经网络对于机器学习的实践是极其重要的。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="焚膏继晷" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/"/>
-    
-      <category term="知识储备" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/%E7%9F%A5%E8%AF%86%E5%82%A8%E5%A4%87/"/>
-    
-    
-      <category term="Book" scheme="http://luxialan.com/tags/Book/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【深度学习】 读书笔记 肆 数值计算</title>
-    <link href="http://luxialan.com/2017/02/13/%E3%80%90%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%91-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E8%82%86-%E6%95%B0%E5%80%BC%E8%AE%A1%E7%AE%97/"/>
-    <id>http://luxialan.com/2017/02/13/【深度学习】-读书笔记-肆-数值计算/</id>
+    <title>《深度学习》 笔记 肆 数值计算</title>
+    <link href="http://luxialan.com/2017/02/13/%E3%80%8A%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%8B-%E7%AC%94%E8%AE%B0-%E8%82%86-%E6%95%B0%E5%80%BC%E8%AE%A1%E7%AE%97/"/>
+    <id>http://luxialan.com/2017/02/13/《深度学习》-笔记-肆-数值计算/</id>
     <published>2017-02-13T11:08:27.000Z</published>
-    <updated>2017-02-23T06:39:06.000Z</updated>
+    <updated>2017-08-05T07:44:59.344Z</updated>
     
     <content type="html"><![CDATA[<p>机器学习算法需要数值计算的方法来迭代求解无解析解的数学问题。包括优化和线性方程组求解。<br><a id="more"></a></p>
 <ul>
@@ -1106,12 +956,120 @@
     
     </summary>
     
-      <category term="焚膏继晷" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/"/>
-    
-      <category term="知识储备" scheme="http://luxialan.com/categories/%E7%84%9A%E8%86%8F%E7%BB%A7%E6%99%B7/%E7%9F%A5%E8%AF%86%E5%82%A8%E5%A4%87/"/>
+      <category term="Learning" scheme="http://luxialan.com/categories/Learning/"/>
     
     
-      <category term="Book" scheme="http://luxialan.com/tags/Book/"/>
+      <category term="Note" scheme="http://luxialan.com/tags/Note/"/>
+    
+      <category term="Technique" scheme="http://luxialan.com/tags/Technique/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《深度学习》 笔记 叁 概率与信息论</title>
+    <link href="http://luxialan.com/2017/02/12/%E3%80%8A%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%8B-%E7%AC%94%E8%AE%B0-%E5%8F%81-%E6%A6%82%E7%8E%87%E4%B8%8E%E4%BF%A1%E6%81%AF%E8%AE%BA/"/>
+    <id>http://luxialan.com/2017/02/12/《深度学习》-笔记-叁-概率与信息论/</id>
+    <published>2017-02-12T10:35:13.000Z</published>
+    <updated>2017-08-05T07:45:04.091Z</updated>
+    
+    <content type="html"><![CDATA[<p>概率论使我们能够作出不确定的陈述以及在不确定性存在的情况下推理，而信息论使我们能够量化概率分布中的不确定性总量。<br><a id="more"></a></p>
+<h2 id="为什么要用概率？"><a href="#为什么要用概率？" class="headerlink" title="为什么要用概率？"></a>为什么要用概率？</h2><p>世界是不确定的，要对世界中的活动进行建模需要用概率论来量化不确定性。<br>不确定性有三种可能的来源：</p>
+<ul>
+<li>被建模系统内在的随机性。</li>
+<li>不完全观测。即使是确定的系统，当我们不能观测到所有驱动系统行为的变量时，该系统也会呈现随机性。</li>
+<li>不完全建模。使用一些必须舍弃某些观测信息的建模时，舍弃的信息会导致模型的预测出现不确定性。</li>
+</ul>
+<p>在很多情况下，使用一些简单而不确定的原则要比复杂而确定的原则更为实用，即使真实的规则是确定的并且我们的模型系统对适应复杂规则具有很好的逼真度。<br>有两种概率，一种概率，直接与事件发生的频率相联系，称为频率概率；另一种概率，涉及到确定性水平，被称为贝叶斯概率。</p>
+<h2 id="随机变量"><a href="#随机变量" class="headerlink" title="随机变量"></a>随机变量</h2><p>随机变量(random variable)是可以随机地取不同值的变量。<br>一种随机变量只是对可能的状态的描述；它必须伴随着一个概率分布来指定每个状态的可能性。</p>
+<h2 id="概率分布"><a href="#概率分布" class="headerlink" title="概率分布"></a>概率分布</h2><p>概率分布(probability distribution)用来描述随机变量或一簇随机变量在每一个可能取到的状态的可能性大小。</p>
+<h3 id="离散型变量和概率分布律函数"><a href="#离散型变量和概率分布律函数" class="headerlink" title="离散型变量和概率分布律函数"></a>离散型变量和概率分布律函数</h3><p>离散型变量的概率分布可以用概率分布律函数(probability mass function,PMF)来描述。我们通常用$P$来表示概率分布律函数。用$x$~$P(x)$表示随机变量x服从P分布。<br>概率分布律函数可以同时作用于多个随机变量。这种多个变量的概率分布被称为联合概率分布(joint probability distribution)。</p>
+<h3 id="连续型变量和概率密度函数"><a href="#连续型变量和概率密度函数" class="headerlink" title="连续型变量和概率密度函数"></a>连续型变量和概率密度函数</h3><h2 id="边缘概率"><a href="#边缘概率" class="headerlink" title="边缘概率"></a>边缘概率</h2><p>我们知道了一组变量的联合概率分布，想要了解其中一个子集的概率分布。这种定义在子集上的概率分布被称为边缘概率分布(marginal probability)。对于连续型变量，我们需要用积分替代求和：$$p(x)=\int p(x,y)dy$$</p>
+<h2 id="条件概率"><a href="#条件概率" class="headerlink" title="条件概率"></a>条件概率</h2><p>$P($y$=y)|$x$=x)=\frac{P(\boldsymbol{y}=y,\boldsymbol{x}=x)}{P(\boldsymbol{x}=x)}$</p>
+<h2 id="条件概率的链式法则"><a href="#条件概率的链式法则" class="headerlink" title="条件概率的链式法则"></a>条件概率的链式法则</h2><h2 id="独立性和条件独立性"><a href="#独立性和条件独立性" class="headerlink" title="独立性和条件独立性"></a>独立性和条件独立性</h2><h2 id="期望，方差和协方差"><a href="#期望，方差和协方差" class="headerlink" title="期望，方差和协方差"></a>期望，方差和协方差</h2><h2 id="常用概率分布"><a href="#常用概率分布" class="headerlink" title="常用概率分布"></a>常用概率分布</h2><h3 id="Bernoulli分布"><a href="#Bernoulli分布" class="headerlink" title="Bernoulli分布"></a>Bernoulli分布</h3><ul>
+<li>$P(\boldsymbol{x}=x)=\phi^x(1-\phi)^{1-x}$</li>
+<li>$P(\boldsymbol{x}=0)=1-\phi$</li>
+<li>$P(\boldsymbol{x}=1)=\phi$</li>
+<li>$\mathbb{E}_x=\phi$</li>
+<li>$Var_x(x)=\phi(1-\phi)$</li>
+</ul>
+<h3 id="多项式分布"><a href="#多项式分布" class="headerlink" title="多项式分布"></a>多项式分布</h3><h3 id="高斯分布-正态分布"><a href="#高斯分布-正态分布" class="headerlink" title="高斯分布/正态分布"></a>高斯分布/正态分布</h3><h3 id="指数分布和Laplace分布"><a href="#指数分布和Laplace分布" class="headerlink" title="指数分布和Laplace分布"></a>指数分布和Laplace分布</h3><h3 id="Dirac分布和经验分布"><a href="#Dirac分布和经验分布" class="headerlink" title="Dirac分布和经验分布"></a>Dirac分布和经验分布</h3><h3 id="分布的混合"><a href="#分布的混合" class="headerlink" title="分布的混合"></a>分布的混合</h3><h2 id="常用函数的一些性质"><a href="#常用函数的一些性质" class="headerlink" title="常用函数的一些性质"></a>常用函数的一些性质</h2><h2 id="贝叶斯规则"><a href="#贝叶斯规则" class="headerlink" title="贝叶斯规则"></a>贝叶斯规则</h2><h2 id="连续型变量的技术细节"><a href="#连续型变量的技术细节" class="headerlink" title="连续型变量的技术细节"></a>连续型变量的技术细节</h2><h2 id="信息论"><a href="#信息论" class="headerlink" title="信息论"></a>信息论</h2><p>信息论是应用数学的一个分支，主要研究的是对一个信号能够提供的多少进行量化。<br>信息论的基本想法是一个不太可能的事件居然发生了，要比一个非常可能的事件发生，能提供更多的信息。</p>
+<ul>
+<li>非常可能发生的事件信息量比较少，并且极端情况下，确保能够发生的事件应该没有信息量。</li>
+<li>更不可能发生的事件要具有更高的信息量</li>
+<li>独立事件应具有增量的信息。例如，投掷的硬币两次正面朝上传递的信息量应该是投掷一次硬币正面朝上的信息量的两倍。</li>
+</ul>
+<p>为了满足上述三个性质，我们定义一个事件$\rm{x}=x$的自信息(self-information)为$$I(x)=-logP(x)$$<br>我们定义$I(x)$单位是奈特(nats)。一奈特是以$/frac{1}{\epsilon}$的概率观测到一个事件时获得的信息量。<br>自信息只处理单个的输出，我们可以用香农熵(Shannon entropy)来对整个概率分布中的不确定性总量进行量化：<br>$H(x)=\mathbb{E}<em>{x~P}[I(x)]=-\mathbb{E}</em>{x~P}[logP(x)]$</p>
+<h2 id="14-结构化概率模型"><a href="#14-结构化概率模型" class="headerlink" title="14.结构化概率模型"></a>14.结构化概率模型</h2><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://github.com/exacity/deeplearningbook-chinese" target="_blank" rel="external">Deep Learning Book</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;概率论使我们能够作出不确定的陈述以及在不确定性存在的情况下推理，而信息论使我们能够量化概率分布中的不确定性总量。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Learning" scheme="http://luxialan.com/categories/Learning/"/>
+    
+    
+      <category term="Note" scheme="http://luxialan.com/tags/Note/"/>
+    
+      <category term="Technique" scheme="http://luxialan.com/tags/Technique/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《深度学习》 笔记 贰 线性代数</title>
+    <link href="http://luxialan.com/2017/02/09/%E3%80%8A%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%8B-%E7%AC%94%E8%AE%B0-%E8%B4%B0-%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/"/>
+    <id>http://luxialan.com/2017/02/09/《深度学习》-笔记-贰-线性代数/</id>
+    <published>2017-02-09T11:56:12.000Z</published>
+    <updated>2017-08-05T07:42:16.197Z</updated>
+    
+    <content type="html"><![CDATA[<p>代数、分析、几何、概率论，数学的基础知识。<br><a id="more"></a></p>
+<ul>
+<li>1.标量、向量、矩阵和张量</li>
+<li>2.矩阵和向量相乘</li>
+<li>3.单位矩阵和逆矩阵</li>
+<li>4.线性相关和生成子空间</li>
+<li>5.范数</li>
+<li>6.特殊类型的矩阵和向量</li>
+<li>7.特征分解</li>
+<li>8.奇异值分解</li>
+<li>9.Moore-Penrose伪逆</li>
+<li>10.迹运算</li>
+<li>11.行列式</li>
+<li>12.主成分分析</li>
+</ul>
+<h2 id="标量、向量、矩阵和张量"><a href="#标量、向量、矩阵和张量" class="headerlink" title="标量、向量、矩阵和张量"></a>标量、向量、矩阵和张量</h2><p>标量：一个标量就是一个单独的数。<br>向量：一个向量是一列数。<br>矩阵：矩阵是二维数组。<br>张量：在某些情况下，我们会讨论不只两维坐标的数组。一般地，一组数组中的元素分布在若干维坐标的规则网格中，我们将其称之为张量。</p>
+<h2 id="矩阵和向量相乘"><a href="#矩阵和向量相乘" class="headerlink" title="矩阵和向量相乘"></a>矩阵和向量相乘</h2><p>矩阵乘法</p>
+<ul>
+<li>$A(B+C)=AB+AC$</li>
+<li>$A(BC)=(AB)C$</li>
+<li>$(AB)^{T}=B^{T}A^{T}$<br>通过矩阵和向量来表示线性方程组</li>
+<li>$Ax=b$</li>
+</ul>
+<h2 id="单位矩阵和逆矩阵"><a href="#单位矩阵和逆矩阵" class="headerlink" title="单位矩阵和逆矩阵"></a>单位矩阵和逆矩阵</h2><p>单位矩阵：任意向量和单位矩阵相乘，都不会改变。形式上，$I_n\in \mathtt{R} $,<br>$$\forall x\in \mathtt{R}, I_n x = x$$<br>单位矩阵结构简单：所有沿着主对角线的元素都是1，而其他位置的元素都是0，如<br>$$<br>\begin{bmatrix}<br>1 &amp; 0 &amp; 0 \<br>0 &amp; 1 &amp; 0 \<br>0 &amp; 0 &amp; 1 \<br>\end{bmatrix}<br>$$</p>
+<h2 id="范数"><a href="#范数" class="headerlink" title="范数"></a>范数</h2><p>范数用来衡量向量的大小，是将向量映射到非负值的函数。<br>$L^p$范数定义如下：$$ ||x||_p=(\sum_i|x_i|^{p})^{\frac{1}{p}}$$<br>其中$p\in \mathtt{R},$p \geq 1$<br>范数可以是满足下列性质的任意函数：</p>
+<ul>
+<li>$f(x)=0$ =&gt; $x=0$</li>
+<li>$f(x+y) \leq f(x) + f(y)$</li>
+<li>$\forall \alpha \in \mathtt{R}, f(\alpha)=|\alpha|f(x)$ 当$p=2$时</li>
+</ul>
+<h3 id="特征分解"><a href="#特征分解" class="headerlink" title="特征分解"></a>特征分解</h3><p>我们可以通过分解质因数来发现一些关于整数的真实性质，我们也可以通过分解矩阵来获取矩阵表示成数组元素时不明显的函数性质。<br>特征分解是使用最广的矩阵分解之一，即我们将矩阵分解成一组特征向量和特征值。<br>方阵$A$的特征向量是指与$A$相乘后相当于对该向量进行放缩的非零向量：<br>$$Av=\lambda v$$<br>标量$\lambda$称为这个特征向量对应的特征值。</p>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://github.com/exacity/deeplearningbook-chinese" target="_blank" rel="external">Deep Learning Book</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;代数、分析、几何、概率论，数学的基础知识。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Learning" scheme="http://luxialan.com/categories/Learning/"/>
+    
+    
+      <category term="Note" scheme="http://luxialan.com/tags/Note/"/>
+    
+      <category term="Technique" scheme="http://luxialan.com/tags/Technique/"/>
     
   </entry>
   

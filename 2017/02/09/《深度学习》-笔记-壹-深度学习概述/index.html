@@ -1,0 +1,1007 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head>
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Note,Technique," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="水冼雪" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="深度学习的前世今生。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="《深度学习》 笔记 壹 深度学习概述">
+<meta property="og:url" content="http://luxialan.com/2017/02/09/《深度学习》-笔记-壹-深度学习概述/index.html">
+<meta property="og:site_name" content="水冼雪">
+<meta property="og:description" content="深度学习的前世今生。">
+<meta property="og:updated_time" content="2017-08-05T07:45:58.805Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="《深度学习》 笔记 壹 深度学习概述">
+<meta name="twitter:description" content="深度学习的前世今生。">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://luxialan.com/2017/02/09/《深度学习》-笔记-壹-深度学习概述/"/>
+
+
+
+
+
+  <title> 《深度学习》 笔记 壹 深度学习概述 | 水冼雪 </title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">水冼雪</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+    
+      <p class="site-subtitle">抬头看天，低头赶路</p>
+    
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-technique">
+          <a href="/technique" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+            
+            全栈之旅
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-investment">
+          <a href="/investment" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+            
+            投资之道
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-gossip">
+          <a href="/gossip" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+            
+            随便侃侃
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-learning">
+          <a href="/learning" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+            
+            学无止境
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://luxialan.com/2017/02/09/《深度学习》-笔记-壹-深度学习概述/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="luxialan">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/ava.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="水冼雪">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="水冼雪" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                《深度学习》 笔记 壹 深度学习概述
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-02-09T13:56:12+08:00">
+                2017-02-09
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Learning/" itemprop="url" rel="index">
+                    <span itemprop="name">Learning</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a class="cloud-tie-join-count" href="/2017/02/09/《深度学习》-笔记-壹-深度学习概述/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count join-count" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2017/02/09/《深度学习》-笔记-壹-深度学习概述/" class="leancloud_visitors" data-flag-title="《深度学习》 笔记 壹 深度学习概述">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i>
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
+            </span>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>深度学习的前世今生。<br><a id="more"></a><br>量化交易，也称算法交易，是严格按照计算机算法程序给出的买卖决策进行的证券交易。</p>
+<p>量化交易与</p>
+<ul>
+<li>易扩大</li>
+<li>节省时间</li>
+<li>营销非必需</li>
+</ul>
+<h2 id="策略"><a href="#策略" class="headerlink" title="策略"></a>策略</h2><ul>
+<li>对基本策略变形</li>
+<li>真正困难的地方并不是缺乏交易理念，而是缺乏甄别策略的能力。<h3 id="有效的策略"><a href="#有效的策略" class="headerlink" title="有效的策略"></a>有效的策略</h3></li>
+<li>工作时间</li>
+<li>编程水平</li>
+<li>交易资本</li>
+<li>目标<h3 id="不可行的策略"><a href="#不可行的策略" class="headerlink" title="不可行的策略"></a>不可行的策略</h3></li>
+<li>策略与基准相比如何？收益持续性如何。</li>
+</ul>
+<p>使用夏普比率或信息比率作为量化交易策略的业绩衡量指标<br>信息比率=超额收益率的均值/超额收益率的标准差<br>超额收益率=组合收益率-基准收益率</p>
+<ul>
+<li>策略的年交易次数有限，夏普比率可能就不会太高。</li>
+<li>策略的挫跌很大，或是挫跌时间很长，也不大可能有很高的夏普比率。<h3 id="交易成本如何影响策略"><a href="#交易成本如何影响策略" class="headerlink" title="交易成本如何影响策略"></a>交易成本如何影响策略</h3></li>
+<li>交易成本不仅包括经纪商收取的佣金，还包括流动性成本。<h3 id="数据有无存活偏差"><a href="#数据有无存活偏差" class="headerlink" title="数据有无存活偏差"></a>数据有无存活偏差</h3></li>
+<li>股票价格的历史数据库往往不包括那些由于破产、退市、兼并或收购而消失的股票，因此存在所谓的存货偏差。<h3 id="策略的业绩如何随时间变化而变化？"><a href="#策略的业绩如何随时间变化而变化？" class="headerlink" title="策略的业绩如何随时间变化而变化？"></a>策略的业绩如何随时间变化而变化？</h3></li>
+<li>状态转换应该也被纳入复杂模型<h3 id="过拟合问题"><a href="#过拟合问题" class="headerlink" title="过拟合问题"></a>过拟合问题</h3>统计学意义上相互独立的金融数据的数量是非常有限的，有效的AI方法有以下特征。</li>
+<li>基于正确的计量经济学或理论基础，而不是随机发现的模式。</li>
+<li>所需的参数用到历史数据较少</li>
+<li>只用到了线性回归，并未使用复杂的非线性函数</li>
+<li>概念上很简单</li>
+<li>所有优化都必须在不含未来未知数据的移动回顾窗口中实现，并且这种优化的效果必须不断地被未来未知的数据所证实。<h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2>如何找到潜在的交易策略：</li>
+<li>商学院或其他经济研究机构的网站。</li>
+<li>面向零售投资者的金融网站和博客。</li>
+<li>可与其他交易员交流心得的交易员论坛。<br>如何筛选策略：</li>
+<li>你有多少时间可以用来完善你的交易程序</li>
+<li>你的编程能力如何</li>
+<li>你的资本规模有多大</li>
+<li>你的目标是稳定的月度收入还是追求大额的长期资本收益？<br>合适的策略：</li>
+<li>它能否跑赢基准</li>
+<li>它有足够高的夏普比率吗？</li>
+<li>它有足够小的挫跌和足够短的挫跌期吗？</li>
+<li>回测有无存活偏差？</li>
+<li>与早年相比，策略近几年不灵了吗？</li>
+<li>策略具有避开基金经理激烈竞争的“特色”吗？<h2 id="回测"><a href="#回测" class="headerlink" title="回测"></a>回测</h2><h3 id="回测平台-感觉很老了"><a href="#回测平台-感觉很老了" class="headerlink" title="回测平台(感觉很老了)"></a>回测平台(感觉很老了)</h3></li>
+<li>Excel</li>
+<li>MATLAB</li>
+<li>TradeStation<h3 id="回测数据"><a href="#回测数据" class="headerlink" title="回测数据"></a>回测数据</h3></li>
+<li>注意事项一：数据是否经分拆及股息调整</li>
+<li>注意事项二：数据有无存活偏差</li>
+<li>注意事项三：实盘价而不是最高、最低价<h3 id="业绩度量"><a href="#业绩度量" class="headerlink" title="业绩度量"></a>业绩度量</h3><h3 id="回测陷阱"><a href="#回测陷阱" class="headerlink" title="回测陷阱"></a>回测陷阱</h3></li>
+<li>前视偏差</li>
+<li>数据过拟合。构建数据驱动模型时，几乎不可能消除过拟合</li>
+<li>敏感性分析<h3 id="策略改进"><a href="#策略改进" class="headerlink" title="策略改进"></a>策略改进</h3></li>
+<li>策略的改进，最好基于经济学基本原理，或者透彻研究过的市场现象，而不是依据一些主观的试错法则。否则，就有可能产生数据过拟合。<h3 id="小结-1"><a href="#小结-1" class="headerlink" title="小结"></a>小结</h3>回测会牵扯到许多细节问题，如：</li>
+<li>数据：分拆和股息的调整，日最高、最低价的噪声，存活偏差。</li>
+<li>业绩度量：年化夏普比率和最大挫跌。</li>
+<li>前视偏差：在过去的交易决策中使用无法得到的事后信息。</li>
+<li>数据迁就偏差：拟合历史数据时使用过多参数，可以用大样本数据、样本外测试和敏感性分析来避免此类偏差。</li>
+<li>交易成本：交易成本会影响策略业绩。</li>
+<li>策略改进：通过策略的微小调整来优化业绩的常见方法。<h2 id="创建交易业务"><a href="#创建交易业务" class="headerlink" title="创建交易业务"></a>创建交易业务</h2>零售经纪商可以给予完全的自由和更好的资本保护，但杠杆低；自营交易公司给予的自由和资本保护较少，但杠杆高。<br>无论是选择零售经纪商还是选择自营交易公司，都要确保交易账户和系统满足以下特征：</li>
+<li>相对较低的佣金</li>
+<li>可交易金融工具品种广泛</li>
+<li>有足够深度的流动资金池</li>
+<li>最重要的是，获取实时数据和传送指令的API<br>交易员的操作环境包括：</li>
+<li>一台双核或四核电脑</li>
+<li>高速网络</li>
+<li>防中断电源</li>
+<li>实时数据和新闻来源</li>
+<li>服务器托管<h2 id="自动交易系统的功能"><a href="#自动交易系统的功能" class="headerlink" title="自动交易系统的功能"></a>自动交易系统的功能</h2></li>
+</ul>
+<h2 id="资金和风险管理"><a href="#资金和风险管理" class="headerlink" title="资金和风险管理"></a>资金和风险管理</h2><ul>
+<li>最优资本配置和杠杆</li>
+<li></li>
+</ul>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://github.com/exacity/deeplearningbook-chinese" target="_blank" rel="external">Deep Learning Book</a></p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+    <div></div>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+      <span>赏</span>
+    </button>
+    <div id="QR" style="display: none;">
+      
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat_qr" src="/images/wechatpay.jpg" alt="luxialan WeChat Pay"/>
+          <p>微信打赏</p>
+        </div>
+      
+      
+        <div id="alipay" style="display: inline-block">
+          <img id="alipay_qr" src="/images/alipay.jpg" alt="luxialan Alipay"/>
+          <p>支付宝打赏</p>
+        </div>
+      
+    </div>
+  </div>
+
+
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Note/" rel="tag"># Note</a>
+          
+            <a href="/tags/Technique/" rel="tag"># Technique</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/12/29/服务器集群指南/" rel="next" title="服务器集群搭建与运维技术指南">
+                <i class="fa fa-chevron-left"></i> 服务器集群搭建与运维技术指南
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/02/09/《深度学习》-笔记-贰-线性代数/" rel="prev" title="《深度学习》 笔记 贰 线性代数">
+                《深度学习》 笔记 贰 线性代数 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/ava.jpg"
+               alt="luxialan" />
+          <p class="site-author-name" itemprop="name">luxialan</p>
+          <p class="site-description motion-element" itemprop="description">每天进步一点点</p>
+        </div>
+        <nav class="site-state motion-element">
+        
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">22</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">8</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">7</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+          <div class="cc-license motion-element" itemprop="license">
+            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" target="_blank">
+              <img src="/images/cc-by-nc-sa.svg" alt="Creative Commons" />
+            </a>
+          </div>
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#策略"><span class="nav-number">1.</span> <span class="nav-text">策略</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#有效的策略"><span class="nav-number">1.1.</span> <span class="nav-text">有效的策略</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#不可行的策略"><span class="nav-number">1.2.</span> <span class="nav-text">不可行的策略</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#交易成本如何影响策略"><span class="nav-number">1.3.</span> <span class="nav-text">交易成本如何影响策略</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数据有无存活偏差"><span class="nav-number">1.4.</span> <span class="nav-text">数据有无存活偏差</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#策略的业绩如何随时间变化而变化？"><span class="nav-number">1.5.</span> <span class="nav-text">策略的业绩如何随时间变化而变化？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#过拟合问题"><span class="nav-number">1.6.</span> <span class="nav-text">过拟合问题</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#小结"><span class="nav-number">2.</span> <span class="nav-text">小结</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#回测"><span class="nav-number">3.</span> <span class="nav-text">回测</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#回测平台-感觉很老了"><span class="nav-number">3.1.</span> <span class="nav-text">回测平台(感觉很老了)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#回测数据"><span class="nav-number">3.2.</span> <span class="nav-text">回测数据</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#业绩度量"><span class="nav-number">3.3.</span> <span class="nav-text">业绩度量</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#回测陷阱"><span class="nav-number">3.4.</span> <span class="nav-text">回测陷阱</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#策略改进"><span class="nav-number">3.5.</span> <span class="nav-text">策略改进</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#小结-1"><span class="nav-number">3.6.</span> <span class="nav-text">小结</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#创建交易业务"><span class="nav-number">4.</span> <span class="nav-text">创建交易业务</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#自动交易系统的功能"><span class="nav-number">5.</span> <span class="nav-text">自动交易系统的功能</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#资金和风险管理"><span class="nav-number">6.</span> <span class="nav-text">资金和风险管理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考"><span class="nav-number">7.</span> <span class="nav-text">参考</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">luxialan</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+
+        
+
+<div class="busuanzi-count">
+
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv"><i class="fa fa-user"></i><span class="busuanzi-value" id="busuanzi_value_site_uv"></span></span>
+  
+
+  
+    <span class="site-pv"><i class="fa fa-eye"></i><span class="busuanzi-value" id="busuanzi_value_site_pv"></span></span>
+  
+  
+</div>
+
+
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+    
+    <script>
+      var cloudTieConfig = {
+        url: document.location.href, 
+        sourceId: "",
+        productKey: "d6e1f7f678ea429ebcfba90cddeedbad",
+        target: "cloud-tie-wrapper"
+      };
+    </script>
+    <script src="https://img1.ws.126.net/f2e/tie/yun/sdk/loader.js"></script>
+  
+
+
+
+
+  
+  
+
+  
+  
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script>AV.initialize("dDC9WmHNEzObDzrkH1wlYdEN-gzGzoHsz#<app_id>", "dr7aF8V0k0OLkf4oeFdih3qO#<app_key>");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+
+
+
+  
+
+  
+
+
+</body>
+</html>
