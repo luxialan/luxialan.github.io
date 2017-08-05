@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://luxialan.com/"/>
-  <updated>2017-08-05T08:33:03.043Z</updated>
+  <updated>2017-08-05T08:56:43.437Z</updated>
   <id>http://luxialan.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://luxialan.com/2017/08/02/%E3%80%8A%E9%87%91%E9%92%B1%E6%9C%89%E6%9C%AF%E3%80%8B-%E7%AC%94%E8%AE%B0/"/>
     <id>http://luxialan.com/2017/08/02/《金钱有术》-笔记/</id>
     <published>2017-08-02T03:51:32.000Z</published>
-    <updated>2017-08-05T08:33:03.043Z</updated>
+    <updated>2017-08-05T08:56:43.437Z</updated>
     
     <content type="html"><![CDATA[<p>金融基础知识<br><a id="more"></a></p>
 <h2 id="银行理财产品"><a href="#银行理财产品" class="headerlink" title="银行理财产品"></a>银行理财产品</h2><h3 id="信用市场类"><a href="#信用市场类" class="headerlink" title="信用市场类"></a>信用市场类</h3><p>从本质上来看，信贷类业务是项目融资，大致有两个用途：第一，不占用风险资产和信贷规模的表外出账，这个基础资产的审核标准跟贷款客户是一样的，甚至本身就有正常的授信额度。</p>
@@ -63,12 +63,12 @@
     
     </summary>
     
-      <category term="learning" scheme="http://luxialan.com/categories/learning/"/>
+      <category term="学习" scheme="http://luxialan.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
-    
-      <category term="economy/finance" scheme="http://luxialan.com/tags/economy-finance/"/>
     
       <category term="note" scheme="http://luxialan.com/tags/note/"/>
+    
+      <category term="economy/finance" scheme="http://luxialan.com/tags/economy-finance/"/>
     
   </entry>
   
@@ -77,7 +77,7 @@
     <link href="http://luxialan.com/2017/08/01/%E3%80%8A%E9%87%8F%E5%8C%96%E6%8A%95%E8%B5%84%E6%96%B9%E6%B3%95%E8%AE%BA%E3%80%8B-%E7%AC%94%E8%AE%B0/"/>
     <id>http://luxialan.com/2017/08/01/《量化投资方法论》-笔记/</id>
     <published>2017-08-01T07:37:25.000Z</published>
-    <updated>2017-08-05T08:01:29.360Z</updated>
+    <updated>2017-08-05T08:56:15.627Z</updated>
     
     <content type="html"><![CDATA[<p>风险与收益的平衡<br><a id="more"></a></p>
 <h2 id="量化投资两个问题"><a href="#量化投资两个问题" class="headerlink" title="量化投资两个问题"></a>量化投资两个问题</h2><h3 id="如何定义与看待期望收益与风险"><a href="#如何定义与看待期望收益与风险" class="headerlink" title="如何定义与看待期望收益与风险"></a>如何定义与看待期望收益与风险</h3><p>研究的重点，要放在期望收益上，也就是从概率意义上以及大样本意义上的期望水平。</p>
@@ -106,12 +106,12 @@
     
     </summary>
     
-      <category term="learning" scheme="http://luxialan.com/categories/learning/"/>
+      <category term="学习" scheme="http://luxialan.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
-    
-      <category term="economy/finance" scheme="http://luxialan.com/tags/economy-finance/"/>
     
       <category term="note" scheme="http://luxialan.com/tags/note/"/>
+    
+      <category term="economy/finance" scheme="http://luxialan.com/tags/economy-finance/"/>
     
   </entry>
   
@@ -120,7 +120,7 @@
     <link href="http://luxialan.com/2017/07/30/%E3%80%90%E7%AC%AC%E4%BA%8C%E5%91%A8%E3%80%91-%E6%9C%89%E6%9C%8B%E8%87%AA%E8%BF%9C%E6%96%B9%E6%9D%A5/"/>
     <id>http://luxialan.com/2017/07/30/【第二周】-有朋自远方来/</id>
     <published>2017-07-30T13:40:05.000Z</published>
-    <updated>2017-08-05T08:12:20.980Z</updated>
+    <updated>2017-08-05T08:56:58.297Z</updated>
     
     <content type="html"><![CDATA[<p>有朋自远方来，不亦乐乎<br><a id="more"></a><br>今天见了许久没见的小黄，也第一次见到了小黄的女朋友，由衷地为他们找到适合彼此的另一半感到高兴。<br>一起喝了早茶，逛了下西西弗书店。在西西弗书店翻到一本《百鬼夜行》，其中有一页是介绍道成寺钟。<br><img src="/images/week/week2.jpg" width="300" height="200" alt="book" align="center"><br>感情的确应该是相互的，长久的感情离不开相互的欣赏与吸引，友情如此，爱情也是如此。</p>
 ]]></content>
@@ -131,7 +131,7 @@
     
     </summary>
     
-      <category term="gossip" scheme="http://luxialan.com/categories/gossip/"/>
+      <category term="杂谈" scheme="http://luxialan.com/categories/%E6%9D%82%E8%B0%88/"/>
     
     
       <category term="gossip" scheme="http://luxialan.com/tags/gossip/"/>
@@ -185,9 +185,9 @@
       <category term="learning" scheme="http://luxialan.com/categories/learning/"/>
     
     
-      <category term="economy/finance" scheme="http://luxialan.com/tags/economy-finance/"/>
-    
       <category term="note" scheme="http://luxialan.com/tags/note/"/>
+    
+      <category term="economy/finance" scheme="http://luxialan.com/tags/economy-finance/"/>
     
   </entry>
   
@@ -229,9 +229,9 @@
       <category term="learning" scheme="http://luxialan.com/categories/learning/"/>
     
     
-      <category term="economy/finance" scheme="http://luxialan.com/tags/economy-finance/"/>
-    
       <category term="note" scheme="http://luxialan.com/tags/note/"/>
+    
+      <category term="economy/finance" scheme="http://luxialan.com/tags/economy-finance/"/>
     
   </entry>
   
@@ -240,7 +240,7 @@
     <link href="http://luxialan.com/2017/07/12/%E3%80%90%E7%AC%AC%E4%B8%80%E5%91%A8%E3%80%91-%E9%80%86%E6%B0%B4%E8%A1%8C%E8%88%9F/"/>
     <id>http://luxialan.com/2017/07/12/【第一周】-逆水行舟/</id>
     <published>2017-07-12T13:40:20.000Z</published>
-    <updated>2017-08-05T08:12:14.224Z</updated>
+    <updated>2017-08-05T08:57:05.275Z</updated>
     
     <content type="html"><![CDATA[<p>学如逆水行舟，不进则退；心似平原走马，易放难收。<br><a id="more"></a><br>最近几天在家休息。<br>外公被查出患了癌症，这几天去广州住院治疗，来家里的几天感觉外表如常。外婆有时会独自一个人发呆。两个表弟和一个表妹这几天在家玩的乐呵呵的，虽然年纪比较小好动又爱玩，但是跟他们讲道理都还是认真地听。两个表弟下棋，五岁半的表妹乐呵呵地在旁边看，其实她太小理解不了象棋的游戏规则，就是傻乐，最后我俩一起数了会象棋个数，小孩子的开心就是这么简单。<br>有位师兄去私募创业了，那位师兄本科学化学，过了几年柱子了解到本专业前途堪忧，从化学转到了数学，又从数学转到了经济，现在依然坚持每天看书学习。跟他交流也能感觉他的些许压力和焦虑，人工智能这几年的发展迅猛，技术发展的潮流不可逆，只能尽可能地跟上这个时代。<br>抽空看了下《风之旅人》设计团队的访谈。</p>
 <blockquote>
@@ -255,7 +255,7 @@
     
     </summary>
     
-      <category term="gossip" scheme="http://luxialan.com/categories/gossip/"/>
+      <category term="杂谈" scheme="http://luxialan.com/categories/%E6%9D%82%E8%B0%88/"/>
     
     
       <category term="gossip" scheme="http://luxialan.com/tags/gossip/"/>
@@ -267,7 +267,7 @@
     <link href="http://luxialan.com/2017/07/04/%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%88%E6%8C%87%E5%8D%97/"/>
     <id>http://luxialan.com/2017/07/04/前端工程师指南/</id>
     <published>2017-07-04T03:01:43.000Z</published>
-    <updated>2017-08-05T08:01:50.524Z</updated>
+    <updated>2017-08-05T08:56:07.827Z</updated>
     
     <content type="html"><![CDATA[<p>前端开发相关知识点<br><a id="more"></a></p>
 <h3 id="三大基础知识"><a href="#三大基础知识" class="headerlink" title="三大基础知识"></a>三大基础知识</h3><p>HTML\CSS\JavaScript<br>HTML是网页的标记语言</p>
@@ -279,7 +279,7 @@
     
     </summary>
     
-      <category term="technique" scheme="http://luxialan.com/categories/technique/"/>
+      <category term="技术" scheme="http://luxialan.com/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
       <category term="technique" scheme="http://luxialan.com/tags/technique/"/>
@@ -293,7 +293,7 @@
     <link href="http://luxialan.com/2017/07/02/%E3%80%902016%E5%B9%B4%E6%80%BB%E7%BB%93%E3%80%91-%E7%A0%94%E7%A9%B6%E7%94%9F%E8%BF%99%E4%B8%89%E5%B9%B4/"/>
     <id>http://luxialan.com/2017/07/02/【2016年总结】-研究生这三年/</id>
     <published>2017-07-02T07:05:35.000Z</published>
-    <updated>2017-08-05T08:12:29.093Z</updated>
+    <updated>2017-08-05T08:56:51.090Z</updated>
     
     <content type="html"><![CDATA[<p>谢谢<br><a id="more"></a><br>白煦过隙，研究生三年转眼就过了，很感谢这三年的时光，至今仍记得当年大四时抱着试一试的态度联系现在导师的忐忑心情。这三年伴随实验室一起成长，从最初的十几人扩展到现在的几十人，期间经历了不少事情，回头看由于自己的不成熟当时处理得并不是那么得当，但很幸运地，周围的人大多给予了包容和理解。遇见了值得珍惜的伙伴，对我而言是很重要的存在。同门师兄弟都有各自闪光的地方，所以时常提醒自己要多多努力，身处一个向上发展的团队中，很容易将平台的光环误以为是自身的能力。</p>
 ]]></content>
@@ -304,7 +304,7 @@
     
     </summary>
     
-      <category term="gossip" scheme="http://luxialan.com/categories/gossip/"/>
+      <category term="杂谈" scheme="http://luxialan.com/categories/%E6%9D%82%E8%B0%88/"/>
     
     
       <category term="gossip" scheme="http://luxialan.com/tags/gossip/"/>
@@ -316,7 +316,7 @@
     <link href="http://luxialan.com/2017/04/19/%E3%80%8A%E7%A8%8B%E5%BA%8F%E5%91%98%E5%81%A5%E5%BA%B7%E6%8C%87%E5%8D%97%E3%80%8B%20-%E7%AC%94%E8%AE%B0/"/>
     <id>http://luxialan.com/2017/04/19/《程序员健康指南》 -笔记/</id>
     <published>2017-04-19T07:49:35.000Z</published>
-    <updated>2017-08-05T08:15:51.408Z</updated>
+    <updated>2017-08-05T08:56:22.469Z</updated>
     
     <content type="html"><![CDATA[<p>身体是程序员的本钱<br><a id="more"></a></p>
 <h2 id="日常清单"><a href="#日常清单" class="headerlink" title="日常清单"></a>日常清单</h2><ul>
@@ -345,12 +345,12 @@
     
     </summary>
     
-      <category term="learning" scheme="http://luxialan.com/categories/learning/"/>
+      <category term="学习" scheme="http://luxialan.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
-    
-      <category term="note" scheme="http://luxialan.com/tags/note/"/>
     
       <category term="technique" scheme="http://luxialan.com/tags/technique/"/>
+    
+      <category term="note" scheme="http://luxialan.com/tags/note/"/>
     
   </entry>
   
@@ -359,7 +359,7 @@
     <link href="http://luxialan.com/2017/03/07/%E3%80%8A%E9%87%8F%E5%8C%96%E4%BA%A4%E6%98%93-%E5%A6%82%E4%BD%95%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%AE%97%E6%B3%95%E4%BA%A4%E6%98%93%E3%80%8B-%E7%AC%94%E8%AE%B0/"/>
     <id>http://luxialan.com/2017/03/07/《量化交易-如何建立自己的算法交易》-笔记/</id>
     <published>2017-03-07T03:25:34.000Z</published>
-    <updated>2017-08-05T08:15:17.506Z</updated>
+    <updated>2017-08-05T08:56:36.446Z</updated>
     
     <content type="html"><![CDATA[<p>量化交易，也称算法交易，是严格按照计算机算法程序给出的买卖决策进行的证券交易。<br><a id="more"></a></p>
 <ul>
@@ -438,12 +438,12 @@
     
     </summary>
     
-      <category term="learning" scheme="http://luxialan.com/categories/learning/"/>
+      <category term="学习" scheme="http://luxialan.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
-    
-      <category term="economy/finance" scheme="http://luxialan.com/tags/economy-finance/"/>
     
       <category term="note" scheme="http://luxialan.com/tags/note/"/>
+    
+      <category term="economy/finance" scheme="http://luxialan.com/tags/economy-finance/"/>
     
   </entry>
   
@@ -452,7 +452,7 @@
     <link href="http://luxialan.com/2017/03/04/%E3%80%8A%E6%88%91%E6%98%AF%E9%AB%98%E9%A2%91%E4%BA%A4%E6%98%93%E5%B7%A5%E7%A8%8B%E5%B8%88%E3%80%8B-%E7%AC%94%E8%AE%B0/"/>
     <id>http://luxialan.com/2017/03/04/《我是高频交易工程师》-笔记/</id>
     <published>2017-03-04T03:39:39.000Z</published>
-    <updated>2017-08-05T08:12:51.173Z</updated>
+    <updated>2017-08-05T08:55:36.659Z</updated>
     
     <content type="html"><![CDATA[<p>高频交易是为了增加市场流动性。<br><a id="more"></a></p>
 <ul>
@@ -492,12 +492,12 @@
     
     </summary>
     
-      <category term="learning" scheme="http://luxialan.com/categories/learning/"/>
+      <category term="学习" scheme="http://luxialan.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
-    
-      <category term="economy/finance" scheme="http://luxialan.com/tags/economy-finance/"/>
     
       <category term="note" scheme="http://luxialan.com/tags/note/"/>
+    
+      <category term="economy/finance" scheme="http://luxialan.com/tags/economy-finance/"/>
     
   </entry>
   
@@ -506,7 +506,7 @@
     <link href="http://luxialan.com/2017/02/23/%E3%80%8A%E4%BA%BA%E4%BB%B6%E3%80%8B-%E7%AC%94%E8%AE%B0/"/>
     <id>http://luxialan.com/2017/02/23/《人件》-笔记/</id>
     <published>2017-02-23T00:57:08.000Z</published>
-    <updated>2017-08-05T08:33:24.898Z</updated>
+    <updated>2017-08-05T08:57:16.374Z</updated>
     
     <content type="html"><![CDATA[<p>人不仅仅是个物件，还有人性。<br><a id="more"></a></p>
 <ul>
@@ -557,12 +557,12 @@
     
     </summary>
     
-      <category term="learning" scheme="http://luxialan.com/categories/learning/"/>
+      <category term="学习" scheme="http://luxialan.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
-    
-      <category term="note" scheme="http://luxialan.com/tags/note/"/>
     
       <category term="technique" scheme="http://luxialan.com/tags/technique/"/>
+    
+      <category term="note" scheme="http://luxialan.com/tags/note/"/>
     
   </entry>
   
@@ -571,7 +571,7 @@
     <link href="http://luxialan.com/2017/02/21/%E3%80%8A%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%8B-%E7%AC%94%E8%AE%B0-%E6%9F%92-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E6%AD%A3%E5%88%99%E5%8C%96/"/>
     <id>http://luxialan.com/2017/02/21/《深度学习》-笔记-柒-深度学习的正则化/</id>
     <published>2017-02-21T00:44:36.000Z</published>
-    <updated>2017-08-05T08:13:48.375Z</updated>
+    <updated>2017-08-05T08:55:03.269Z</updated>
     
     <content type="html"><![CDATA[<p>前馈神经网络对于机器学习的实践是极其重要的。<br><a id="more"></a></p>
 <ul>
@@ -617,12 +617,12 @@
     
     </summary>
     
-      <category term="learning" scheme="http://luxialan.com/categories/learning/"/>
+      <category term="学习" scheme="http://luxialan.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
-    
-      <category term="note" scheme="http://luxialan.com/tags/note/"/>
     
       <category term="technique" scheme="http://luxialan.com/tags/technique/"/>
+    
+      <category term="note" scheme="http://luxialan.com/tags/note/"/>
     
   </entry>
   
@@ -631,7 +631,7 @@
     <link href="http://luxialan.com/2017/02/18/%E3%80%8A%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%8B-%E7%AC%94%E8%AE%B0-%E9%99%86-%E6%B7%B1%E5%BA%A6%E5%89%8D%E9%A6%88%E7%BD%91%E7%BB%9C/"/>
     <id>http://luxialan.com/2017/02/18/《深度学习》-笔记-陆-深度前馈网络/</id>
     <published>2017-02-18T07:52:57.000Z</published>
-    <updated>2017-08-05T08:14:00.077Z</updated>
+    <updated>2017-08-05T08:54:52.393Z</updated>
     
     <content type="html"><![CDATA[<p>深度学习的基础网络<br><a id="more"></a></p>
 <ul>
@@ -656,12 +656,12 @@
     
     </summary>
     
-      <category term="learning" scheme="http://luxialan.com/categories/learning/"/>
+      <category term="学习" scheme="http://luxialan.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
-    
-      <category term="note" scheme="http://luxialan.com/tags/note/"/>
     
       <category term="technique" scheme="http://luxialan.com/tags/technique/"/>
+    
+      <category term="note" scheme="http://luxialan.com/tags/note/"/>
     
   </entry>
   
@@ -670,7 +670,7 @@
     <link href="http://luxialan.com/2017/02/16/%E3%80%8A%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1%E3%80%8B-%E7%AC%94%E8%AE%B0/"/>
     <id>http://luxialan.com/2017/02/16/《概率论与数理统计》-笔记/</id>
     <published>2017-02-16T06:34:39.000Z</published>
-    <updated>2017-08-05T08:15:36.528Z</updated>
+    <updated>2017-08-05T08:56:30.371Z</updated>
     
     <content type="html"><![CDATA[<p>概率论与数理统计基础知识总结<br><a id="more"></a></p>
 <ul>
@@ -773,7 +773,7 @@
     
     </summary>
     
-      <category term="learning" scheme="http://luxialan.com/categories/learning/"/>
+      <category term="学习" scheme="http://luxialan.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
       <category term="note" scheme="http://luxialan.com/tags/note/"/>
@@ -837,7 +837,7 @@
     <link href="http://luxialan.com/2017/02/14/%E3%80%8A%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%8B-%E7%AC%94%E8%AE%B0-%E4%BC%8D-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80/"/>
     <id>http://luxialan.com/2017/02/14/《深度学习》-笔记-伍-机器学习基础/</id>
     <published>2017-02-14T06:38:12.000Z</published>
-    <updated>2017-08-05T08:13:15.504Z</updated>
+    <updated>2017-08-05T08:55:24.609Z</updated>
     
     <content type="html"><![CDATA[<p>机器学习本质上属于应用统计学，更多关注于如何用计算机统计地估计复杂函数，不太关注这些函数的置信区间。<br><a id="more"></a></p>
 <ul>
@@ -922,12 +922,12 @@
     
     </summary>
     
-      <category term="learning" scheme="http://luxialan.com/categories/learning/"/>
+      <category term="学习" scheme="http://luxialan.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
-    
-      <category term="note" scheme="http://luxialan.com/tags/note/"/>
     
       <category term="technique" scheme="http://luxialan.com/tags/technique/"/>
+    
+      <category term="note" scheme="http://luxialan.com/tags/note/"/>
     
   </entry>
   
@@ -936,7 +936,7 @@
     <link href="http://luxialan.com/2017/02/13/%E3%80%8A%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%8B-%E7%AC%94%E8%AE%B0-%E8%82%86-%E6%95%B0%E5%80%BC%E8%AE%A1%E7%AE%97/"/>
     <id>http://luxialan.com/2017/02/13/《深度学习》-笔记-肆-数值计算/</id>
     <published>2017-02-13T11:08:27.000Z</published>
-    <updated>2017-08-05T08:13:26.448Z</updated>
+    <updated>2017-08-05T08:55:17.408Z</updated>
     
     <content type="html"><![CDATA[<p>机器学习算法需要数值计算的方法来迭代求解无解析解的数学问题。包括优化和线性方程组求解。<br><a id="more"></a></p>
 <ul>
@@ -958,12 +958,12 @@
     
     </summary>
     
-      <category term="learning" scheme="http://luxialan.com/categories/learning/"/>
+      <category term="学习" scheme="http://luxialan.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
-    
-      <category term="note" scheme="http://luxialan.com/tags/note/"/>
     
       <category term="technique" scheme="http://luxialan.com/tags/technique/"/>
+    
+      <category term="note" scheme="http://luxialan.com/tags/note/"/>
     
   </entry>
   
@@ -972,7 +972,7 @@
     <link href="http://luxialan.com/2017/02/12/%E3%80%8A%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%8B-%E7%AC%94%E8%AE%B0-%E5%8F%81-%E6%A6%82%E7%8E%87%E4%B8%8E%E4%BF%A1%E6%81%AF%E8%AE%BA/"/>
     <id>http://luxialan.com/2017/02/12/《深度学习》-笔记-叁-概率与信息论/</id>
     <published>2017-02-12T10:35:13.000Z</published>
-    <updated>2017-08-05T08:13:36.605Z</updated>
+    <updated>2017-08-05T08:55:10.629Z</updated>
     
     <content type="html"><![CDATA[<p>概率论使我们能够作出不确定的陈述以及在不确定性存在的情况下推理，而信息论使我们能够量化概率分布中的不确定性总量。<br><a id="more"></a></p>
 <h2 id="为什么要用概率？"><a href="#为什么要用概率？" class="headerlink" title="为什么要用概率？"></a>为什么要用概率？</h2><p>世界是不确定的，要对世界中的活动进行建模需要用概率论来量化不确定性。<br>不确定性有三种可能的来源：</p>
@@ -1010,12 +1010,12 @@
     
     </summary>
     
-      <category term="learning" scheme="http://luxialan.com/categories/learning/"/>
+      <category term="学习" scheme="http://luxialan.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
-    
-      <category term="note" scheme="http://luxialan.com/tags/note/"/>
     
       <category term="technique" scheme="http://luxialan.com/tags/technique/"/>
+    
+      <category term="note" scheme="http://luxialan.com/tags/note/"/>
     
   </entry>
   
@@ -1024,7 +1024,7 @@
     <link href="http://luxialan.com/2017/02/09/%E3%80%8A%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%8B-%E7%AC%94%E8%AE%B0-%E8%B4%B0-%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/"/>
     <id>http://luxialan.com/2017/02/09/《深度学习》-笔记-贰-线性代数/</id>
     <published>2017-02-09T11:56:12.000Z</published>
-    <updated>2017-08-05T08:14:09.163Z</updated>
+    <updated>2017-08-05T08:54:44.725Z</updated>
     
     <content type="html"><![CDATA[<p>代数、分析、几何、概率论，数学的基础知识。<br><a id="more"></a></p>
 <ul>
@@ -1066,12 +1066,12 @@
     
     </summary>
     
-      <category term="learning" scheme="http://luxialan.com/categories/learning/"/>
+      <category term="学习" scheme="http://luxialan.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
-    
-      <category term="note" scheme="http://luxialan.com/tags/note/"/>
     
       <category term="technique" scheme="http://luxialan.com/tags/technique/"/>
+    
+      <category term="note" scheme="http://luxialan.com/tags/note/"/>
     
   </entry>
   
