@@ -30,20 +30,6 @@
   </entry>
   
   <entry>
-    <title>【第三周】 做自己</title>
-    <link href="http://luxialan.com/2017/08/26/%E3%80%90%E7%AC%AC%E4%B8%89%E5%91%A8%E3%80%91-%E5%81%9A%E8%87%AA%E5%B7%B1/"/>
-    <id>http://luxialan.com/2017/08/26/【第三周】-做自己/</id>
-    <published>2017-08-25T18:18:57.000Z</published>
-    <updated>2017-08-25T18:18:57.689Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>《简约至上：交互设计四策略》 笔记</title>
     <link href="http://luxialan.com/2017/08/06/%E3%80%8A%E7%AE%80%E7%BA%A6%E8%87%B3%E4%B8%8A%EF%BC%9A%E4%BA%A4%E4%BA%92%E8%AE%BE%E8%AE%A1%E5%9B%9B%E7%AD%96%E7%95%A5%E3%80%8B-%E7%AC%94%E8%AE%B0/"/>
     <id>http://luxialan.com/2017/08/06/《简约至上：交互设计四策略》-笔记/</id>
@@ -961,6 +947,42 @@
     <summary type="html">
     
       &lt;p&gt;机器学习本质上属于应用统计学，更多关注于如何用计算机统计地估计复杂函数，不太关注这些函数的置信区间。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="学习" scheme="http://luxialan.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="technique" scheme="http://luxialan.com/tags/technique/"/>
+    
+      <category term="note" scheme="http://luxialan.com/tags/note/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《深度学习》 笔记 肆 数值计算</title>
+    <link href="http://luxialan.com/2017/02/13/%E3%80%8A%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%8B-%E7%AC%94%E8%AE%B0-%E8%82%86-%E6%95%B0%E5%80%BC%E8%AE%A1%E7%AE%97/"/>
+    <id>http://luxialan.com/2017/02/13/《深度学习》-笔记-肆-数值计算/</id>
+    <published>2017-02-13T11:08:27.000Z</published>
+    <updated>2017-08-05T08:55:17.408Z</updated>
+    
+    <content type="html"><![CDATA[<p>机器学习算法需要数值计算的方法来迭代求解无解析解的数学问题。包括优化和线性方程组求解。<br><a id="more"></a></p>
+<ul>
+<li>1.上溢和下溢</li>
+<li>2.病态条件数</li>
+<li>3.基于梯度的优化方法</li>
+<li>4.约束优化</li>
+<li>5.实例：线性最小二乘</li>
+</ul>
+<h2 id="上溢和下溢"><a href="#上溢和下溢" class="headerlink" title="上溢和下溢"></a>上溢和下溢</h2><p>在数字计算机上实现连续数学的根本困难是，我们需要通过有限数量的位模式来表示无限多的实数。<br>一种特别地毁灭性舍入误差是下溢(underflow)，当接近零的数被四舍五入为零时发生下溢。<br>另一种极具破坏力的数值错误形式是上溢。当大量级的数被近似为$\infty$<br>必须对上溢和下溢进行数值稳定的一个例子是\bm{softmax函数}(softmax function)。softmax 函数经常用于预测与多项式分布相关的概率，定义为：<br>$softmax(\bold{x})_i=\frac{exp(x<em>i)}{\sum</em>{j=1}^{n}exp(x_j)}$</p>
+<h2 id="病态条件数"><a href="#病态条件数" class="headerlink" title="病态条件数"></a>病态条件数</h2><p>条件数表明函数相对于输入的微小变化而变化的快慢程度。输入被轻微扰动而迅速改变的函数对于科学计算来说是可能是有问题的，因为输入中的舍入误差可能导致输出的巨大变化。<br>考虑$f(x)=A^{-1}x$。当$A\in\mathbb{R}^(nXn)$具有特征分解时，其条件数为$max_{i,j}|{\frac{\lambda_i}{\lambda_j}}|$<br>这是最大和最小特征值的模的比。当该数很大时，矩阵求逆对输入的误差特别敏感。</p>
+<h2 id="基于梯度的优化方法"><a href="#基于梯度的优化方法" class="headerlink" title="基于梯度的优化方法"></a>基于梯度的优化方法</h2><p>我们把最大化或最小化的函数称为目标函数或准则。<br>导数<br>临界点或驻点</p>
+<h2 id="基于梯度的优化方法-1"><a href="#基于梯度的优化方法-1" class="headerlink" title="基于梯度的优化方法"></a>基于梯度的优化方法</h2><h2 id="约束优化"><a href="#约束优化" class="headerlink" title="约束优化"></a>约束优化</h2><h2 id="实例：线性最小二乘"><a href="#实例：线性最小二乘" class="headerlink" title="实例：线性最小二乘"></a>实例：线性最小二乘</h2><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://github.com/exacity/deeplearningbook-chinese" target="_blank" rel="external">Deep Learning Book</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;机器学习算法需要数值计算的方法来迭代求解无解析解的数学问题。包括优化和线性方程组求解。&lt;br&gt;
     
     </summary>
     
